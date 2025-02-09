@@ -1,0 +1,88 @@
+.info-section {
+  padding: 4rem 2rem;
+  border-radius: 20px;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.columns-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.info-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 15px;  /* Rounded edges */
+  box-shadow: 0px 4px 8px #3b3531; /* Soft shadow for individual separation */
+  background-color: white; /* Each box should have its own background */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* On hover, add a slight lift effect */
+.info-column:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px #84c225;
+}
+
+/* Title Styling */
+.column-title {
+  color: #84c225;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+/* Content Styling */
+.column-content {
+  color: #3b3531;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .columns-container {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+  }
+
+  .info-section {
+      padding: 3rem 1.5rem;
+  }
+
+  .column-title {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+  }
+}
+
+/* Animation for initial load */
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.info-column {
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+.info-column:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.info-column:nth-child(3) {
+  animation-delay: 0.4s;
+}

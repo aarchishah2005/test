@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bauhaus:wght@5&display=swap');
+
+.financial-container {
+    padding: 0 4rem 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .financial-content {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .financial-title {
+    font-family: 'Bauhaus', sans-serif;
+    color: #ffffff;
+    font-size: 3.5rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+  
+  .financial-text {
+    color: #ffffff;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto;
+  }

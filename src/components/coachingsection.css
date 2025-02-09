@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bauhaus:wght@5&display=swap');
+
+.coaching-container {
+  background-color: #ffffff;
+  display: flex;                      /* Make it a flex container */
+  justify-content: center;            /* Center items horizontally */
+  align-items: center;                /* Center items vertically */
+  height: 50vh;                      /* Full height of viewport */
+  width: 100%;                        /* Full width */
+  border-radius: 25px; 
+  flex-direction: column;
+  font-family: 'Bauhaus', sans-serif;
+}
+
+  
+  .coaching-content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+    font-family: 'Bauhaus', sans-serif;
+  }
+  
+  .coaching-title {
+    font-family: "Playfair Display", serif;
+    color: #3b3531;
+    font-size: 3.9rem;
+    font-weight: 700;
+    margin: 0;
+    font-family: 'Bauhaus', sans-serif;
+  }
+  
+  .coaching-text {
+    color: #3b3531;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    max-width: 600px;
+    font-family: 'Bauhaus', sans-serif;
+  }
+  
+  .learn-more-btn {
+    border: 1px solid #3b3531;
+    color: #3b3531;
+    background: transparent;
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+    font-family: 'Bauhaus', sans-serif;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #84c225;
+    color: white;
+    font-family: 'Bauhaus', sans-serif;
+  }

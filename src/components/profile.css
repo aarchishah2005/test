@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bauhaus:wght@5&display=swap');
+
+
+.background-container {
+    /* min-height: 100vh; */
+    background-color: #3b3531;
+    padding: 0.5rem;
+    font-family: 'Bauhaus', sans-serif;
+    margin-top: 5%;
+  }
+  
+  .content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .profile-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .profile-grid {
+      grid-template-columns: 1fr 1fr;
+      align-items: start;
+    }
+  }
+  
+  .image-container {
+    position: relative;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 2.8rem;
+  }
+  
+  .profile-image {
+    width: 100%;
+    border-radius: 0.7rem;
+  }
+  
+  .content-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+  
+  .main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #84c225;
+    margin-bottom: 2rem;
+  }
+  
+  .section-container {
+    margin-bottom: 0rem;
+  }
+  
+  .section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #84c225;
+    margin-bottom: 1rem;
+  }
+  
+  .section-content {
+    color: #ffffff;
+    line-height: 1.7;
+    font-size: 1rem;
+  }
+  
+  /* Hover effects */
+  .section-container:hover {
+    transform: translateX(5px);
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-image:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Additional responsive adjustments */
+  @media (max-width: 640px) {
+    .background-container {
+      padding: 0rem;
+    }
+  
+    .main-title {
+      font-size: 2rem;
+    }
+  
+    .section-title {
+      font-size: 1.1rem;
+    }
+  }

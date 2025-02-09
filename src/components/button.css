@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bauhaus:wght@5&display=swap');
+
+.explore-button {
+    background-color: #84c225;
+    color: white;
+    font-family: 'Bauhaus', sans-serif;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+  }
+  
+  .explore-button:hover {
+    background-color: #84c225;
+  }
+  
+  .explore-button:active {
+    transform: scale(0.98);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+  }

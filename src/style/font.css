@@ -1,0 +1,12 @@
+/* src/styles/fonts.css */
+@font-face {
+    font-family: 'MyCustomFont'; /* The custom name you're giving to the font */
+    src: url('../assets/fonts/EIGHT_ONE.TTF') format('truetype'); /* Path to the font file */
+    font-weight: normal; /* Use 'bold' if applicable */
+    font-style: normal; /* Use 'italic' if applicable */
+  }
+  
+  body {
+    font-family: 'MyCustomFont', sans-serif; /* Fallback to sans-serif */
+  }
+  

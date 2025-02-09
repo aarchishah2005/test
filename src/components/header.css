@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bauhaus:wght@5&display=swap');
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 1rem;
+    /* background: linear-gradient(to right, #3b3135, #3b3135); */
+    /* border-bottom: 1px solid white;  */
+    background-color: #3b3531;
+  }
+  
+  /* Brand Styles */
+  .brand-container {
+    display: flex;
+    align-items: left;
+    justify-content: left; /* Center the logo if necessary */
+  }
+  
+  .brand-logo {
+    width:45%; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer;
+  }
+  
+  
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-family: 'Bauhaus', sans-serif;
+  font-size: 25px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  transition: transform 1s ease, font-size 2s ease; /* Slower transition */
+}
+
+.nav-link:hover {
+  color: #84c225;
+}
+
+.nav-link:hover span {
+  font-size: 28px; /* Increased size on hover */
+  transition: font-size 1s ease; /* Slower font-size transition */
+}
+
+.nav-link:hover svg {
+  transform: scale(1.5); /* Scale the icon */
+  transition: transform 2s ease; /* Slower scaling for the icon */
+}
