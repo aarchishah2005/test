@@ -22,9 +22,9 @@ import About from "./pages/About";
             subText="Transform your relationship with money"
           />
           <Button text="Explore Now" />
-        <div className="zoom-in-element coaching-component">
+{/*         <div className="zoom-in-element coaching-component"> */}
           <CoachingSection />
-        </div>
+{/*         </div> */}
           <FinancialPrograms />
           <FinancialCards />
           <ContactForm />
