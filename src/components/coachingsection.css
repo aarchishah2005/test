@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bauhaus:wght@5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 .coaching-container {
   background-color: #ffffff;
@@ -9,7 +10,7 @@
   width: 100%;                        /* Full width */
   border-radius: 25px; 
   flex-direction: column;
-  font-family: 'Bauhaus', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
   
@@ -19,16 +20,15 @@
     flex-direction: row;
     justify-content: space-around;
     gap: 1rem;
-    font-family: 'Bauhaus', sans-serif;
+     font-family: 'Quicksand', sans-serif;
   }
   
   .coaching-title {
-    font-family: "Playfair Display", serif;
+     font-family: 'Quicksand', sans-serif;
     color: #3b3531;
     font-size: 3.9rem;
     font-weight: 700;
     margin: 0;
-    font-family: 'Bauhaus', sans-serif;
   }
   
   .coaching-text {
@@ -36,7 +36,7 @@
     font-size: 1.5rem;
     line-height: 1.6;
     max-width: 600px;
-    font-family: 'Bauhaus', sans-serif;
+     font-family: 'Quicksand', sans-serif;
   }
   
   .learn-more-btn {
@@ -48,7 +48,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     width: fit-content;
-    font-family: 'Bauhaus', sans-serif;
+     font-family: 'Quicksand', sans-serif;
   }
   
   .learn-more-btn:hover {
