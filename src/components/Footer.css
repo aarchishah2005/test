@@ -1,13 +1,13 @@
 /* Footer.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Bauhaus:wght@5&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 .footer {
     width: 100%;
     padding: 1.5rem 2rem;
     color: #ffffff;
-    font-family: 'Bauhaus', sans-serif;
+     font-family: 'Quicksand', sans-serif;
     background-image: url('./assets/bliss_back.jpg');
     background-size: 100%;
     background-repeat: repeat;
@@ -20,19 +20,19 @@
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
-    font-family: 'Bauhaus', sans-serif;
+     font-family: 'Quicksand', sans-serif;
   }
   
   .copyright {
     color: #ffffff;
     opacity: 0.8;
-    font-family: 'Bauhaus', sans-serif;
+      font-family: 'Quicksand', sans-serif;
   }
   
   .legal-links {
     display: flex;
     gap: 2rem;
-    font-family: 'Bauhaus', sans-serif;
+     font-family: 'Quicksand', sans-serif;
   }
   
   .footer-link {
@@ -40,7 +40,7 @@
     text-decoration: none;
     opacity: 0.8;
     transition: opacity 0.3s ease;
-    font-family: 'Bauhaus', sans-serif;
+     font-family: 'Quicksand', sans-serif;
   }
   
   .footer-link:hover {
