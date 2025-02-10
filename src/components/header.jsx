@@ -15,8 +15,8 @@ const Header = () => {
         <NavLink to="/" text="Home" />
         <NavLink to="/about" text="About" />
         <NavLink to="https://www.blissquants.com/Bliss_Coaching" text="Coaching" />
-        <NavLink to="/book" text="Book" />
-        <NavLink to="/contact" text="Contact" />
+        <NavLink to="https://www.amazon.in/dp/B09NWH5S7R" text="Book" />
+        <NavLink to="https://www.blissquants.com/BlissAboutUs#collapseOne" text="Contact" />
       </div>
     </nav>
   );
