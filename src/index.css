@@ -68,15 +68,16 @@ button:focus-visible {
 }
 
 @font-face {
-  font-family: 'Buahums';
-  src: url('/fonts/buahums.woff2') format('woff2'),
-       url('/fonts/buahums.woff') format('woff'),
-       url('/fonts/buahums.ttf') format('truetype');
+  font-family: 'Quicksand';
+  src: url('/fonts/quicksand.woff2') format('woff2'),
+       url('/fonts/quicksand.woff') format('woff'),
+       url('/fonts/quicksand.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 body {
-  font-family: 'Buahums', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
+
 
