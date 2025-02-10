@@ -5,7 +5,10 @@ const CoachingSection = () => {
   return (
     <div className="coaching-container">
       <div className="coaching-content">
-        <h1 className="coaching-title">Why I Started Coaching</h1>
+        <h1 className="coaching-title">
+          Why I Started <br /> Coaching
+        </h1>
+
         <p className="coaching-text">
           I'm a paragraph. Click here to add your own text and edit me. 
           It's easy. Just click "Edit Text" or double click me to add 
