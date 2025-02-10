@@ -9,7 +9,7 @@
   letter-spacing: 1px;
   text-align: center;
   background-color: none;
-  font-family: 'Bauhaus', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 0;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .heading p {
-  font-family: 'Bauhaus', sans-serif;
+  font-family: raleway, sans-serif;
   color: #ffffff;
   margin: 0; /* Remove extra space above and below */
   padding: 0; /* Remove padding */
