@@ -18,7 +18,12 @@ import About from "./pages/About";
       <div className="background">
           {/* <Header /> */}
           <Heading 
-            mainText="Your Financial Prosperity <br/> Starts with the Right Vision"
+            mainText={
+              <>
+                Your Financial Prosperity <br />
+                Starts with the Right Vision
+              </>
+            }
             subText="Transform your relationship with money"
           />
           <Button text="Explore Now" />
