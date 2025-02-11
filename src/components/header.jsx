@@ -21,7 +21,7 @@ const Header = () => {
       </div>
     </nav>
 
-    <hr className="nav-line" />
+    <hr/>
       </>
   );
 };
