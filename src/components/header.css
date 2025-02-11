@@ -19,14 +19,6 @@
     justify-content: left; /* Center the logo if necessary */
   }
 
-.nav-line {
-  width: 80%;  /* Adjust the width as needed */
-/*   margin: 0 auto; */
-  border: none;
-  height: 1px;
-  background-color: #ffffff; /* Change color as per your design */
-}
-
   
   .brand-logo {
     width:45%; /* Adjust size as needed */
