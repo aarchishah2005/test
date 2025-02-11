@@ -21,7 +21,15 @@ const Header = () => {
       </div>
     </nav>
 
-    <hr/>
+    <hr
+      style={{
+          width: "80%",
+          margin: "0 auto",
+          border: "none",
+          height: "1px",
+          backgroundColor: "white",
+        }}
+      />
       </>
   );
 };
