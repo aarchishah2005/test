@@ -4,6 +4,7 @@ import "./header.css";
 
 const Header = () => {
   return (
+    <>
     <nav className="header">
       <div>
         <Link to="/">
@@ -19,6 +20,9 @@ const Header = () => {
         <NavLink to="https://www.blissquants.com/BlissAboutUs#collapseOne" text="Contact" />
       </div>
     </nav>
+
+    <hr className="nav-line" />
+      </>
   );
 };
 
