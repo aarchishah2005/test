@@ -34,10 +34,17 @@ const Header = () => {
   );
 };
 
-const NavLink = ({ to, text }) => (
-  <Link to={to} className="nav-link">
-    <span>{text}</span>
-  </Link>
-);
+const NavLink = ({ to, text }) => {
+  const isExternal = to.startsWith("http"); // Check if link is external
 
+  return isExternal ? (
+    <a href={to} target="_blank" rel="noopener noreferrer" className="nav-link">
+      <span>{text}</span>
+    </a>
+  ) : (
+    <Link to={to} className="nav-link">
+      <span>{text}</span>
+    </Link>
+  );
+};
 export default Header;
