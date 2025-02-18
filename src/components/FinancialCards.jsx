@@ -8,10 +8,10 @@ import './FinancialCards.css';
 const FinancialCards = () => {
   const cards = [
     {
-      title: "FearlessFinancial Investment",
+      title: "FearlessFinancialInvestment",
       subTitle: "Live One-Day Course",
       image: "/assets/IntroToFinance.jpg",
-      mainTitle: "FearlessFinancial Investment"
+      mainTitle: "FearlessFinancialInvestment"
     },
     {
       title: "Fearless Financial Trading",
