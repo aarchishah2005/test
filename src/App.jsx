@@ -20,8 +20,8 @@ import About from "./pages/About";
           <Heading 
             mainText={
               <>
-                Fearless Finance Isn’t a Dream, It’s a Decision. <br />
-                —Make Yours Today!
+                Fearless Finance Isn’t a Dream, <br />
+              It’s a Decision —Make Yours Today!
               </>
             }
             subText="Fear less, Learn More"
