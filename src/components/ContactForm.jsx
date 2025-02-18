@@ -30,11 +30,12 @@ const ContactForm = () => {
       <div className="contact-content">
         <div className="contact-info">
           <h2 className="contact-title">
-            Register for Our exclusive - EFQ session<br />
-            Enrich Your Financial Quotient<br />
+            Register <br /> 
+            for Our exclusive - EFQ session <br />
+            Enrich Your Financial Quotient <br />
        
           </h2>
-     //     <p className="contact-email">sfalguni.v@gmail.com</p>
+
         </div>
         
         <form className="contact-form" onSubmit={handleSubmit}>
