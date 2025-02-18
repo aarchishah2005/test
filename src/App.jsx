@@ -20,11 +20,11 @@ import About from "./pages/About";
           <Heading 
             mainText={
               <>
-                Your Financial Prosperity <br />
-                Starts with the Right Vision
+                Fearless Finance Isn’t a Dream, It’s a Decision. <br />
+                —Make Yours Today!
               </>
             }
-            subText="Transform your relationship with money"
+            subText="Fear less, Learn More"
           />
           <Button text="Explore Now" />
 {/*         <div className="zoom-in-element coaching-component"> */}
