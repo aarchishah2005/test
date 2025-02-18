@@ -5,7 +5,7 @@ const BackgroundProfile = () => {
   const sections = [
     {
       title: 'Education',
-      content: "I'm a paragraph. Click here to add your own text and edit me. It's easy. Just click Edit Text or double click me to add your own content and make changes to the font. I'm a great place for you to tell a story and let your users know a little more about you."
+      content: "Growing up in a business-class family, I thought I had a solid grip on finance. But when I entered the corporate world, something surprising happened – I found myself in the same boat as many others. I, too, handed over my income tax filing to my brother and banking transactions to my husband, believing finance was a realm I didn't fully understand. Even corporate leaders, successful women, admitted that finance was 'handled by their husbands.' "
     },
     {
       title: 'Certificates',
