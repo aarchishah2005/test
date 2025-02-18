@@ -14,10 +14,10 @@ const FinancialCards = () => {
       mainTitle: "FearlessFinancialInvestment"
     },
     {
-      title: "Fearless Financial Trading",
+      title: "FearlessFinancialTrading",
       subTitle: "Live Online Course",
       image: "/assets/financial_roadmap.png",
-      mainTitle: "Fearless Financial Trading"
+      mainTitle: "FearlessFinancialTrading"
     },
     {
       title: "Mastering Options",
