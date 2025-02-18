@@ -9,21 +9,21 @@ const FinancialCards = () => {
   const cards = [
     {
       title: "Fearless Financial Investment",
-      subTitle: "Live one day Course",
+      subTitle: "Live One-Day Course",
       image: "/assets/IntroToFinance.jpg",
-      mainTitle: "Introduction to Finance"
+      mainTitle: "Fearless Financial Investment"
     },
     {
       title: "Fearless Financial Trading",
       subTitle: "Live Online Course",
       image: "/assets/financial_roadmap.png",
-      mainTitle: "Financial Road Map"
+      mainTitle: "Fearless Financial Trading"
     },
     {
       title: "Mastering Options",
       subTitle: "Live 6 months Course",
       image: "/assets/dell_article.jpg",
-      mainTitle: "Yearly Finance Plan"
+      mainTitle: "Mastering Options"
     }
   ];
 
