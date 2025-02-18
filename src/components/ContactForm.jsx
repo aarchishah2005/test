@@ -30,8 +30,8 @@ const ContactForm = () => {
       <div className="contact-content">
         <div className="contact-info">
           <h2 className="contact-title">
-            Register <br /> 
-            for Our exclusive - EFQ session <br />
+           
+            Our exclusive - EFQ session <br />
             Enrich Your Financial Quotient <br />
        
           </h2>
