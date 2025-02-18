@@ -10,7 +10,7 @@ import FinancialCards from './components/FinancialCards';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import About from "./pages/About";
-import Profile from "./components/Profile"
+import Profile from "./components/profile"
 
 
   const Home = () => (
@@ -30,7 +30,7 @@ import Profile from "./components/Profile"
           <Button text="Fear less, Learn More" />
 {/*         <div className="zoom-in-element coaching-component"> */}
 {/*           <CoachingSection /> */}
-            <Profile/>
+            <profile/>
 {/*         </div> */}
           <FinancialPrograms />
           <FinancialCards />
