@@ -4,7 +4,7 @@ import './App.css';
 import Header from './components/header';
 import Heading from './components/heading';
 import Button from './components/button';
-import CoachingSection from './components/coachingsection';
+// import CoachingSection from './components/coachingsection';
 import FinancialPrograms from './components/financialprogram';
 import FinancialCards from './components/FinancialCards';
 import ContactForm from './components/ContactForm';
