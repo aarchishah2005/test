@@ -14,7 +14,7 @@ const BackgroundProfile = () => {
     {
       title: 'Specialization',
       content: "With newfound confidence, I began discussing investments and financial strategies comfortably with my colleagues, realizing that if I could do it, so could others. And that’s when it clicked: why not help others break free from their fear of finance too? That’s how Fearless Finance Coaching was born. It’s time to change the narrative and empower everyone, especially women, to live a financially fearless life. After all, mastering finance isn’t about being a genius – it’s about being fearless and making smart, informed decisions."
-    },
+    }
     
       
   ];
