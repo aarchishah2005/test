@@ -21,8 +21,9 @@ import About from "./pages/About";
             mainText={
               <>
                 Fearless Finance Isn’t a Dream, <br />
-              It’s a Decision —Make Yours Today!
+              It’s a Decision!
               </>
+              
             }
             subText="Fear less, Learn More"
           />
