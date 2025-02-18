@@ -25,9 +25,8 @@ import About from "./pages/About";
               </>
               
             }
-            subText="Fear less, Learn More"
-          />
-          <Button text="Explore Now" />
+              />
+          <Button text="Fear less, Learn More" />
 {/*         <div className="zoom-in-element coaching-component"> */}
           <CoachingSection />
 {/*         </div> */}
