@@ -10,7 +10,7 @@ import FinancialCards from './components/FinancialCards';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import About from "./pages/About";
-import Profile from "./components/profile"
+import profile from "./components/profile"
 
 
   const Home = () => (
