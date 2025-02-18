@@ -8,19 +8,19 @@ import './FinancialCards.css';
 const FinancialCards = () => {
   const cards = [
     {
-      title: "Introduction to Finance",
+      title: "Fearless Financial Investment",
       subTitle: "Three Session Plan",
       image: "/assets/IntroToFinance.jpg",
       mainTitle: "Introduction to Finance"
     },
     {
-      title: "Financial Road Map",
+      title: "Fearless Financial Trading",
       subTitle: "Four Month Plan",
       image: "/assets/financial_roadmap.png",
       mainTitle: "Financial Road Map"
     },
     {
-      title: "Yearly Finance Plan",
+      title: "Mastering Options",
       subTitle: "One Year Plan",
       image: "/assets/dell_article.jpg",
       mainTitle: "Yearly Finance Plan"
