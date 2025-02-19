@@ -4,11 +4,11 @@ import './profile.css';
 const BackgroundProfile = () => {
   const sections = [
     {
-      title: 'Education',
+      title: 'It's not my cup of Tea',
       content: "Growing up in a business-class family, I thought I had a solid grip on finance. But when I entered the corporate world, something surprising happened – I found myself in the same boat as many others. I, too, handed over my income tax filing to my brother and banking transactions to my husband, believing finance was a realm I didn't fully understand. Even corporate leaders, successful women, admitted that finance was 'handled by their husbands.' "
     },
     {
-      title: 'Certificates',
+      title: 'A Commonsense',
       content: "This realization sparked a question in my mind – why is finance such a mystery to so many of us, even though we are educated and earning well? I shared my concerns with my father, wondering why some communities seem to have mastered financial literacy from childhood while others struggle. That’s when I decided to face my fear head-on. I immersed myself in learning everything about finance – from investments to managing my taxes – and something incredible happened: it wasn’t as complicated as I had imagined. It was just simple math and, often, common sense!"
     },
     {
