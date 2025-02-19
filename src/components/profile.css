@@ -35,8 +35,8 @@
   }
   
   .profile-image {
-    width: 100%;
-    border-radius: 0.7rem;
+    width: 80%;
+    height: auto;
   }
   
   .content-section {
