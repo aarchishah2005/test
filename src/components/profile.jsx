@@ -12,7 +12,7 @@ const BackgroundProfile = () => {
       content: "This realization sparked a question in my mind – why is finance such a mystery to so many of us, even though we are educated and earning well? I shared my concerns with my father, wondering why some communities seem to have mastered financial literacy from childhood while others struggle. That’s when I decided to face my fear head-on. I immersed myself in learning everything about finance – from investments to managing my taxes – and something incredible happened: it wasn’t as complicated as I had imagined. It was just simple math and, often, common sense!"
     },
     {
-      title: 'Specialization',
+      title: "Always Through",
       content: "With newfound confidence, I began discussing investments and financial strategies comfortably with my colleagues, realizing that if I could do it, so could others. And that’s when it clicked: why not help others break free from their fear of finance too? That’s how Fearless Finance Coaching was born. It’s time to change the narrative and empower everyone, especially women, to live a financially fearless life. After all, mastering finance isn’t about being a genius – it’s about being fearless and making smart, informed decisions."
     }
     
