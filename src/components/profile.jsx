@@ -4,7 +4,7 @@ import './profile.css';
 const BackgroundProfile = () => {
   const sections = [
     {
-      title: 'It's not my cup of Tea',
+      title: "It's not my cup of Tea",
       content: "Growing up in a business-class family, I thought I had a solid grip on finance. But when I entered the corporate world, something surprising happened – I found myself in the same boat as many others. I, too, handed over my income tax filing to my brother and banking transactions to my husband, believing finance was a realm I didn't fully understand. Even corporate leaders, successful women, admitted that finance was 'handled by their husbands.' "
     },
     {
