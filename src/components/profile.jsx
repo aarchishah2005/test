@@ -34,7 +34,7 @@ const BackgroundProfile = () => {
 
           {/* Background Content Section */}
           <div className="content-section">
-            <h1 className="main-title">The Story Behind Falguni Vahora's Fearless Finance Coaching</h1>
+            <h1 className="main-title">Why I Started Coaching</h1>
             <h2 className="section-title">SEBI REGISTRATION NUMBER - INH000013457</h2>
             
             {sections.map((section, index) => (
