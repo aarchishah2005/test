@@ -22,7 +22,7 @@
   
   @media (min-width: 768px) {
     .profile-grid {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 2fr;
       align-items: start;
     }
   }
