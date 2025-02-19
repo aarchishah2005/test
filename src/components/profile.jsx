@@ -26,7 +26,7 @@ const BackgroundProfile = () => {
           {/* Profile Image Section */}
           <div className="image-container">
             <img 
-              src="/assets/profile1.jpg" 
+              src="/assets/profile1.png" 
               alt="Professional headshot"
               className="profile-image"
             />
