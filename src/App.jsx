@@ -4,12 +4,12 @@ import './App.css';
 import Header from './components/header';
 import Heading from './components/heading';
 import Button from './components/button';
-// import CoachingSection from './components/coachingsection';
 import FinancialPrograms from './components/financialprogram';
 import FinancialCards from './components/FinancialCards';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import About from "./pages/About";
+import EfqLanding from "./pages/EfqLanding";
 import Profile from "./components/profile"
 
 
@@ -61,10 +61,11 @@ import Profile from "./components/profile"
     return (
       <Router>
         <Header />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-        </Routes>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/EfqLanding" element={<EfqLanding />} />
+          </Routes>
       </Router>
     );
   }
