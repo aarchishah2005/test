@@ -27,7 +27,7 @@ function About() {
   ];
 
   return (
-    <div className="Efqlanding">
+    <div className="EfqLanding">
       <div className="background">
       <ImageSlider images={images} />
 
