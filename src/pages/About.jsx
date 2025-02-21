@@ -9,7 +9,7 @@ import Infocolunm from "../components/Infocolunm";
 function About() {
   return (
     <div className="About">
-{/*       <div className="background"> */}
+      <div className="background">
         <Heading
           mainText="About Me"
           subText="Falguni Vahora" 
@@ -26,7 +26,7 @@ function About() {
 
         <Footer />
         
-{/*       </div> */}
+      </div>
     </div>
   );
 }
