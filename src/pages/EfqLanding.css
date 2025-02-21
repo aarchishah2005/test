@@ -6,3 +6,15 @@
     background-image: 'url(../assets/bliss_back.jpg)';
     background-color: #3b3531;
   }
+
+.EfqLanding .background {
+  background-image: url('../assets/bliss_back.jpg');
+  background-size: auto;
+  background-position: top left;
+  background-repeat: repeat;
+  background-color: #3b3531;
+  left: 0;
+  width: 100%;
+  top: 0;
+  padding: 0px;
+}
