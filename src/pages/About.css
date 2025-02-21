@@ -10,9 +10,10 @@ html, body, #root {
     display: flex;
     flex-direction: column;
     background-image: 'url(/assets/bliss_back.jpg)';
+    background-repeat: repeat;
   }
   
-  .About .background {
+/*   .About .background {
     background-image: url('./assets/bliss_back.jpg');
     background-size: auto;
     background-position: top left;
@@ -24,7 +25,7 @@ html, body, #root {
     top: 0;
     padding: 0px;
   }
-  
+   */
   
   
   
