@@ -4,7 +4,7 @@ html, body, #root {
     margin: 0;
   }
   
-  .About {
+  .EfqLanding  {
     height: 100%;
     width: 100%;
     display: flex;
@@ -13,7 +13,7 @@ html, body, #root {
     background-repeat: repeat;
   }
   
-  .About .background {
+  .EfqLanding  .background {
     background-image: url('../assets/bliss_back.jpg');
     background-size: auto;
     background-position: top left;
