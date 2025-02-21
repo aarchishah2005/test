@@ -1,0 +1,8 @@
+.EfqLanding {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: 'url(/assets/bliss_back.jpg)';
+    background-color: #3b3531;
+  }
