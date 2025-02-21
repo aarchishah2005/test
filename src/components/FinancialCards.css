@@ -118,6 +118,7 @@ font-family: 'Quicksand', sans-serif;
 /* Styling for the learn more button */
 .learn-more-btn {
   border: 1px solid #84c225;
+  border-radius: 20px;
   color: #84c225;
   background: transparent;
   padding: 0.8rem 1.5rem;
@@ -127,6 +128,7 @@ font-family: 'Quicksand', sans-serif;
 }
 
 .learn-more-btn:hover {
+  border: 1px solid #3b3531;
   background-color: #84c225;
   color: #ffffff;
 }

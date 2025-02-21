@@ -1,6 +1,8 @@
 
 import React from 'react';
+import { Link } from "react-router-dom";
 import './FinancialCards.css';
+
 // import '/Font.css';
 
 
@@ -11,19 +13,28 @@ const FinancialCards = () => {
       title: "Fearless Financial Investment",
       subTitle: "Live One-Day Course",
       image: "/assets/IntroToFinance.jpg",
-      mainTitle: "Fearless Financial Investment"
+      mainTitle: "Fearless Financial Investment",
+      buttons: [
+        { text: "Learn More", link: "/EfqLanding" }
+      ]
     },
     {
       title: "FearlessFinancialTrading",
       subTitle: "Live Online Course",
       image: "/assets/financial_roadmap.png",
-      mainTitle: "Fearless Financial Trading"
+      mainTitle: "Fearless Financial Trading",
+      buttons: [
+        { text: "Learn More", link: "/EfqLanding" }
+      ]
     },
     {
       title: "Mastering Options",
       subTitle: "Live 6 months Course",
       image: "/assets/dell_article.jpg",
-      mainTitle: "Mastering Options"
+      mainTitle: "Mastering Options",
+      buttons: [
+        { text: "Learn More", link: "/EfqLanding" }
+      ]
     }
   ];
 
@@ -47,7 +58,12 @@ const FinancialCards = () => {
               make changes to the font. I'm a great place for you to tell a story and let 
               your users know a little more about you.
             </p>
-            <button className="learn-more-btn">Learn More</button>
+            {/* <button className="learn-more-btn">Learn More</button> */}
+
+            <Link to={card.buttons[0].link} className="learn-more-btn">
+              {card.buttons[0].text}
+            </Link>
+
           </div>
         ))}
       </div>
