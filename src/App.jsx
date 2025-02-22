@@ -21,20 +21,24 @@ import Profile from "./components/profile"
           <Heading 
             mainText={
               <>
-                Fearless Finance Isn’t a Dream, <br />
-              It’s a Decision!
+                  Fearless Finance Isn’t a Dream, <br />
+                  It’s a Decision!
               </>
-              
             }
-              />
+            style
+            
+            ={{ paddingTop: '60px' }} 
+          />
           <Button text="Fear less, Learn More" />
-{/*         <div className="zoom-in-element coaching-component"> */}
-{/*           <CoachingSection /> */}
-            <Profile/>
-{/*         </div> */}
+
+          <Profile/>
+
           <FinancialPrograms />
+
           <FinancialCards />
+
           <ContactForm />
+          
           <Footer />
       </div>
     </div>
