@@ -2,12 +2,16 @@ import React from "react";
 import "./EfqLanding.css";
 import Footer from "../components/Footer";
 import ImageSlider from '../components/ImageSlider';
+import Heading from '../components/heading';
+import DateDay from "../components/DateDay";
+import RegistrationForm from '../components/RegistrationForm';
+import FeatureCards from '../components/FeatureCards';
+import LogoScroller from "../components/LogoScroller";
+import FinanceHighlights from "../components/FinanceHighlights";
 
+function EfqLanding() {
 
-
-function About() {
-
-  const images = [
+  const images1 = [
     { src: "/assets/book_launch.jpeg", alt: "Conference room with people at computers" },
     { src: "/assets/ioc_3_1.jpeg", alt: "Meeting hall with presentation" },
     { src: "/assets/kolkata_training_1.jpeg", alt: "Board room meeting" },
@@ -26,18 +30,51 @@ function About() {
     { src: "/assets/ioc_5_2.png", alt: "Team workshop session" }
   ];
 
+  const handleFormSubmit = (data) => {
+    console.log("Form submitted with data:", data);
+  };
+
   return (
     <div className="EfqLanding">
       <div className="background">
-      <ImageSlider images={images} />
 
+      <ImageSlider images={images1} />
 
+      <Heading
+          subText="Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market" 
+          style={{ paddingTop: '60px' }} 
+        /> 
+      <Heading
+          mainText="Our exclusive - EFQ session" 
+          style={{ fontWeight: 700 }} 
+        /> 
 
-        <Footer />
+      <Heading
+          mainText="Enrich Your Financial Quotient"
+          style={{ color: "#84c225", paddingBottom: '50px', fontWeight: 700 }} 
+      />
+
+      <DateDay 
+        date="15 November 2024"
+        day="Friday"
+        startTime="2 : 00 PM"
+        endTime="4 : 30 PM"
+      />  
+
+      <RegistrationForm 
+          onSubmit={handleFormSubmit}
+      />
+
+    <FeatureCards />
+
+    <LogoScroller/>
+    <FinanceHighlights/>
+
+      <Footer />
         
       </div>
     </div>
   );
 }
 
-export default About;   
+export default EfqLanding;   

@@ -1,31 +1,42 @@
+
+/* Ensure full height and remove default margin */
 html, body, #root {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-  }
-  
-  .EfqLanding  {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-image: 'url(../assets/bliss_back.jpg)';
-    background-repeat: repeat;
-  }
-  
-  .EfqLanding  .background {
-    background-image: url('../assets/bliss_back.jpg');
-    background-size: auto;
-    background-position: top left;
-    background-repeat: repeat;
-    background-color: #3b3531;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    padding: 0px;
-  }
-  
-  
-  
-  
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles - Ensure it's visible */
+.header {
+  position: relative;
+  z-index: 10; /* Ensures it's above the background */
+  width: 100%;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+/* Main container */
+.EfqLanding {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Needed for stacking context */
+}
+
+/* Background image applied using ::before pseudo-element */
+.EfqLanding::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/bliss_back.jpg');
+  background-repeat: repeat;
+  background-size: auto; /* Keeps original size */
+  background-position: top left;
+  background-color: #3b3531;
+  z-index: -1; /* Keeps it behind everything */
+}

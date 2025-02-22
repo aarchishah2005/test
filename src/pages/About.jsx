@@ -7,6 +7,9 @@ import Footer from "../components/Footer";
 import Infocolunm from "../components/Infocolunm";
 
 function About() {
+
+  
+  
   return (
     <div className="About">
       <div className="background">
