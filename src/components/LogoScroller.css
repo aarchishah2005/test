@@ -1,0 +1,36 @@
+.logo-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+  }
+  
+  .logo-scroll {
+    display: flex;
+    animation: scroll 20s linear infinite;
+    white-space: nowrap;
+  }
+  
+  .logo {
+    height: 80px;
+    margin: 0 30px;
+    filter: brightness(0%) saturate(0%) contrast(100%) invert(100%);
+    transition: filter 0.3s ease;
+  }
+  
+  .logo:hover {
+    filter: brightness(0%) saturate(0%) contrast(100%) invert(100%);
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* For smoother animation on hover */
+  .logo-scroll:hover {
+    animation-play-state: paused;
+  }
