@@ -1,0 +1,40 @@
+.investment-container {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-list {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feature-item {
+  padding: 1.5rem 2rem;
+  border: 2px solid #84c225;
+  border-radius: 8px;
+  color: #84c225;
+  font-size: 1.25rem;
+  font-weight: 500;
+  background-color: transparent;
+  transition: all 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateX(5px);
+}
+
+@media (max-width: 768px) {
+  .investment-container {
+    padding: 1rem;
+  }
+
+  .feature-item {
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+  }
+}
