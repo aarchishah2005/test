@@ -7,6 +7,7 @@ import DateDay from "../components/DateDay";
 import RegistrationForm from '../components/RegistrationForm';
 import FeatureCards from '../components/FeatureCards';
 import LogoScroller from "../components/LogoScroller";
+import InvestmentEducation from "../components/InvestmentEducation";
 
 function EfqLanding() {
 
@@ -67,7 +68,7 @@ function EfqLanding() {
     <FeatureCards />
 
     <LogoScroller/>
-    
+    <InvestmentEducation/>
 
       <Footer />
         
