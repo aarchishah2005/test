@@ -8,6 +8,7 @@ import RegistrationForm from '../components/RegistrationForm';
 import FeatureCards from '../components/FeatureCards';
 import LogoScroller from "../components/LogoScroller";
 import InvestmentEducation from "../components/InvestmentEducation";
+import TestimonialCarousel from "../components/TestimonialCarousel";
 
 function EfqLanding() {
 
@@ -69,6 +70,8 @@ function EfqLanding() {
 
     <LogoScroller/>
     <InvestmentEducation/>
+
+    <TestimonialCarousel/>
 
       <Footer />
         
