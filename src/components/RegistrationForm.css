@@ -13,7 +13,7 @@
   @media (max-width: 768px) {
     .registration-container {
       flex-direction: column;
-      padding: 20px 10px;
+      padding: 0px 0px;
     }
   }
   
@@ -24,7 +24,7 @@
     flex-direction: column;
     background: transparent;
     align-items: center;
-    max-width: 400px;
+    max-width: 300px;
   }
   
   .registration-form-section h2 {
@@ -49,10 +49,11 @@
   .form-group input {
     width: 100%;
     padding: 12px 15px;
-    border: 1px solid #ffffff;
+    border: 1px solid #84c225;
     border-radius: 4px;
     font-size: 1rem;
     background-color: #ffffff;
+    color: #3b3531;
   }
   
   .form-group input.error {
@@ -68,8 +69,9 @@
   }
   
   .submit-button {
-    margin-top: 10px;
-    padding: 10px 10px;
+    width: 50%; /* Adjust this value as needed */
+    margin: 10px auto 0;
+    padding: 10px 5px;
     border: none;
     border-radius: 4px;
     color: white;
