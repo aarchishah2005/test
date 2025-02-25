@@ -24,12 +24,12 @@
   }
   
   .disclaimer-header {
-    background-color: #333;
+    background-color: #3b3531 ;
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #444;
+    border-bottom: 1px solid #84c225;
   }
   
   .disclaimer-header h3 {
@@ -59,6 +59,7 @@
     color: #ddd;
     font-size: 14px;
     line-height: 1.5;
+    background-color: #3b3531;
   }
   
   .disclaimer-content p {
@@ -68,7 +69,7 @@
   .disclaimer-footer {
     padding: 10px 15px;
     text-align: right;
-    border-top: 1px solid #444;
+    border-top: 1px solid #84c225;
   }
   
   .close-btn {

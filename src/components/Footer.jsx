@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import './Footer.css';
 import Disclaimer from './Disclaimer';
 import TermsOfService from './TermsOfService';
-import PrivacyPolicyAndRefundPolicy from './PrivacyPolicyAndRefundPolicy';
+import PrivacyPolicy from './PrivacyPolicy';
+import RefundPolicy from './RefundPolicy';
 
 // Import social media icons from react-icons
 import { FaFacebookF, FaGoogle, FaLinkedinIn } from 'react-icons/fa';
@@ -12,6 +13,8 @@ const Footer = () => {
     const [isDisclaimerOpen, setIsDisclaimerOpen] = useState(false);
     const [isTermsOpen, setIsTermsOpen] = useState(false);
     const [isPolicyOpen, setIsPolicyOpen] = useState(false);
+    const [isRefundOpen, setIsRefundOpen] = useState(false);
+
 
   const openDisclaimer = (e) => {
     e.preventDefault();
@@ -40,6 +43,17 @@ const Footer = () => {
     setIsPolicyOpen(false);
   };
 
+  const openRefund = (e) => {
+    e.preventDefault();
+    setIsRefundOpen(true);
+  };
+
+  const closeRefund = () => {
+    setIsRefundOpen(false);
+  };
+
+  
+
   return (
     <>
       <footer className="footer">
@@ -63,8 +77,12 @@ const Footer = () => {
                     <div className="separator">|</div>
                     <a href="#" className="footer-link" onClick={openTerms}>Terms of Service</a>
                     <div className="separator">|</div>
-                    <a href="#" className="footer-link" onClick={openPolicy}> Privacy and Refund Policy</a>
+                    <a href="#" className="footer-link" onClick={openPolicy}>Privacy Policy</a>
                     <div className="separator">|</div>
+                    <a href="#" className="footer-link" onClick={openRefund}>Refund Policy</a>
+                    <div className="separator">|</div>
+
+                    
                 </div>
           </div>
           
@@ -84,7 +102,8 @@ const Footer = () => {
 
       <Disclaimer isOpen={isDisclaimerOpen} onClose={closeDisclaimer} />
       <TermsOfService isOpen={isTermsOpen} onClose={closeTerms} />
-      <PrivacyPolicyAndRefundPolicy isOpen={isPolicyOpen} onClose={closePolicy} />
+      <PrivacyPolicy isOpen={isPolicyOpen} onClose={closePolicy} />
+      <RefundPolicy isOpen={isRefundOpen} onClose={closeRefund} />
     </>
   );
 };
