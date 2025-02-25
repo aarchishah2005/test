@@ -48,7 +48,7 @@ const TestimonialCarousel = () => {
       setActiveIndex((current) => 
         current === testimonialData.length - 1 ? 0 : current + 1
       );
-    }, 5000); // Changed to 5 seconds
+    }, 3000); // Changed to 5 seconds
 
     return () => clearInterval(interval);
   }, []);
