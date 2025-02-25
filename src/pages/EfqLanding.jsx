@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./EfqLanding.css";
 import Footer from "../components/Footer";
 import ImageSlider from '../components/ImageSlider';
@@ -11,6 +11,10 @@ import InvestmentEducation from "../components/InvestmentEducation";
 import TestimonialCarousel from "../components/TestimonialCarousel";
 
 function EfqLanding() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);  // Scrolls to the top when component mounts
+  }, []);
 
   const images1 = [
     { src: "/assets/book_launch.jpeg", alt: "Conference room with people at computers" },
