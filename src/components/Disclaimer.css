@@ -1,0 +1,87 @@
+.disclaimer-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .disclaimer-modal {
+    background-color: #222;
+    width: 800px;
+    max-width: 90%;
+    max-height: 90vh;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .disclaimer-header {
+    background-color: #333;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #444;
+  }
+  
+  .disclaimer-header h3 {
+    color: #84c225;
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    color: #888;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+  }
+  
+  .close-button:hover {
+    color: #fff;
+  }
+  
+  .disclaimer-content {
+    padding: 15px;
+    overflow-y: auto;
+    flex: 1;
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .disclaimer-content p {
+    margin-bottom: 15px;
+  }
+  
+  .disclaimer-footer {
+    padding: 10px 15px;
+    text-align: right;
+    border-top: 1px solid #444;
+  }
+  
+  .close-btn {
+    background-color: #666;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .close-btn:hover {
+    background-color: #84c225;
+  }

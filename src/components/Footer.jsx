@@ -1,23 +1,92 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Footer.css';
+import Disclaimer from './Disclaimer';
+import TermsOfService from './TermsOfService';
+import PrivacyPolicyAndRefundPolicy from './PrivacyPolicyAndRefundPolicy';
+
+// Import social media icons from react-icons
+import { FaFacebookF, FaGoogle, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
-  return (
-    <footer className="footer">
-      <div className="footer-content">
-        <div className="copyright">
-          © 2025 Falguni Vahora. All Rights Reserved.
-        </div>
-        <div className="legal-links">
-          <Link to="/disclaimer" className="footer-link">Disclaimer</Link>
-          <Link to="/privacy" className="footer-link">Privacy Policy</Link>
-          <Link to="/terms" className="footer-link">Terms & Conditions</Link>
-        </div>
-      </div>
-    </footer>
-  );
+    const [isDisclaimerOpen, setIsDisclaimerOpen] = useState(false);
+    const [isTermsOpen, setIsTermsOpen] = useState(false);
+    const [isPolicyOpen, setIsPolicyOpen] = useState(false);
 
+  const openDisclaimer = (e) => {
+    e.preventDefault();
+    setIsDisclaimerOpen(true);
+  };
+
+  const closeDisclaimer = () => {
+    setIsDisclaimerOpen(false);
+  };
+
+  const openTerms = (e) => {
+    e.preventDefault();
+    setIsTermsOpen(true);
+  };
+
+  const closeTerms = () => {
+    setIsTermsOpen(false);
+  };
+
+  const openPolicy = (e) => {
+    e.preventDefault();
+    setIsPolicyOpen(true);
+  };
+
+  const closePolicy = () => {
+    setIsPolicyOpen(false);
+  };
+
+  return (
+    <>
+      <footer className="footer">
+        <div className="footer-wrapper">
+          <div className="footer-content">
+            <div className="copyright">
+              <span>©FalguniVahora 2025 © All rights reserved</span>
+            </div>
+            
+            <div className="footer-links">
+                    <div className="separator">|</div>
+                    <a href="https://blissquants.com/BlissAboutUs#collapseOne" className="footer-link" target="_blank" rel="noopener noreferrer">Company</a>
+                    <div className="separator">|</div>
+                    <a href="https://blissquants.com/BlissPeople" className="footer-link" target="_blank" rel="noopener noreferrer">Team</a>
+                    <div className="separator">|</div>
+                    <a href="https://blissquants.com/BlissAboutUs#collapseThree" className="footer-link" target="_blank" rel="noopener noreferrer">Career</a>
+                    <div className="separator">|</div>
+                    <a href="https://blissquants.com/BlissAboutUs#collapseFive" className="footer-link" target="_blank" rel="noopener noreferrer">Contact Us</a>
+                    <div className="separator">|</div>
+                    <a href="#" className="footer-link" onClick={openDisclaimer}>Disclaimer</a>
+                    <div className="separator">|</div>
+                    <a href="#" className="footer-link" onClick={openTerms}>Terms of Service</a>
+                    <div className="separator">|</div>
+                    <a href="#" className="footer-link" onClick={openPolicy}>Terms of Service</a>
+                    <div className="separator">|</div>
+                </div>
+          </div>
+          
+          <div className="social-icons">
+            <a href="https://www.facebook.com/blissquants" className="social-icon facebook" target="_blank" rel="noopener noreferrer">
+              <FaFacebookF />
+            </a>
+            <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html" className="social-icon google" target="_blank" rel="noopener noreferrer">
+              <FaGoogle />
+            </a>
+            <a href="https://www.linkedin.com/company/blissquants/" className="social-icon linkedin" target="_blank" rel="noopener noreferrer">
+              <FaLinkedinIn />
+            </a>
+          </div>
+        </div>
+      </footer>
+
+      <Disclaimer isOpen={isDisclaimerOpen} onClose={closeDisclaimer} />
+      <TermsOfService isOpen={isTermsOpen} onClose={closeTerms} />
+      <PrivacyPolicyAndRefundPolicy isOpen={isPolicyOpen} onClose={closePolicy} />
+    </>
+  );
 };
 
 export default Footer;
