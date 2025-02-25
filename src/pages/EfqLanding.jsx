@@ -59,7 +59,7 @@ function EfqLanding() {
         date="8 March 2025"
         day="Saturday"
         startTime="2 : 00 PM"
-        endTime="4 : 00 PM"
+        endTime="3 : 30 PM"
       />  
 
       <RegistrationForm 
