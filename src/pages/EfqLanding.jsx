@@ -60,10 +60,10 @@ function EfqLanding() {
       />
 
       <DateDay 
-        date="8 March 2025"
-        day="Saturday"
-        startTime="2 : 00 PM"
-        endTime="3 : 30 PM"
+        date="9 March 2025"
+        day="Sunday"
+        startTime="11 : 00 AM"
+        endTime="12 : 30 PM"
       />  
 
       <RegistrationForm 
