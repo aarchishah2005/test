@@ -23,7 +23,7 @@ const Header = () => {
 
     <hr
       style={{
-          width: "20%",
+          width: "100%",
           margin: "0 auto",
           border: "none",
           height: "1px",

@@ -6,18 +6,15 @@ const RegistrationForm = ({
   learningTitle = "What you will learn in 90 minutes",
   secrets = [
     {
-      id: 1,
-      title: "Strengthen Your Financial Foundation",
+      title: "Secret 1 : Strengthen Your Financial Foundation",
       color: "#84c225"
     },
     {
-      id: 2,
-      title: "Unlock Ready-Made Investment Strategy",
+      title: " Secret 2 : Unlock Ready-Made Investment Strategy",
       color: "#84c225"
     },
     {
-      id: 3,
-      title: "Start Your Part-Time Journey in the Stock Market",
+      title: "Secret 3 : Start Your Part-Time Journey in the Stock Market",
       color: "#84c225"
     }   
   ],
@@ -125,11 +122,22 @@ const RegistrationForm = ({
             <li key={secret.id}>
               <div className="secret-item">
                 <span className="bullet" style={{ color: secret.color }}>✓</span>
-                <div className="secret-content">
-                  <p className="secret-label" style={{ color: secret.color }}>
-                    Secret {secret.id} :
-                  </p>
-                  <p className="secret-title">{secret.title}</p>
+                <div className="secret-content"  
+                  style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "8px",
+                      whiteSpace: "nowrap",
+                          }}>
+
+                <p className="secret-title" style={{ margin: 0, display: "inline", color: "white" }}>
+                  <span style={{ color: "#84c225" }}>
+                    {secret.title.split(":")[0]}
+                  </span>
+                  {":" + secret.title.split(":")[1]}
+                </p>
+
+
                 </div>
               </div>
             </li>

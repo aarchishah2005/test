@@ -6,22 +6,26 @@
     align-items: center;
     justify-content: space-between;
     padding: 0rem 1rem;
-    /* background: linear-gradient(to right, #3b3135, #3b3135); */
-/*     border-bottom: 1px solid white;  */
     background-color: #3b3531;
-    height: 20%;
-  }
+    height: 20vh; /* Use viewport height for better responsiveness */
+    width: 100vw; /* Ensures it stays within the viewport width */
+    max-width: 100%; /* Prevents overflow */
+    overflow: hidden; /* Ensures no extra content overflows */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
   
   /* Brand Styles */
   .brand-container {
     display: flex;
+    width: 90%;
     align-items: left;
     justify-content: left; /* Center the logo if necessary */
   }
 
   
   .brand-logo {
-    width:45%; /* Adjust size as needed */
+    width:45%;
     height: auto; /* Maintain aspect ratio */
     cursor: pointer;
   }
