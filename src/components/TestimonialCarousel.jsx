@@ -23,14 +23,14 @@ const testimonialData = [
   {
     text: "BlissQuants is a good place to be for delta hedging based trading. The training they give is good, quite insightful and makes hedging easy to understand.",
     name: "Prem Punjabi",
-    position: "FreeLancer, Architectural visualization Artist",
+    position: "Freelancer, Architectural Visualization Artist",
     location: "Surat"
   },
   {
     text: "Falguni's teaching is unique has a thorough knowledge of Options and most importantly teaches to hedge 100% of the portfolio. The program itself is called \"Delta Hedging\" which is self-explanatory. I enjoyed the hands-on training and had visited their trading floor in Surat. Nice experience. It would be a good program for starters who want to make a living on options trading.",
     name: "N Ravishankar Former",
     position: "CIO and CTO of large companies worked in Tata's and Airtel",
-    location: "Banglore"
+    location: "Bangalore"
   },
   {
     text: "I took 1:1 training with Falguni. She took me through the basics to details of stock market jargon. The research work she gave me as assignments, really helped my confidence to start investing in stocks. Her way of teaching and content of training is very thorough and pragmatic. The guidance and mentoring go beyond the training period and that shows their commitment towards their domain. Highly recommended for all the folks interested to start their journey in stocks.",
@@ -42,27 +42,34 @@ const testimonialData = [
 
 const TestimonialCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [transitioning, setTransitioning] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveIndex((current) => 
-        current === testimonialData.length - 1 ? 0 : current + 1
-      );
-    }, 3000); // Changed to 5 seconds
+      setTransitioning(true);
+      setTimeout(() => {
+        setActiveIndex((prevIndex) => 
+          prevIndex === testimonialData.length - 1 ? 0 : prevIndex + 1
+        );
+        setTransitioning(false);
+      }, 600); // Match animation duration
+    }, 4000); // Auto-change every 4 seconds
 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div className="testimonial-section">
-      <h2 className="testimonial-title">Testimonial</h2>
+      <h2 className="testimonial-title">Testimonials</h2>
       
       <div className="carousel-container">
         <div className="carousel-inner">
           {testimonialData.map((testimonial, index) => (
             <div
               key={index}
-              className={`carousel-item ${index === activeIndex ? 'active' : ''}`}
+              className={`carousel-item ${
+                index === activeIndex ? (transitioning ? "exiting" : "active") : ""
+              }`}
             >
               <blockquote>
                 <p className="testimonial-text">{testimonial.text}</p>
