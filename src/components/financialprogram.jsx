@@ -7,7 +7,7 @@ const FinancialPrograms = () => {
       <div className="financial-container">
         <div className="financial-content">
           <h1 className="financial-title">Financial Educative Programs</h1>
-          <h2 style={{ color: "#84c225" , fontSize: "25px", fontWeight: 500 }}>By Falguni Vahora SEBI Certified Research Analyst
+          <h2 style={{ color: "#84c225" , fontSize: "1.2rem", fontWeight: 500 }}>By Falguni Vahora SEBI Certified Research Analyst
             <br/>
           Registration number  INH000007100 </h2>
           <p className="financial-text">
