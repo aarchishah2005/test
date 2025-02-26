@@ -11,7 +11,7 @@ const Policies = () => {
 
 {/*  */}   
 <div className="Policies-header">
-          <h2>disclaimer</h2>
+          <h2>Disclaimer</h2>
 </div>
           <p>
             The information and material contained in these pages and the terms, conditions, and descriptions that appear are subject to change without prior notice. Investments in equity shares, debentures etc. are not obligations of or guaranteed by the BlissQuants, and are subject to investment risks.
