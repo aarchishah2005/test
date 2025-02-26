@@ -5,6 +5,7 @@ import Disclaimer from './Disclaimer';
 import TermsOfService from './TermsOfService';
 import PrivacyPolicy from './PrivacyPolicy';
 import RefundPolicy from './RefundPolicy';
+import Policies from './Policies';
 
 // Import social media icons from react-icons
 import { FaFacebookF, FaGoogle, FaLinkedinIn } from 'react-icons/fa';
@@ -81,10 +82,8 @@ const Footer = () => {
                     <div className="separator">|</div>
                     <a href="#" className="footer-link" onClick={openRefund}>Refund Policy</a>
                     <div className="separator">|</div>
-                    <a href="/Policies">Policies</a>
+                    <Link to="/Policies" className="footer-link">Policies</Link>
                     <div className="separator">|</div>
-
-                    
                 </div>
           </div>
           

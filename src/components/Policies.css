@@ -1,0 +1,11 @@
+.Policies-container {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    padding: 5%;
+    background-color: #3b3531;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
