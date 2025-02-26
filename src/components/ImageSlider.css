@@ -11,7 +11,7 @@
 .continuous-slider-track {
     display: flex;
     width: max-content;
-    animation: scroll 95s linear infinite;
+    animation: scroll 950s linear infinite;
 }
 
 @keyframes scroll {
