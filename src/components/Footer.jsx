@@ -60,7 +60,7 @@ const Footer = () => {
         <div className="footer-wrapper">
           <div className="footer-content">
             <div className="copyright">
-              <span>©FalguniVahora 2025 © All rights reserved</span>
+              <span>© 2025 BlissQuants Datalytics LLP All rights reserved</span>
             </div>
             
             <div className="footer-links">
