@@ -9,3 +9,10 @@
     align-items: center;
     justify-content: center;
   }
+
+.Policies-header{
+    color: #84c225;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
