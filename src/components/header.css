@@ -1,65 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=Bauhaus:wght@5&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0rem 1rem;
-    background-color: #3b3531;
-    height: 20vh; /* Use viewport height for better responsiveness */
-    width: 100vw; /* Ensures it stays within the viewport width */
-    max-width: 100%; /* Prevents overflow */
-    overflow: hidden; /* Ensures no extra content overflows */
-    box-sizing: border-box; /* Ensures padding doesn't affect width */
-}
-
-  
-  /* Brand Styles */
-  .brand-container {
-    display: flex;
-    width: 90%;
-    align-items: left;
-    justify-content: left; /* Center the logo if necessary */
-  }
-
-  
-  .brand-logo {
-    width:45%;
-    height: auto; /* Maintain aspect ratio */
-    cursor: pointer;
-  }
-  
-  
-/* Navigation Links */
-.nav-links {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 25px;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  background-color: #3b3531;
+  height: 20vh; 
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.nav-link {
+/* Left side spacing */
+.header-left {
+  width: 20%;
+}
+
+/* Brand Styles - centered */
+.brand-container {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 0.25rem;
-  text-decoration: none;
+  text-align: center;
+  width: 100%;
+  padding: auto;
+}   
+
+.brand-logo {
+  height: 120px;
+  width: auto;
+  cursor: pointer;
+}
+
+/* Menu button on right */
+.menu-button-container {
+  position: relative;
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-button {
+  background: none;
+  border: none;
   color: #ffffff;
-  font-weight: 400;
-  transition: transform 1s ease, font-size 2s ease; /* Slower transition */
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 0px 0px;
+  transition: color 0.3s ease;
 }
 
-.nav-link:hover {
+.menu-button:hover {
   color: #84c225;
 }
 
-.nav-link:hover span {
-  font-size: 28px; /* Increased size on hover */
-  transition: font-size 1s ease; /* Slower font-size transition */
+/* Dropdown menu */
+.dropdown-menu {
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  width: 200px;
+  background-color: #3b3531;
+  display: none;
+  flex-direction: column;
+  z-index: 100;
+  /* transform: translateX(100%);    */
+  transition: transform 0.3s ease-in-out;
+  opacity: 0;
+  margin-top: 2%;
+  visibility: hidden;
 }
 
-.nav-link:hover svg {
-  transform: scale(1.5); /* Scale the icon */
-  transition: transform 2s ease; /* Slower scaling for the icon */
+.dropdown-menu.open {
+  /* transform: translateX(0); */
+
+  display: flex; /* Makes the menu visible */
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Navigation Links */
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-link:hover {
+  background-color: #4a443e;
+  color: #84c225;
+}
+
+.nav-link span {
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover span {
+  transform: translateX(5px);
 }
