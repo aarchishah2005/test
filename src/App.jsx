@@ -10,7 +10,8 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import About from "./pages/About";
 import EfqLanding from "./pages/EfqLanding";
-import Profile from "./components/profile"
+import Profile from "./components/profile";
+import Policies from "./components/Policies" ;
 
 
   const Home = () => (
@@ -69,6 +70,7 @@ import Profile from "./components/profile"
             <Route path="/" element={<Home />} />
             <Route path="/About" element={<About />} />
             <Route path="/EfqLanding" element={<EfqLanding />} />
+            <Route path="/Policies" element={<Policies />} />
           </Routes>
       </Router>
     );
