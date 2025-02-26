@@ -7,9 +7,13 @@ const FinancialPrograms = () => {
       <div className="financial-container">
         <div className="financial-content">
           <h1 className="financial-title">Financial Educative Programs</h1>
-          <h2 style={{ color: "#84c225" , fontSize: "30px", fontWeight: 500 }}>By Falguni Vahora SEBI Certified Research Analyst :: Registration number  INH000007100 </h2>
+          <h2 style={{ color: "#84c225" , fontSize: "25px", fontWeight: 500 }}>By Falguni Vahora SEBI Certified Research Analyst
+            <br/>
+          Registration number  INH000007100 </h2>
           <p className="financial-text">
-            Join me and Enrich Your Financial Quotient  – because financial freedom should never be a fear, it should be a way of life.
+            Join me and Enrich Your Financial Quotient
+            <br/>
+            because financial freedom should never be a fear, it should be a way of life.
           </p>
         </div>
       </div>
