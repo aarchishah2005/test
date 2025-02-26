@@ -11,7 +11,7 @@ const FinancialCards = () => {
   const cards = [
     {
       title: "Fearless Financial Investment",
-      subTitle: "Live One-Day Course",
+      subTitle: "Live Offline One-Day Course",
       image: "/assets/IntroToFinance.jpg",
       mainTitle: "Fearless Financial Investment",
       buttons: [
@@ -19,8 +19,8 @@ const FinancialCards = () => {
       ]
     },
     {
-      title: "FearlessFinancialTrading",
-      subTitle: "Live Online Course",
+      title: "Fearless Financial Trading",
+      subTitle: "Live Online Three-Day Course",
       image: "/assets/financial_roadmap.png",
       mainTitle: "Fearless Financial Trading",
       buttons: [
@@ -29,7 +29,7 @@ const FinancialCards = () => {
     },
     {
       title: "Mastering Options",
-      subTitle: "Live 6 months Course",
+      subTitle: "Live Online 6 months Course",
       image: "/assets/dell_article.jpg",
       mainTitle: "Mastering Options",
       buttons: [
