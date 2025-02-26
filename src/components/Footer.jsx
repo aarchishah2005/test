@@ -81,6 +81,8 @@ const Footer = () => {
                     <div className="separator">|</div>
                     <a href="#" className="footer-link" onClick={openRefund}>Refund Policy</a>
                     <div className="separator">|</div>
+                    <a href="/about" onClick={toggleMenu}>Policies</a>
+                    <div className="separator">|</div>
 
                     
                 </div>
