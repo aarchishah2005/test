@@ -19,7 +19,7 @@ function About() {
         />  
         <Heading
           // subText="SEBI REGISTERED RESEARCH ANALYST" 
-          subText="Falguni Vahora is SEBI registered Research Analyst. She is an Engineer. She is truly passionate about markets and into discretionary options selling. She has been a trainer and educator for many market learners.She researches both technical and fundamental parameters."        
+          subText="Falguni Vahora is SEBI registered Research Analyst. She is an Engineer. She is truly passionate about her work. She has been a trainer and educator for many Colleges and university.She researches both technical and fundamental parameters."        
         />
         <Heading
           // subText="SEBI REGISTRATION NUMBER - INH000013457" 
