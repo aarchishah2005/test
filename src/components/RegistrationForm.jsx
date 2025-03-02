@@ -19,7 +19,7 @@ const RegistrationForm = () => {
       prefill: {
         name: "Aarchi Shah",
         email: "aarchi@example.com",
-        contact: "9999999999",
+        contact: "+91 9898032020",
       },
       theme: {
         color: "#84c225",
