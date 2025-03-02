@@ -1,148 +1,81 @@
-import React, { useState } from 'react';
-import './RegistrationForm.css';
+import React, { useState } from "react";
+import "./RegistrationForm.css";
 
-const RegistrationForm = ({
-  title = "Register Now",
-  learningTitle = "What you will learn in 90 minutes",
-  secrets = [
-    {
-      title: "Secret 1 : Strengthen Your Financial Foundation",
-      color: "#84c225"
-    },
-    {
-      title: " Secret 2 : Unlock Ready-Made Investment Strategy",
-      color: "#84c225"
-    },
-    {
-      title: "Secret 3 : Start Your Part-Time Journey in the Stock Market",
-      color: "#84c225"
-    }   
-  ],
-  buttonText = "Submit",
-  onSubmit = () => {},
-  backgroundColor = "none",
-  accentColor = "#84c225",
-}) => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: ''
-  });
-  
-  const [errors, setErrors] = useState({});
+const RegistrationForm = () => {
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
-  };
+  const handlePayment = () => {
+    const options = {
+      key: "rzp_live_YMAybP6URgvGuF", // Replace with your Razorpay Key ID
+      amount: 50000, // Amount in paise (₹500)
+      currency: "INR",
+      name: "BlissQuants Data Analytics",
+      description: "Webinar Registration Fee",
+      image: "https://your-logo-url.com/logo.png",
+      handler: function (response) {
+        alert(`Payment Successful! Payment ID: ${response.razorpay_payment_id}`);
+        setIsSubmitted(true); // Show success message after successful payment
+      },
+      prefill: {
+        name: "Aarchi Shah",
+        email: "aarchi@example.com",
+        contact: "9999999999",
+      },
+      theme: {
+        color: "#84c225",
+      },
+    };
 
-  const validate = () => {
-    let tempErrors = {};
-    if (!formData.name) tempErrors.name = "Name is required";
-    if (!formData.email) {
-      tempErrors.email = "Email is required";
-    } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      tempErrors.email = "Email is invalid";
-    }
-    if (!formData.phone) {
-      tempErrors.phone = "Phone number is required";
-    } else if (!/^\d{10}$/.test(formData.phone.replace(/\D/g, ''))) {
-      tempErrors.phone = "Phone number is invalid";
-    }
-    
-    setErrors(tempErrors);
-    return Object.keys(tempErrors).length === 0;
+    const razorpay = new window.Razorpay(options);
+    razorpay.open();
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (validate()) {
-      onSubmit(formData);
-    }
+    handlePayment(); // Call Razorpay payment when form is submitted
+  };
+
+  const resetForm = () => {
+    setIsSubmitted(false);
   };
 
   return (
-    <div className="registration-container" style={{ backgroundColor }}>
-      <div className="registration-form-section">
-        <h2 style={{ color: accentColor }}>{title}</h2>
-        <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <input
-              type="text"
-              name="name"
-              placeholder="Name*"
-              value={formData.name}
-              onChange={handleChange}
-              className={errors.name ? "error" : ""}
-            />
-            {errors.name && <span className="error-message">{errors.name}</span>}
-          </div>
-          
-          <div className="form-group">
-            <input
-              type="email"
-              name="email"
-              placeholder="Email*"
-              value={formData.email}
-              onChange={handleChange}
-              className={errors.email ? "error" : ""}
-            />
-            {errors.email && <span className="error-message">{errors.email}</span>}
-          </div>
-          
-          <div className="form-group">
-            <input
-              type="tel"
-              name="phone"
-              placeholder="Phone*"
-              value={formData.phone}
-              onChange={handleChange}
-              className={errors.phone ? "error" : ""}
-            />
-            {errors.phone && <span className="error-message">{errors.phone}</span>}
-          </div>
-          
-          <button 
-            type="submit" 
-            className="submit-button"
-            style={{ backgroundColor: accentColor }}
-          >
-            {buttonText}
-          </button>
-        </form>
-      </div>
-      
-      <div className="learning-section" style={{ borderColor: accentColor }}>
-        <h3>{learningTitle}</h3>
-        <ul>
-          {secrets.map((secret) => (
-            <li key={secret.id}>
-              <div className="secret-item">
-                <span className="bullet" style={{ color: secret.color }}>✓</span>
-                <div className="secret-content"  
-                  style={{
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: "8px",
-                      whiteSpace: "nowrap",
-                          }}>
-
-                <p className="secret-title" style={{ margin: 0, display: "inline", color: "white" }}>
-                  <span style={{ color: "#84c225" }}>
-                    {secret.title.split(":")[0]}
-                  </span>
-                  {":" + secret.title.split(":")[1]}
-                </p>
-
-
-                </div>
-              </div>
+    <div className="form-container">
+      <div className="registration-card">
+        <div className="form-header">
+          <h2>What you will learn in 90 minutes</h2>
+          <ul className="secrets-list">
+            <li>
+              <span className="checkmark">✓</span>
+              <span><span className="secret-number">Secret 1:</span> Strengthen Your Financial Foundation</span>
             </li>
-          ))}
-        </ul>
+            <li>
+              <span className="checkmark">✓</span>
+              <span><span className="secret-number">Secret 2:</span> Unlock Ready-Made Investment Strategy</span>
+            </li>
+            <li>
+              <span className="checkmark">✓</span>
+              <span><span className="secret-number">Secret 3:</span> Start Your Part-Time Journey in the Stock Market</span>
+            </li>
+          </ul>
+        </div>
+
+        {!isSubmitted ? (
+          <form onSubmit={handleSubmit}>
+            <button type="submit" className="submit-button">
+              Pay & Register
+            </button>
+          </form>
+        ) : (
+          <div className="success-message">
+            <div className="success-icon">✓</div>
+            <h3>Thank You for Registering!</h3>
+            <p>You'll receive the webinar details shortly.</p>
+            <button onClick={resetForm} className="back-button">
+              Back to Form
+            </button>
+          </div>
+        )}
       </div>
     </div>
   );
