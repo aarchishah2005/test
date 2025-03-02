@@ -5,34 +5,12 @@ const RegistrationForm = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handlePayment = () => {
-    const options = {
-      key: "rzp_live_YMAybP6URgvGuF", // Replace with your Razorpay Key ID
-      amount: 50000, // Amount in paise (₹500)
-      currency: "INR",
-      name: "BlissQuants Data Analytics",
-      description: "Webinar Registration Fee",
-      image: "https://your-logo-url.com/logo.png",
-      handler: function (response) {
-        alert(`Payment Successful! Payment ID: ${response.razorpay_payment_id}`);
-        setIsSubmitted(true); // Show success message after successful payment
-      },
-      prefill: {
-        name: "Aarchi Shah",
-        email: "aarchi@example.com",
-        contact: "9999999999",
-      },
-      theme: {
-        color: "#84c225",
-      },
-    };
-
-    const razorpay = new window.Razorpay(options);
-    razorpay.open();
+    window.open("https://rzp.io/rzp/YRgBvUM", "_blank"); // Replace with your actual Razorpay Payment Page URL
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    handlePayment(); // Call Razorpay payment when form is submitted
+    handlePayment(); // Redirect to Razorpay Payment Page
   };
 
   const resetForm = () => {
