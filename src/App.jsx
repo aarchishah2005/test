@@ -8,7 +8,7 @@ import FinancialPrograms from './components/financialprogram';
 import FinancialCards from './components/FinancialCards';
 // import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
-import About from "./pages/About";
+// import About from "./pages/About";
 import EfqLanding from "./pages/EfqLanding";
 import Profile from "./components/profile";
 import Policies from "./components/Policies" ;
@@ -68,7 +68,7 @@ import Policies from "./components/Policies" ;
         <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/About" element={<About />} />
+{/*             <Route path="/About" element={<About />} /> */}
             <Route path="/EfqLanding" element={<EfqLanding />} />
             <Route path="/Policies" element={<Policies />} />
           </Routes>
