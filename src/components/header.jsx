@@ -59,7 +59,7 @@ const Header = () => {
       <div ref={menuRef} className={`dropdown-menu ${menuOpen ? 'open' : ''}`}>
 
         <NavLink to="/" text="Home" onClick={toggleMenu} />
-        <NavLink to="/about" text="About" onClick={toggleMenu} />
+{/*         <NavLink to="/about" text="About" onClick={toggleMenu} /> */}
         <NavLink to="https://www.blissquants.com/Bliss_Coaching" text="Coaching" onClick={toggleMenu} />
         <NavLink to="https://www.amazon.in/dp/B09NWH5S7R" text="Book" onClick={toggleMenu} />
         <NavLink to="https://blissquants.com/BlissAboutUs#collapseFive" text="Contact" onClick={toggleMenu} />
