@@ -66,7 +66,7 @@
     justify-content: center;
     font-weight: 500;
     border: 1px solid #84c225;
-    border-radius: 0.375rem;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
     font-size: 1.5rem;
