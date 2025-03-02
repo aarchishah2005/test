@@ -7,7 +7,7 @@ const RegistrationForm = () => {
   const handlePayment = () => {
     const options = {
       key: "rzp_live_YMAybP6URgvGuF", // Replace with your Razorpay Key ID
-      amount: 100, // Amount in paise (₹500)
+      amount: 50000, // Amount in paise (₹500)
       currency: "INR",
       name: "BlissQuants Data Analytics",
       description: "Webinar Registration Fee",
@@ -19,7 +19,7 @@ const RegistrationForm = () => {
       prefill: {
         name: "Aarchi Shah",
         email: "aarchi@example.com",
-        contact: "+91 9898032020",
+        contact: "9999999999",
       },
       theme: {
         color: "#84c225",
@@ -63,7 +63,7 @@ const RegistrationForm = () => {
         {!isSubmitted ? (
           <form onSubmit={handleSubmit}>
             <button type="submit" className="submit-button">
-              Pay & Register
+              Register Here
             </button>
           </form>
         ) : (
