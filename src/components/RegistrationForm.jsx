@@ -7,7 +7,7 @@ const RegistrationForm = () => {
   const handlePayment = () => {
     const options = {
       key: "rzp_live_YMAybP6URgvGuF", // Replace with your Razorpay Key ID
-      amount: 5, // Amount in paise (₹500)
+      amount: 100, // Amount in paise (₹500)
       currency: "INR",
       name: "BlissQuants Data Analytics",
       description: "Webinar Registration Fee",
