@@ -68,7 +68,7 @@ const EnhancedFinanceCourses = () => {
               </div>
               
               <div className="card-footer">
-                <div className="course-price">{course.price}</div>
+                <div className="new-course-price">{course.price}</div>
                 <a href={course.link} className="course-button">
                   {course.buttonText}
                   <span className="button-icon"><ArrowRightIcon /></span>
