@@ -9,7 +9,7 @@ const FinanceCoursesPricing = () => {
       description: "Live Offline One-Day Course",
       price: "₹299",
       buttons: [
-        { text: "Learn More", link: "/EfqLanding" }
+        { text: "View Course", link: "/EfqLanding" }
       ]
     },
     {
@@ -17,7 +17,7 @@ const FinanceCoursesPricing = () => {
       description: "Live Online Three-Day Course",
       price: "₹5,000",
       buttons: [
-        { text: "Learn More", link: "/EfqLanding" }
+        { text: "View Course", link: "/EfqLanding" }
       ]
     },
     {
