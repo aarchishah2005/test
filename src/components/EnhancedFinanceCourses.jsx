@@ -16,7 +16,7 @@ const EnhancedFinanceCourses = () => {
       title: "Fearless Financial Investment",
       description: "Live Offline One-Day Course",
       price: "₹299",
-      buttonText: "Learn More",
+      buttonText: "View Course",
       link: "/EfqLanding",
       highlights: ["One full-day intensive workshop", "Practical investment strategies", "Expert-led sessions"]
     },
@@ -24,7 +24,7 @@ const EnhancedFinanceCourses = () => {
       title: "Fearless Financial Trading",
       description: "Live Online Three-Day Course",
       price: "₹5,000",
-      buttonText: "Learn More",
+      buttonText: "View Course",
       link: "/EfqLanding",
       highlights: ["3-day comprehensive program", "Live trading demonstrations", "Personalized feedback"]
     },
