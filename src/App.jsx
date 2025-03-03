@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import EfqLanding from "./pages/EfqLanding";
 import Profile from "./components/profile";
 import Policies from "./components/Policies" ;
+import Coaching from "./pages/Coaching";
 
 
   const Home = () => (
@@ -69,6 +70,7 @@ import Policies from "./components/Policies" ;
           <Routes>
             <Route path="/" element={<Home />} />
 {/*             <Route path="/About" element={<About />} /> */}
+            <Route path="/Coaching" element={<Coaching />} />
             <Route path="/EfqLanding" element={<EfqLanding />} />
             <Route path="/Policies" element={<Policies />} />
           </Routes>
