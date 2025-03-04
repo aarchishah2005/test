@@ -21,7 +21,7 @@ const RegistrationForm = () => {
     <div className="form-container">
       <div className="registration-card">
         <div className="form-header">
-          <h2>What you will learn in 90 minutes</h2>
+          <h2>What you will learn in 120 minutes</h2>
           <ul className="secrets-list">
             <li>
               <span className="checkmark">✓</span>
