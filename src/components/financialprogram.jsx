@@ -11,9 +11,9 @@ const FinancialPrograms = () => {
             <br/>
           Registration number  INH000007100 </h2>
           <p className="financial-text">
-            Join me and Enrich Your Financial Quotient
+            Register  Enrich Your Financial Quotient- EFQ webinar to know more about our Fiannancial Educative programs
             <br/>
-            because financial freedom should never be a fear, it should be a way of life.
+            
           </p>
         </div>
       </div>
