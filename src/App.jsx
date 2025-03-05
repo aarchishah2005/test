@@ -31,11 +31,11 @@ import Coaching from "./pages/Coaching";
             
             ={{ paddingTop: '60px' }} 
           />
-          <Button text="Fear less, Learn More" />
 
           <Profile/>
 
           <FinancialPrograms />
+          <Button text="Fear less, Learn More"  />
 
           <FinancialCards />
 
