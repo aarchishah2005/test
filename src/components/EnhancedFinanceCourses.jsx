@@ -14,7 +14,7 @@ const EnhancedFinanceCourses = () => {
   const courses = [
     {
       title: "Fearless Financial Investment",
-      description: "Live Offline One-Day Course",
+      description: "One-Day Course",
       price: "₹299",
       buttonText: "View Course",
       link: "/EfqLanding",
@@ -22,7 +22,7 @@ const EnhancedFinanceCourses = () => {
     },
     {
       title: "Fearless Financial Trading",
-      description: "Live Online Three-Day Course",
+      description: "Three-Day Course",
       price: "₹5,000",
       buttonText: "View Course",
       link: "/EfqLanding",
@@ -30,7 +30,7 @@ const EnhancedFinanceCourses = () => {
     },
     {
       title: "Mastering Options",
-      description: "Live Online 6 months Course",
+      description: "Six Months Course",
       price: "₹10,000",
       buttonText: "View Course",
       link: "/EfqLanding",
