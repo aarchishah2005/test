@@ -3,7 +3,7 @@ import "./Coaching.css"; // Create this file for styling
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
 import FinancialPrograms from '../components/financialprogram';
 import Footer from "../components/Footer";
-import FinanceCoursesPricing from '../components/FinanceCoursesPricing';
+// import FinanceCoursesPricing from '../components/FinanceCoursesPricing';
 import EnhancedFinanceCourses from '../components/EnhancedFinanceCourses'
 
 function About() {
@@ -16,7 +16,7 @@ function About() {
 
         
         <FinancialPrograms/>
-        <FinanceCoursesPricing/>
+        {/* <FinanceCoursesPricing/> */}
         <EnhancedFinanceCourses/>
         <Footer />
         
