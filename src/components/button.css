@@ -9,6 +9,7 @@
     border: none;
     padding: 12px 24px;
     font-size: 18px;
+    font-weight: 500;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -16,7 +17,8 @@
   }
   
   .explore-button:hover {
-    background-color: #84c225;
+    background-color: #ffffff;
+    color: #84c225;
   }
   
   .explore-button:active {
@@ -27,5 +29,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    /* height: 20vh; */
   }

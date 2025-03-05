@@ -15,7 +15,7 @@ const EnhancedFinanceCourses = () => {
     {
       title: "Fearless Financial Investment",
       description: "One-Day Course",
-      price: "₹299",
+      // price: "₹299",
       buttonText: "View Course",
       link: "/EfqLanding",
       highlights: ["One full-day intensive workshop", "Practical investment strategies", "Expert-led sessions"]
@@ -23,7 +23,7 @@ const EnhancedFinanceCourses = () => {
     {
       title: "Fearless Financial Trading",
       description: "Three-Day Course",
-      price: "₹5,000",
+      // price: "₹5,000",
       buttonText: "View Course",
       link: "/EfqLanding",
       highlights: ["3-day comprehensive program", "Live trading demonstrations", "Personalized feedback"]
@@ -31,7 +31,7 @@ const EnhancedFinanceCourses = () => {
     {
       title: "Mastering Options",
       description: "Six Months Course",
-      price: "₹10,000",
+      // price: "₹10,000",
       buttonText: "View Course",
       link: "/EfqLanding",
     highlights: ["In-depth 6-month curriculum", "Weekly mentoring sessions", "Real market applications"]
@@ -68,12 +68,13 @@ const EnhancedFinanceCourses = () => {
               </div>
               
               <div className="card-footer">
-                <div className="new-course-price">{course.price}</div>
+                {/* <div className="new-course-price">{course.price}</div> */}
                 <a href={course.link} className="course-button">
                   {course.buttonText}
                   <span className="button-icon"><ArrowRightIcon /></span>
                 </a>
               </div>
+              <hr />
             </div>
           </div>
         ))}

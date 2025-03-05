@@ -1,9 +1,10 @@
 /* Container styles */
 .finance-container {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding: 1.5rem;
-    border-radius: 0.5rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  /* background-color: #faf9f4;  */
+  padding: 1.5rem;
+  border-radius: 0.5rem;
   }
 
   /* Grid layout */
@@ -23,23 +24,21 @@
   .course-card {
     position: relative;
     overflow: hidden;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 0.75rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
   }
   
-  .course-card.hovered {
+  /* .course-card.hovered {
     transform: scale(1.05);
   }
-  
+   */
   .card-accent {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 4px;
-    background-image: linear-gradient(to right, #84c225, #84c225);
   }
   
   .card-content {
@@ -55,13 +54,13 @@
   
   
   .course-title {
-    font-size: 1.125rem;
+    font-size: 1.7rem;
     font-weight: 600;
     color: #84c225;
   }
   
   .course-description {
-    font-size: 0.875rem;
+    font-size: 1.3rem;
     color: #84c225;
     margin-bottom: 1rem;
   }
@@ -78,29 +77,23 @@
   }
   
   .highlight-bullet {
-    color: #3b3531;
+    color: #ffffff;
     margin-right: 0.5rem;
-    margin-top: 0.25rem;
+    margin-top: 1rem;
   }
   
   .highlight-text {
-    font-size: 0.875rem;
-    color: #3b3531;
+    font-size: 1rem;
+    color: #ffffff;
   }
   
   /* Card footer */
   .card-footer {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 1rem;
-    border-top: 1px solid #f3f4f6;
-  }
-  
-  .new-course-price {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #3b3531;
+    align-items: right;
+    justify-content: flex-end;
+    padding-top: 0.5rem;
+    /* border-bottom: 1px solid #f3f4f6; */
   }
   
   .course-button {
@@ -114,6 +107,7 @@
     border-radius: 0.5rem;
     text-decoration: none;
     transition: background-color 0.3s ease;
+    margin-bottom: auto;
   }
   
   .course-button:hover {
@@ -131,13 +125,3 @@
     transform: translateX(4px);
   }
   
-  /* Notice section */
-  .course-notice {
-    margin-top: 2rem;
-    text-align: center;
-  }
-  
-  .course-notice p {
-    font-size: 0.875rem;
-    color: #047857;
-  }

@@ -12,28 +12,28 @@ const FinancialCards = () => {
     {
       title: "Fearless Financial Investment",
       subTitle: "One-Day Course",
-      image: "/assets/IntroToFinance.jpg",
+      image: "/assets/Financial_Investment.png",
       mainTitle: "Fearless Financial Investment",
       buttons: [
-        { text: "Learn More", link: "/EfqLanding" }
+        { text: "Learn More", link: "../Coaching" }
       ]
     },
     {
       title: "Fearless Financial Trading",
       subTitle: "Three-Day Course",
-      image: "/assets/financial_roadmap.png",
+      image: "/assets/Financial_Trading.jpeg",
       mainTitle: "Fearless Financial Trading",
       buttons: [
-        { text: "Learn More", link: "/EfqLanding" }
+        { text: "Learn More", link: "../Coaching" }
       ]
     },
     {
       title: "Mastering Options",
       subTitle: "Six Months Course",
-      image: "/assets/dell_article.jpg",
+      image: "/assets/Mastering_Options.jpeg",
       mainTitle: "Mastering Options",
       buttons: [
-        { text: "Learn More", link: "/EfqLanding" }
+        { text: "Learn More", link: "../Coaching" }
       ]
     }
   ];
