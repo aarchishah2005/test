@@ -13,7 +13,7 @@ const FinancialPrograms = () => {
           <p className="financial-text">
           {/*             Know more about our Fiannancial Educative programs */}  
             <br/>
-              Join Enrich Your Financial Quotient- EFQ  Our exclusive - EFQ session 
+              Join Enrich Your Financial Quotient :: Our exclusive EFQ session 
           </p>
         </div>
       </div>
