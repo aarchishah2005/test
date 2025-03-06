@@ -23,7 +23,7 @@ import Coaching from "./pages/Coaching";
           <Heading 
             mainText={
               <>
-                  <span style={{ color: "#84c225"  }}>
+                  <span style={{ fontSize: "80px", color: "#84c225" , fontWeight:"550" }}>
                   Fearless Finance Isn’t a Dream, <br />
                   It’s a Decision!</span>
                   <br/><span style={{ fontSize: "30px", color: "#ffffff"  }}>Learn to take charge</span>
