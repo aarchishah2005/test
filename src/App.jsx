@@ -27,7 +27,7 @@ import Coaching from "./pages/Coaching";
                 className="finance-banner"
                 style={{ width: "100%", height: "auto" }}
               />
-          <Heading 
+{/*           <Heading 
             mainText={
               <>
                   <span style={{ fontSize: "70px", color: "#84c225" }}>
@@ -39,7 +39,7 @@ import Coaching from "./pages/Coaching";
             style
             
             ={{ marginTop: '200px', marginBottom: '100px' }} 
-          />
+          /> */}
 
           <Profile/>
 
