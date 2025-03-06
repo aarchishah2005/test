@@ -12,9 +12,11 @@ import TestimonialCarousel from "../components/TestimonialCarousel";
 
 function EfqLanding() {
 
-  useEffect(() => {
+useEffect(() => {
+    console.log("Scrolling to top...");
     window.scrollTo(0, 0);  // Scrolls to the top when component mounts
   }, []);
+
 
   const images1 = [
     { src: "/assets/book_launch.jpeg", alt: "Conference room with people at computers" },
