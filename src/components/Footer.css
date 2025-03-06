@@ -75,7 +75,7 @@
 /* Hover effects for social icons */
 .social-icon:hover {
     transform: scale(1.1);
-    background-color: #ffffff
+    background-color: #ffffff;
 }
 
 .facebook:hover {
@@ -124,5 +124,38 @@
         width: 28px;
         height: 28px;
         padding: 6px;
+    }
+}
+
+/* Mobile Optimization (Below 480px) */
+@media (max-width: 480px) {
+    .footer {
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    .footer-links {
+        gap: 4px;
+        flex-wrap: wrap;
+    }
+
+    .footer-link {
+        font-size: 11px;
+        padding: 2px 6px;
+    }
+
+    .separator {
+        font-size: 11px;
+    }
+
+    .social-icons {
+        gap: 8px;
+    }
+
+    .social-icon {
+        font-size: 12px;
+        width: 24px;
+        height: 24px;
+        padding: 5px;
     }
 }
