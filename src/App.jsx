@@ -29,7 +29,7 @@ import Coaching from "./pages/Coaching";
             }
             style
             
-            ={{ paddingTop: '60px' }} 
+            ={{ marginTop: '200px', marginBottom: '200px' }} 
           />
 
           <Profile/>
