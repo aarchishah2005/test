@@ -30,7 +30,7 @@ import Coaching from "./pages/Coaching";
             }
             style
             
-            ={{ marginTop: '200px', marginBottom: '200px' }} 
+            ={{ marginTop: '200px', marginBottom: '180px' }} 
           />
 
           <Profile/>
