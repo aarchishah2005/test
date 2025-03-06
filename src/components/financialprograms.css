@@ -15,14 +15,14 @@
 
 .financial-title {
     font-family: 'Quicksand', sans-serif;
-    color: #ffffff;
-    font-size: 3.5rem;
+    color: #84c225;
+    font-size: 50px;
     font-weight: 400;
 }
 
 .financial-text {
     color: #ffffff;
-    font-size: 1.7rem;
+    font-size: 18px;
     line-height: 2rem;
     max-width: 900px;
     margin: 0 auto;
