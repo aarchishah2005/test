@@ -20,6 +20,13 @@ import Coaching from "./pages/Coaching";
     <div className="App">
       <div className="background">
           {/* <Header /> */}
+
+            <img 
+                src="./assets/heading_image.jpg" 
+                alt="Finance Banner" 
+                className="finance-banner"
+                style={{ width: "100%", height: "auto" }}
+              />
           <Heading 
             mainText={
               <>
