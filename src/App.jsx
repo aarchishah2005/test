@@ -25,7 +25,7 @@ import Coaching from "./pages/Coaching";
               <>
                   Fearless Finance Isn’t a Dream, <br />
                   It’s a Decision!
-                  <br/><span style={{ fontSize: "30px" }}>Learn to take charge.</span>
+                  <br/><span style={{ fontSize: "30px", color: "#84c225"  }}>Learn to take charge</span>
               </>
             }
             style
