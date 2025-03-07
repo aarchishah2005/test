@@ -10,7 +10,7 @@
     justify-content: center;
     width: 95%;
     border-radius: 25px;
-  font-family: 'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .contact-content {
@@ -24,7 +24,7 @@
   
   .contact-info {
     flex: 1;
-    padding-top: 2rem;
+    /* padding-top: 2rem; */
     font-family: 'Quicksand', sans-serif;
   }
   
@@ -73,6 +73,7 @@
   
   .input-row .form-input {
     flex: 1;
+    width: 227px;
   }
   
   .form-textarea {
