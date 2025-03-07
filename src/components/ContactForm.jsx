@@ -47,14 +47,14 @@ const ContactForm = () => {
             onChange={handleChange}
             className="form-input"
           />
-        /*  <input
+          {/*  <input
             type="text"
             name="address"
             placeholder="Address"
             value={formData.address}
             onChange={handleChange}
             className="form-input" 
-          /> */
+          /> */}
           <div className="input-row">
             <input
               type="email"
@@ -73,14 +73,14 @@ const ContactForm = () => {
               className="form-input"
             />
           </div>
-         /* <input
+          { /* <input
             type="text"
             name="subject"
             placeholder="Subject"
             value={formData.subject}
             onChange={handleChange}
             className="form-input"
-          />*/
+          />*/}
           <textarea
             name="message"
             placeholder="Type your message here..."
