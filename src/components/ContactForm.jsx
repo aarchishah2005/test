@@ -32,22 +32,28 @@ const ContactForm = () => {
           <h2 className="contact-title">
            
             
-            Let's Connect
+            Let's Connect <br />
             Falguni Vahora is SEBI registered Research Analyst.<br />
             She is an Engineer. She is truly passionate about Finance and Stock markets.<br />
             She has been a trainer and educator for many market learners.<br />
             She researches both technical and fundamental parameters. <br />
+
+            <br />
             Contact number : +91 92096 32020<br />
+            <br />
 
             Surat :	D 422 ITC, Majura gate,<br />
                     Surat – 395002, Gujarat.<br />
+
+            <br />
             Pune :	A11, The Laburnums, Mitcon Road,<br />
                     Balewadi, Pune – 411045, Maharashtra<br />
+
+            <br />
             E-mail: inquiry@BlissQuants.com <br />
 
             👉Join our whatsapp community  <br />
-
-        https://chat.whatsapp.com/HrP2fRUkkI75Qj8pcCuTct
+        https://chat.whatsapp.com/HrP2fRUkkI75Qj8pcCuTct <br />
        
           </h2>
 
