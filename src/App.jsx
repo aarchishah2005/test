@@ -48,7 +48,7 @@ import Coaching from "./pages/Coaching";
 
           <FinancialCards />
 
-{/*           <ContactForm /> */}
+          <ContactForm /> 
           
           <Footer />
       </div>
