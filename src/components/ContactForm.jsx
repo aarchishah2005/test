@@ -31,8 +31,19 @@ const ContactForm = () => {
         <div className="contact-info">
           <h2 className="contact-title">
            
-            Our exclusive - EFQ session <br />
-            Enrich Your Financial Quotient <br />
+            
+            Let's Connect
+            Falguni Vahora is SEBI registered Research Analyst.<br />
+            She is an Engineer. She is truly passionate about Finance and Stock markets.<br />
+            She has been a trainer and educator for many market learners.<br />
+            She researches both technical and fundamental parameters. <br />
+            Contact number : +91 92096 32020<br />
+
+            Surat :	D 422 ITC, Majura gate,<br />
+                    Surat – 395002, Gujarat.<br />
+            Pune :	A11, The Laburnums, Mitcon Road,<br />
+                    Balewadi, Pune – 411045, Maharashtra<br />
+            E-mail: inquiry@BlissQuants.com <br />
        
           </h2>
 
