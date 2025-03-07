@@ -44,6 +44,10 @@ const ContactForm = () => {
             Pune :	A11, The Laburnums, Mitcon Road,<br />
                     Balewadi, Pune – 411045, Maharashtra<br />
             E-mail: inquiry@BlissQuants.com <br />
+
+            👉Join our whatsapp community  <br />
+
+        https://chat.whatsapp.com/HrP2fRUkkI75Qj8pcCuTct
        
           </h2>
 
