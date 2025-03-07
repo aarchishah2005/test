@@ -48,14 +48,10 @@ A SEBI-registered research analyst and author of Mastering Options Delta Trading
             Surat :	D 422 ITC, Majura gate, Surat – 395002, Gujarat.<br />
             <br />
 
-            <br />
             Pune :	A11, The Laburnums, Mitcon Road, Balewadi, Pune – 411045, Maharashtra<br />
-
              <br />
            
-            <br />
-
-            👉Join our whatsapp community https://chat.whatsapp.com/HrP2fRUkkI75Qj8pcCuTct <br />
+           👉Join our whatsapp community https://chat.whatsapp.com/HrP2fRUkkI75Qj8pcCuTct <br />
        
           </h2>
 
