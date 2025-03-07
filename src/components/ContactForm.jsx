@@ -32,11 +32,14 @@ const ContactForm = () => {
           <h2 className="contact-title">
            
             
-            Let's Connect <br />
-            Falguni Vahora is SEBI registered Research Analyst.<br />
-            She is an Engineer. She is truly passionate about Finance and Stock markets.<br />
-            She has been a trainer and educator for many market learners.<br />
-            She researches both technical and fundamental parameters. <br />
+            Let's Connect <br /><br />
+
+            Falguni Vahora is a fearless finance leader, investor, and advocate for financial empowerment, especially for women. <br />
+A BE-EC graduate from NIIT Surat, she has 27+ years of experience spanning software development, finance, and stock market trading. <br />
+She co-founded BlissQuants Analytics, leads a trading desk of 40+ professionals, and has trained 800+ individuals in investment and trading. <br />
+A SEBI-registered research analyst and author of Mastering Options Delta Trading, she blends expertise in data analytics, risk management, and coaching to transform financial education.<br />
+
+           <br />
 
             <br />
             Contact number : +91 92096 32020<br />
@@ -44,13 +47,17 @@ const ContactForm = () => {
 
             Surat :	D 422 ITC, Majura gate,<br />
                     Surat – 395002, Gujarat.<br />
+            <br />
 
             <br />
             Pune :	A11, The Laburnums, Mitcon Road,<br />
                     Balewadi, Pune – 411045, Maharashtra<br />
 
             <br />
+            <br />
             E-mail: inquiry@BlissQuants.com <br />
+
+            <br />
 
             👉Join our whatsapp community  <br />
         https://chat.whatsapp.com/HrP2fRUkkI75Qj8pcCuTct <br />
