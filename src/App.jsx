@@ -22,7 +22,7 @@ import Coaching from "./pages/Coaching";
           {/* <Header /> */}
 
             <img 
-                src="./assets/heading_image.png" 
+                src="./assets/heading_image.jpg" 
                 alt="Finance Banner" 
                 className="finance-banner"
                 style={{ width: "100%", height: "auto" }}
