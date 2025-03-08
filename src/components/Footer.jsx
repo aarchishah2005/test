@@ -53,14 +53,14 @@ const Footer = () => {
     setIsRefundOpen(false);
   };
 
-  
-  const scrollToContact = () => {
-    const contactSection = document.getElementById("contact");
-    if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
-
+const scrollToContact = () => {
+  const contactSection = document.getElementById("contact");
+  if (contactSection) {
+    contactSection.scrollIntoView({ behavior: "smooth" });
+    setMenuOpen(false); // Close menu after clicking
+  }
+};
+    
   return (
     <>
       <footer className="footer">
