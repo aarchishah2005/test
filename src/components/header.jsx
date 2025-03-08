@@ -69,10 +69,11 @@ const Header = () => {
         <NavLink to="/" text="Home" onClick={toggleMenu} />
 {/*         <NavLink to="/about" text="About" onClick={toggleMenu} /> */}
      {/*   <NavLink to="/Coaching" text="Coaching" onClick={toggleMenu} /> */}
-         <NavLink to="#contact" text="Contact" onClick={scrollToContact} /> {/* Updated Contact */}
+         <NavLink to="https://www.falgunivahora.com/EfqLanding" text="Session" onClick={scrollToContact} /> {/* Updated Contact */}
         <NavLink to="https://www.amazon.in/dp/B09NWH5S7R" text="Book" onClick={toggleMenu} />
-        <NavLink to="https://blissquants.com/BlissAboutUs#collapseFive" text="Contact" onClick={toggleMenu} />
+        <NavLink to="#contact" text="Contact" onClick={toggleMenu} />
       </div>
+   
 
       <hr
         style={{
