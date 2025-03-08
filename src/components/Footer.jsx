@@ -8,7 +8,7 @@ import RefundPolicy from './RefundPolicy';
 import Policies from './Policies';
 
 // Import social media icons from react-icons
-import { FaFacebookF, FaGoogle, FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaGoogle, FaLinkedinIn } from 'react-icons/fa';
 
 const Footer = () => {
     const [isDisclaimerOpen, setIsDisclaimerOpen] = useState(false);
@@ -91,8 +91,8 @@ const Footer = () => {
             <a href="https://www.facebook.com/blissquants" className="social-icon facebook" target="_blank" rel="noopener noreferrer">
               <FaFacebookF />
             </a>
-                <a href="https://www.instagram.com/falgunivahora/ " className="social-icon facebook" target="_blank" rel="noopener noreferrer">
-              <FaFacebookF />
+                <a href="https://www.instagram.com/falgunivahora/ " className="social-icon instagram" target="_blank" rel="noopener noreferrer">
+              <FaInstagramF />
             </a> 
             <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html" className="social-icon google" target="_blank" rel="noopener noreferrer">
               <FaGoogle />
