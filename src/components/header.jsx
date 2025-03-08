@@ -11,6 +11,14 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+      setMenuOpen(false); // Close menu after clicking
+    }
+  };
+
   // Close the dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -61,7 +69,7 @@ const Header = () => {
         <NavLink to="/" text="Home" onClick={toggleMenu} />
 {/*         <NavLink to="/about" text="About" onClick={toggleMenu} /> */}
      {/*   <NavLink to="/Coaching" text="Coaching" onClick={toggleMenu} /> */}
-         <NavLink to="/ContactForm"  text="Contact" onClick={toggleMenu} />
+         <NavLink to="#contact" text="Contact" onClick={scrollToContact} /> {/* Updated Contact */}
         <NavLink to="https://www.amazon.in/dp/B09NWH5S7R" text="Book" onClick={toggleMenu} />
         <NavLink to="https://blissquants.com/BlissAboutUs#collapseFive" text="Contact" onClick={toggleMenu} />
       </div>
