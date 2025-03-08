@@ -91,6 +91,9 @@ const Footer = () => {
             <a href="https://www.facebook.com/blissquants" className="social-icon facebook" target="_blank" rel="noopener noreferrer">
               <FaFacebookF />
             </a>
+                <a href="https://www.instagram.com/falgunivahora/ " className="social-icon facebook" target="_blank" rel="noopener noreferrer">
+              <FaFacebookF />
+            </a> 
             <a href="https://workspaceupdates.googleblog.com/2023/04/new-community-features-for-google-chat-and-an-update-currents%20.html" className="social-icon google" target="_blank" rel="noopener noreferrer">
               <FaGoogle />
             </a>
