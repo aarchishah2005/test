@@ -81,9 +81,13 @@ const Footer = () => {
                     <a href="https://blissquants.com/BlissAboutUs#collapseFive" className="footer-link" target="_blank" rel="noopener noreferrer">Contact Us</a>
 {/*                     <span className="footer-link" onClick={scrollToContact} style={{ cursor: "pointer" }}>
                         Contact Us
-                    </span> */}
+                    </span> 
+                    
+<NavLink to="#contact" text="Contact" onClick={scrollToContact} />
+                    
+                    */}
 
-                    // <NavLink to="#contact" text="Contact" onClick={scrollToContact} /> 
+                     
                     <div className="separator">|</div>
                     <a href="#" className="footer-link" onClick={openDisclaimer}>Disclaimer</a>
                     <div className="separator">|</div>
