@@ -48,7 +48,9 @@ import Coaching from "./pages/Coaching";
 
           <FinancialCards />
 
-          <ContactForm /> 
+          <section id="contact">
+            <ContactForm />
+          </section>
           
           <Footer />
       </div>
