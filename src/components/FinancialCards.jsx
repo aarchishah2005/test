@@ -28,10 +28,10 @@ const FinancialCards = () => {
       ]
     },
     {
-      title: "Mastering Options",
-      subTitle: "Six Months Course",
+      title: "Fearless Options Mastery",
+      subTitle: "One Year Course",
       image: "/assets/Mastering_Options.jpeg",
-      mainTitle: "Mastering Options",
+      mainTitle: "Fearless Options Mastery",
       buttons: [
         { text: "Learn More", link: "../Coaching" }
       ]
