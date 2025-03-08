@@ -29,7 +29,7 @@ const FinancialCards = () => {
     },
     {
       title: "Fearless Options Mastery",
-      subTitle: "One Year Course",
+      subTitle: "One-Year Course",
       image: "/assets/Mastering_Options.jpeg",
       mainTitle: "Fearless Options Mastery",
       buttons: [
