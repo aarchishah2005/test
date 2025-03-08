@@ -53,13 +53,13 @@ const Footer = () => {
     setIsRefundOpen(false);
   };
 
-const scrollToContact = () => {
-  const contactSection = document.getElementById("contact");
-  if (contactSection) {
-    contactSection.scrollIntoView({ behavior: "smooth" });
-    setMenuOpen(false); // Close menu after clicking
-  }
-};
+// const scrollToContact = () => {
+//   const contactSection = document.getElementById("contact");
+//   if (contactSection) {
+//     contactSection.scrollIntoView({ behavior: "smooth" });
+//     setMenuOpen(false); // Close menu after clicking
+//   }
+// };
     
   return (
     <>
@@ -78,10 +78,10 @@ const scrollToContact = () => {
                     <div className="separator">|</div>
                     <a href="https://blissquants.com/BlissAboutUs#collapseThree" className="footer-link" target="_blank" rel="noopener noreferrer">Career</a>
                     <div className="separator">|</div>
-{/*                     <a href="https://blissquants.com/BlissAboutUs#collapseFive" className="footer-link" target="_blank" rel="noopener noreferrer">Contact Us</a> */}
-                    <span className="footer-link" onClick={scrollToContact} style={{ cursor: "pointer" }}>
+                    <a href="https://blissquants.com/BlissAboutUs#collapseFive" className="footer-link" target="_blank" rel="noopener noreferrer">Contact Us</a>
+{/*                     <span className="footer-link" onClick={scrollToContact} style={{ cursor: "pointer" }}>
                         Contact Us
-                    </span>
+                    </span> */}
 
                     // <NavLink to="#contact" text="Contact" onClick={scrollToContact} /> 
                     <div className="separator">|</div>
