@@ -81,6 +81,7 @@ import Coaching from "./pages/Coaching";
 {/*             <Route path="/About" element={<About />} /> */}
             <Route path="/Coaching" element={<Coaching />} />
             <Route path="/EfqLanding" element={<EfqLanding />} />
+            <Route path="/ContactForm" element={<ContactForm />} />
             <Route path="/Policies" element={<Policies />} />
           </Routes>
       </Router>
