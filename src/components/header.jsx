@@ -71,7 +71,8 @@ const Header = () => {
      {/*   <NavLink to="/Coaching" text="Coaching" onClick={toggleMenu} /> */}
          <NavLink to="https://www.falgunivahora.com/EfqLanding" text="Session" onClick={toggleMenu} /> {/* Updated Contact */}
         <NavLink to="https://www.amazon.in/dp/B09NWH5S7R" text="Book" onClick={toggleMenu} />
-        <NavLink to="#contact" text="Contact" onClick={scrollToContact} />
+        <NavLink to="https://www.falgunivahora.com/#contact" text="Contact" onClick={scrollToContact} />
+        
       </div>
    
 
