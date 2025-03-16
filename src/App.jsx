@@ -79,7 +79,7 @@ import Coaching from "./pages/Coaching";
       <Router>
         <Header />
           <Routes>
-            <Route path="/Home" element={<Home />} />
+            <Route path="/" element={<Home />} />
 {/*             <Route path="/About" element={<About />} /> */}
             <Route path="/Coaching" element={<Coaching />} />
             <Route path="/EfqLanding" element={<EfqLanding />} />
