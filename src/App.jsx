@@ -13,6 +13,7 @@ import EfqLanding from "./pages/EfqLanding";
 import Profile from "./components/profile";
 import Policies from "./components/Policies" ;
 import Coaching from "./pages/Coaching";
+import { useLocation } from "react-router-dom";
 
 
   const Home = () => (
@@ -48,17 +49,27 @@ import Coaching from "./pages/Coaching";
 
           <FinancialCards />
 
-          <section id="contact">
-            <ContactForm />
-          </section>
-          
+            <section id="contact">
+              <ContactForm />
+            </section>
           <Footer />
       </div>
     </div>
   );
 
   function App() {
+
+    const location = useLocation();
+    
     useEffect(() => {
+      if (location.hash) {
+        const element = document.getElementById(location.hash.substring(1));
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    }, [location]);
+
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
