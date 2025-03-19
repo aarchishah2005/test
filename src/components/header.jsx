@@ -11,13 +11,22 @@ const Header = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const scrollToContact = () => {
+  /*const scrollToContact = () => {
     const contactSection = document.getElementById("contact");
     if (contactSection) {
       contactSection.scrollIntoView({ behavior: "smooth" });
       setMenuOpen(false); // Close menu after clicking
     }
-  };
+  };*/
+
+  const handleRedirectContactUs = (event) => {
+    event.preventDefault(); // Prevent default navigation behavior
+
+    const element = document.getElementById("contact");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+      window.history.pushState(null, "", "/#contact"); // Update URL without reload
+    }
 
   // Close the dropdown when clicking outside
   useEffect(() => {
@@ -71,7 +80,8 @@ const Header = () => {
      {/*   <NavLink to="/Coaching" text="Coaching" onClick={toggleMenu} /> */}
          <NavLink to="/EfqLanding" text="Session" onClick={toggleMenu} /> {/* Updated Contact */}
         <NavLink to="https://www.amazon.in/dp/B09NWH5S7R" text="Book" onClick={toggleMenu} />
-        <NavLink to="/#contact" text="Contact" onClick={scrollToContact} />
+        /*<NavLink to="/#contact" text="Contact" onClick={scrollToContact} />*/
+        <NavLink to="/#contact" onClick={handleRedirectContactUs} text="Contact" >Go to Contact</NavLink>
         
       </div>
    
