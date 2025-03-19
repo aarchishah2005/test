@@ -78,7 +78,7 @@ const Footer = () => {
                     <div className="separator">|</div>
                     <a href="https://blissquants.com/BlissAboutUs#collapseThree" className="footer-link" target="_blank" rel="noopener noreferrer">Career</a>
                     <div className="separator">|</div>
-                <a href="https://blissquants.com/BlissAboutUs#collapseFive" className="footer-link" target="_blank" rel="noopener noreferrer">Contact Us</a> 
+                <a href="https://www.falgunivahora.com#contact" className="footer-link" target="_blank" rel="noopener noreferrer">Contact Us</a> 
                 {/* <a href="https://www.falgunivahora.com/#contact" className="footer-link" target="_blank" rel="noopener noreferrer">Contact Us</a>*/}
                 
 {/*                     <span className="footer-link" onClick={scrollToContact} style={{ cursor: "pointer" }}>
