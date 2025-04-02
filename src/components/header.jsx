@@ -19,15 +19,6 @@ const Header = () => {
     }
   };
 
-  /* const handleRedirectContactUs = (event) => {
-    event.preventDefault(); // Prevent default navigation behavior
-
-    const element = document.getElementById("contact");
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      window.history.pushState(null, "", "/#contact"); // Update URL without reload
-    }*/
-
   // Close the dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -81,7 +72,6 @@ const Header = () => {
          <NavLink to="/EfqLanding" text="Session" onClick={toggleMenu} /> {/* Updated Contact */}
         <NavLink to="https://www.amazon.in/dp/B09NWH5S7R" text="Book" onClick={toggleMenu} />
         <NavLink to="/#contact" text="Contact" onClick={scrollToContact} />
-        /*<NavLink to="/#contact" onClick={handleRedirectContactUs} text="Contact" >Go to Contact</NavLink>*/
         
       </div>
    
