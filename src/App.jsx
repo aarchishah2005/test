@@ -10,6 +10,7 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 // import About from "./pages/About";
 import EfqLanding from "./pages/EfqLanding";
+import Contact from "./pages/Contact";
 import Profile from "./components/profile";
 import Policies from "./components/Policies" ;
 import Coaching from "./pages/Coaching";
@@ -83,7 +84,8 @@ import Coaching from "./pages/Coaching";
             <Route path="/Coaching" element={<Coaching />} />
             <Route path="/EfqLanding" element={<EfqLanding />} />
             <Route path="/ContactForm" element={<ContactForm />} />
-            /*<Route path="/ContactForm" element={<ContactForm />} />*/
+              <Route path="/Contact" element={<Contact />} />
+            {/*<Route path="/ContactForm" element={<ContactForm />} />*/}
             <Route path="/Policies" element={<Policies />} />
           </Routes>
       </Router>
