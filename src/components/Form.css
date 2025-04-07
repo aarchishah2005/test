@@ -1,0 +1,79 @@
+/* Main Container */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 1100px;
+    
+}
+
+/* Left Image */
+.left-image img{
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+/* Right Form */
+.right-form {
+    
+    
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 30px;
+    background-color: #3b3531;
+}
+
+.right-form h2 {
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.right-form input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.right-form button {
+    background: #84c225;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 95%;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    
+}
+
+.right-form button:hover {
+    background: #84c225;
+}
+input, select {
+    width: 93%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: #ffffff/* Dark background */
+   
+    
+    
+  }
+  
+  input::placeholder, select {
+    color: rgba(20, 19, 19, 0.7); /* Light placeholder text */
+  }
+  

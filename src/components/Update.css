@@ -1,0 +1,31 @@
+
+.Update {
+    background:#3b3531 ;
+    color:#ffffff;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+
+}
+
+.Update-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.Update-form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.Update-form button {
+    background: #84c225 ;
+    color: white;
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
