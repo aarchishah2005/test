@@ -5,14 +5,10 @@ const Form = () => {
   const [selectedProgram, setSelectedProgram] = useState("Programs Interested");
 
   const programs = [
-    "Million Dollar Morning – 5 Days",
-    "30 Days Rise n Shine Manifestation Achievers",
-    "Master your Money Mindset – 5 days",
-    "21 days Millionaire Mindset Mastery Bootcamp",
-    "Million Dollar Coach Training",
-    "Advanced Ho’oponopono Healing Certification",
-    "Ultimate Quantum Leap (UQL)",
-    "1:1 Clarity Session",
+    "Exclusive EFQ Session :: Enrich Your Financial Quotient",
+    "Fearless Financial Investment",
+    "Fearless Financial Trading",
+    "Fearless Options Mastery"
   ];
 
   return (
