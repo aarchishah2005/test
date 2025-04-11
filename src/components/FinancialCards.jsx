@@ -15,7 +15,7 @@ const FinancialCards = () => {
       image: "/assets/Financial_Investment.png",
       mainTitle: "Fearless Financial Investment",
       buttons: [
-        { text: "Learn More", link: "../EfqLanding" }
+        { text: "Learn More", link: "/FinanceCoursesPricing" }
       ]
     },
     {
