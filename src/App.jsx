@@ -6,6 +6,7 @@ import Heading from './components/heading';
 import Button from './components/button';
 import FinancialPrograms from './components/financialprogram';
 import FinancialCards from './components/FinancialCards';
+import FinanceCoursesPricing from './components/FinanceCoursesPricing';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 // import About from "./pages/About";
