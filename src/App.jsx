@@ -89,7 +89,7 @@ import Coaching from "./pages/Coaching";
               <Route path="/Contact" element={<Contact />} />
             {/*<Route path="/ContactForm" element={<ContactForm />} />*/}
             <Route path="/Policies" element={<Policies />} />
-             <Route path="/EnhancedFinanceCourses" element={<EnhancedFinanceCourses />} />
+             <Route path="/FinanceCoursesPricing" element={<FinanceCoursesPricing />} />
           </Routes>
       </Router>
     );
