@@ -6,7 +6,7 @@ const FinanceCoursesPricing = () => {
   const courses = [
     {
       title: "Fearless Financial Investment",
-      description: "Live Offline One-Day Course"  Break free from financial fear and take charge of your investments with confidence! This power-packed workshop will equip you with essential finance concepts, expert stock market strategies, AI-driven stock selection, and risk management techniques. With hands-on tools, personalized guidance, and a strong investment community, you’ll gain the skills to invest smartly and fearlessly. Join us and start building your financial freedom today! ,
+      description: "Live Offline One-Day Course" ,
       price: "₹299",
       buttons: [
         { text: "View Course", link: "/EfqLanding" }
