@@ -7,6 +7,7 @@ import Button from './components/button';
 import FinancialPrograms from './components/financialprogram';
 import FinancialCards from './components/FinancialCards';
 import FinanceCoursesPricing from './components/FinanceCoursesPricing';
+import EnhancedFinanceCourses from './components/EnhancedFinanceCourses';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 // import About from "./pages/About";
@@ -88,6 +89,7 @@ import Coaching from "./pages/Coaching";
               <Route path="/Contact" element={<Contact />} />
             {/*<Route path="/ContactForm" element={<ContactForm />} />*/}
             <Route path="/Policies" element={<Policies />} />
+             <Route path="/EnhancedFinanceCourses" element={<EnhancedFinanceCourses />} />
           </Routes>
       </Router>
     );
