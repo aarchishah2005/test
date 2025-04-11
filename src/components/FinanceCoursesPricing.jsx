@@ -21,8 +21,8 @@ const FinanceCoursesPricing = () => {
       ]
     },
     {
-      title: "Mastering Options",
-      description: "Live Online 6 months Course",
+      title: "Fearless Options Mastery",
+      description: "Live Online Three months Course",
       price: "₹10,000",
       buttons: [
         { text: "View Course", link: "/EfqLanding" }
