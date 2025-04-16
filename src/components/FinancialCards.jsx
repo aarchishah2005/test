@@ -15,7 +15,7 @@ const FinancialCards = () => {
       image: "/assets/Financial_Investment.png",
       mainTitle: "Fearless Financial Investment",
       buttons: [
-        { text: "Learn More", link: "/FinanceCoursesPricing" }
+        { text: "Learn More", link: "/Coaching" }
       ]
     },
     {
@@ -24,7 +24,7 @@ const FinancialCards = () => {
       image: "/assets/Financial_Trading.jpeg",
       mainTitle: "Fearless Financial Trading",
       buttons: [
-        { text: "Learn More", link: "/FinanceCoursesPricing" }
+        { text: "Learn More", link: "/Coaching" }
       ]
     },
     {
@@ -33,7 +33,7 @@ const FinancialCards = () => {
       image: "/assets/Mastering_Options.jpeg",
       mainTitle: "Fearless Options Mastery",
       buttons: [
-        { text: "Learn More", link: "/FinanceCoursesPricing" }
+        { text: "Learn More", link: "/Coaching" }
       ]
     }
   ];
