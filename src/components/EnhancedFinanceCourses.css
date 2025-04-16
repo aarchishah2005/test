@@ -79,7 +79,7 @@
   .highlight-bullet {
     color: #ffffff;
     margin-right: 0.5rem;
-    margin-top: 1rem;
+/*     margin-top: 1rem; */
   }
   
   .highlight-text {
@@ -107,7 +107,7 @@
     border-radius: 0.5rem;
     text-decoration: none;
     transition: background-color 0.3s ease;
-    margin-bottom: auto;
+    margin-bottom: 1rem;
   }
   
   .course-button:hover {
