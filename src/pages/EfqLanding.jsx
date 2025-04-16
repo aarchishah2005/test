@@ -222,7 +222,7 @@ useEffect(() => {
       />
 
       <DateDay 
-        date="5 April 2025"
+        date="26 April 2025"
         day="Saturday"
         startTime="2 : 00 PM"
         endTime="4 : 00 PM"
