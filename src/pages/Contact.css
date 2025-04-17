@@ -2,3 +2,17 @@
     padding: 0;
     margin: 0;
   }
+
+  .contact {
+    background-image: url(/assets/bliss_back.jpg);
+    background-size: cover;
+    min-height: 100vh; /* To cover full viewport height */
+    width: 100%;
+  }
+
+  /* Mobile view adjustments */
+@media (max-width: 768px) {
+  .contact {
+    padding: 20px 10px;
+  }
+}
