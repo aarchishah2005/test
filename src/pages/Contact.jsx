@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import Form from "../components/Form"
+// import Form from "../components/Form"
+import ContactUsForm from "../components/ContactUsForm"
 import Information from "../components/Information"
-import SocialMedia from "../components/SocialMedia"
-import Update from "../components/Update"
+// import SocialMedia from "../components/SocialMedia"
+// import Update from "../components/Update"
 import Footer from "../components/Footer"
 import "./Contact.css"
 
@@ -12,13 +13,16 @@ function Contact() {
       window.scrollTo(0, 0);  // Scrolls to the top when component mounts
     }, []);
   return (
+    <div className="contact">
     <>
-     <Form/>
+     {/* <Form/> */}
+     <ContactUsForm/>
      <Information/>
-     <SocialMedia/>
-     <Update/>
+     {/* <SocialMedia/>
+     <Update/> */}
      <Footer/>
     </>
+    </div>
   )
 }
 
