@@ -24,20 +24,22 @@ const EnhancedFinanceCourses = () => {
     },
     {
       title: "Fearless Financial Trading",
-      description: "Three-Day Course",
+      description: "3-Day Flagship Course Highlights",
       // price: "₹5,000",
       buttonText: "View Course",
       link: "/EfqLanding",
-      highlights: ["3-day comprehensive program", "Live trading demonstrations", "Personalized feedback"]
+      highlights: ["Transform into a confident, strategic stock market trader", "Learn proven trading systems and real-time tactics", "Master AI-driven insights and stock selection strategies", "Build strong trading psychology and risk management skills","Analyze charts, trends, and market movements like a pro", "Gain hands-on experience with tools, templates, and case studies ", " Get expert mentorship and personalized trading guidance" ]
+
     },
     {
       title: "Fearless Options Mastery",
-      description: "Three Months Course",
+      description: "In-depth 3-month curriculum",
       // price: "₹10,000",
       buttonText: "View Course",
       link: "/EfqLanding",
-    highlights: ["In-depth 6-month curriculum", "Weekly mentoring sessions", "Real market applications"]
-    }
+    highlights: ["Master Futures & Options trading** with live expert mentorship", "Understand key concepts: spot price, strike price, option moneyness & intrinsic value ", "Learn Options Greeks & Pricing Models**: Delta, Theta, Vega, Gamma, Black-Scholes, IV", "Implement advanced trading strategies:IV spreads, gamma trades, Vega trading", "Live Delta hedging techniques for real-time trading", "Hands-on tools**: options calculator, IV-based trading systems, position management software", " Join weekly Inner Circle Calls for Q&A, performance reviews & mentorship", "Prepare for NISM Equity Derivatives Certification with structured guidance", " Access ready-to-use IV-based trading systems** to accelerate results", "Get 1-year handholding support for continuous growth and trading confidence"]
+
+
   ];
 
   return (
