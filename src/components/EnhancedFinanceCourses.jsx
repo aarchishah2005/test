@@ -14,11 +14,13 @@ const EnhancedFinanceCourses = () => {
   const courses = [
     {
       title: "Fearless Financial Investment",
-      description: "One-Day Course",
+      description: "1-Day Workshop Highlight",
       // price: "₹299",
       buttonText: "View Course",
       link: "/EfqLanding",
-      highlights: ["One full-day intensive workshop", "Practical investment strategies", "Expert-led sessions"]
+      
+      highlights: ["Overcome financial fear and gain investing confidence", "Learn expert strategies and stock market fundamentals", "Master AI-driven stock selection and fundamental analysis", "Build a strong, risk-managed investment portfolio", "Use practical tools, templates, and real-life case studies", "Get personalized 1-on-1 guidance from finance experts", "Join a powerful, supportive investment community"]
+           
     },
     {
       title: "Fearless Financial Trading",
@@ -29,8 +31,8 @@ const EnhancedFinanceCourses = () => {
       highlights: ["3-day comprehensive program", "Live trading demonstrations", "Personalized feedback"]
     },
     {
-      title: "Mastering Options",
-      description: "Six Months Course",
+      title: "Fearless Options Mastery",
+      description: "Three Months Course",
       // price: "₹10,000",
       buttonText: "View Course",
       link: "/EfqLanding",
