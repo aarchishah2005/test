@@ -37,7 +37,7 @@ const EnhancedFinanceCourses = () => {
       // price: "₹10,000",
       buttonText: "View Course",
       link: "/EfqLanding",
-    highlights: ["Master Futures & Options trading with live expert mentorship", "Understand key concepts: spot price, strike price, option moneyness & intrinsic value ", "Learn Options Greeks & Pricing Models: Delta, Theta, Vega, Gamma, Black-Scholes, IV", "Implement advanced trading strategies:IV spreads, gamma trades, Vega trading", "Live Delta hedging techniques for real-time trading", "Hands-on tools: options calculator, IV-based trading systems, position management software", " Join weekly Inner Circle Calls for Q&A, performance reviews & mentorship", "Prepare for NISM Equity Derivatives Certification with structured guidance", " Access ready-to-use IV-based trading systems** to accelerate results", "Get 1-year handholding support for continuous growth and trading confidence"]
+    highlights: ["Master Futures & Options trading with live expert mentorship", "Understand key concepts: spot price, strike price, option moneyness & intrinsic value ", "Learn Options Greeks & Pricing Models: Delta, Theta, Vega, Gamma, Black-Scholes, IV", "Implement advanced trading strategies:IV spreads, Short gamma and Long Gamma Vega trading system", "Live Delta hedging techniques for real-time trading", "Hands-on tools: options calculator, IV-based trading systems, position management software", " Join weekly Inner Circle Calls for Q&A, performance reviews & mentorship", "Prepare for NISM Equity Derivatives Certification with structured guidance", " Access ready-to-use IV-based trading systems to accelerate results", "Get 1-year handholding support for continuous growth and trading confidence"]
 
     },
   ];
