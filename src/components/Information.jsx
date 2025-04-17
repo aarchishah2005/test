@@ -8,7 +8,7 @@ const Information = () => {
 <div class="Information-cards">
     <div class="card1">
         <img src="/assets/email.img.png" alt="Email"/>
-        <p><strong>Email:</strong> Falguni.Vahora@blissquants.com</p>
+        <p><strong>Email:</strong> Inquiry@blissquants.com</p>
     </div>
     <div class="card1">
         <img src="/assets/msg.img.png" alt="Messenger"/>
@@ -16,7 +16,7 @@ const Information = () => {
     </div>
     <div class="card1">
         <img src="/assets/loc.img.png" alt="Address"/>
-        <p><strong>Address:</strong>D - 422,ITC Building, BlissQuants Datalytics LLP, Majuragate, Surat 395002</p>
+        <p><strong>Address:</strong>A11, The Laburnums, Mitcon Road, Balewadi, Pune – 411045, Maharashtra</p>
     </div>
 </div>
 </div>
