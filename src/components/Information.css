@@ -3,9 +3,9 @@ h2{
     text-align: center;
 }
 .Information-info {
-    margin-top: 40px;
+    margin: 20px;
     padding: 20px;
-/*     background: white; */
+    /* background: white; */
     border-radius: 10px;
 }
 
@@ -21,10 +21,12 @@ h2{
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 200px;
+    width: 300px;
+    height: auto;
     text-align: center;
+    color: #3b3531;
 }
 
 .card1 img {
-    width: 50px;
+    width: 100px;
 }
