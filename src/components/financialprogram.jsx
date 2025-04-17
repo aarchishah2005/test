@@ -15,9 +15,8 @@ const FinancialPrograms = () => {
           </h2> */}
           
           <p className="financial-text">
-                By Falguni Vahora SEBI Certified Research Analyst
-          <br/> Registration number  INH000007100  
-          <br/> Join Our Exclusive EFQ Session ::  Enrich Your Financial Quotient
+                By Falguni Vahora SEBI Certified Research Analyst :: Registration number  INH000007100  
+      
           </p>
         </div>
       </div>
