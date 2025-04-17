@@ -5,6 +5,11 @@ html, body, #root {
   padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+
 body {
   overflow-x: hidden; /* Apply only to body */
 }
@@ -44,6 +49,13 @@ body {
   transform: scale(1);
 }
 
+@media (max-width: 768px) {
+  /* Tablet and below */
+}
+
+@media (max-width: 480px) {
+  /* Phones specifically */
+}
 
 /* Staggered animation delays (optional) */
 /* .heading-component { transition-delay: 0.1s; } */
