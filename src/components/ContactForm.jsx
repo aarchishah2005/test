@@ -38,7 +38,8 @@ const ContactForm = () => {
           _subject: "New Contact Form Submission from " + formData.name,  // Custom subject
           _captcha: "false",  // Disable captcha
           _autoresponse: "Thank you for contacting us! We have received your message and will get back to you soon.",  // Auto-response message
-      });
+        })
+      }); 
 
       if (response.ok) {
         setStatus('success');
