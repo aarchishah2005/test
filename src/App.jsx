@@ -8,7 +8,7 @@ import FinancialPrograms from './components/financialprogram';
 import FinancialCards from './components/FinancialCards';
 import FinanceCoursesPricing from './components/FinanceCoursesPricing';
 import EnhancedFinanceCourses from './components/EnhancedFinanceCourses';
-import ContactForm from './components/ContactForm';
+import ContactForm from './components/ContactForm.jsx';
 import Footer from './components/Footer';
 // import About from "./pages/About";
 import EfqLanding from "./pages/EfqLanding";
