@@ -28,8 +28,8 @@ const ContactForm = () => {
 
     // Replace these with your actual EmailJS credentials
     const templateParams = {
-      from_name: formData.name,
-      from_email: formData.email,
+      name: formData.name,
+      email: formData.email,
       phone: formData.phone,
       message: formData.message,
     };
