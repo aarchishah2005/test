@@ -6,9 +6,9 @@ const EnhancedFinanceCourses = () => {
   const challenges = [
     {
       id: 1,
-      title: "Fearless Financial Investment",
+      title: "Fearless Financial Investment – 1-Day Workshop",
       description:
-        "Conquer financial fear, gain investing confidence, and master stock market fundamentals with expert strategies. Learn AI-powered stock selection, risk management, and portfolio-building using practical tools, templates, and real case studies. Get personalized 1-on-1 guidance from finance experts and connect with a powerful, supportive investment community.",
+        "Break free from financial fear and take charge of your investments with confidence! This power-packed workshop will equip you with essential finance concepts, expert stock market strategies, AI-driven stock selection, and risk management techniques. With hands-on tools, personalized guidance, and a strong investment community, you’ll gain the skills to invest smartly and fearlessly. Join us and start building your financial freedom today!",
       startDate: "26th Apr",
       duration: "1 Day",
       language: "Hindi & English",
@@ -21,9 +21,9 @@ const EnhancedFinanceCourses = () => {
     },
     {
       id: 2,
-      title: "Fearless Financial Trading",
+      title: "Take Charge of Your Trading Success!",
       description:
-        "Become a confident, strategic trader with proven systems, AI-driven insights, and smart stock selection strategies. Master trading psychology, risk management, and chart analysis to navigate market trends like a pro. Gain hands-on experience with tools, templates, case studies, and expert mentorship for personalized trading guidance.",
+        "The Fearless Financial Trading 3-day flagship course is designed to transform you into a confident and strategic trader. Whether you're a beginner or looking to refine your trading skills, this intensive program equips you with cutting-edge strategies, AI-driven insights, and proven trading systems to help you trade fearlessly. With hands-on training, expert guidance, and a structured approach, you'll gain the confidence to navigate the stock market like a pro. Join us and unlock your path to financial freedom today!",
       startDate: "26th Apr",
       duration: "11 Days",
       language: "Hindi & English",
@@ -33,9 +33,9 @@ const EnhancedFinanceCourses = () => {
     },
     {
       id: 3,
-      title: "Fearless Options Mastery",
+      title: "Fearless Options Mastery – 3-Month Course Summary",
       description:
-        "Master Futures & Options trading with live expert mentorship, covering essential concepts, Options Greeks, pricing models, and advanced strategies like IV spreads and Delta hedging. Get hands-on with professional trading tools, IV-based systems, position management software, and weekly Inner Circle Calls for Q&A, performance reviews, and mentorship. Prepare for NISM Equity Derivatives Certification, access ready-to-use trading systems, and enjoy 1-year continuous handholding support for lasting trading growth and confidence.",
+        "Unlock the secrets of successful options trading with our *Fearless Options Mastery course! In just 3 months, gain *deep expertise in derivatives, Greeks, delta-neutral strategies, and IV-based trading systems with real-time practice and expert mentorship. Get equipped with powerful tools, live trading setups, risk management systems, and *weekly community support. Plus, prepare for the NISM Equity Derivatives Certification and fast-track your trading journey with readymade strategies. Take control of your financial future and trade fearlessly!",
       startDate: "26th Apr",
       duration: "31 Days",
       language: "Hindi & English",
