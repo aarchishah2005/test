@@ -6,7 +6,7 @@
 
 .challenge-card {
   display: flex;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
@@ -28,7 +28,7 @@
   position: absolute;
   top: 12px;
   left: 12px;
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 8px;
   padding: 8px 12px;
   font-size: 12px;
@@ -56,7 +56,7 @@
 .challenge-title {
   margin: 0;
   font-size: 22px;
-  color: #333;
+  color: #3b3531;
   font-weight: 600;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .challenge-description {
-  color: #555;
+  color: #3b3531;
   font-size: 14px;
   margin-bottom: 18px;
   line-height: 1.4;
@@ -95,7 +95,7 @@
   align-items: center;
   margin-right: 24px;
   font-size: 14px;
-  color: #666;
+  color: #3b3531;
 }
 
 .info-icon {
@@ -110,7 +110,7 @@
 }
 
 .register-button {
-  background-color: #2e856e;
+  background-color: #84c225;
   color: white;
   border: none;
   border-radius: 8px;
@@ -129,7 +129,7 @@
 
 .participants {
   font-size: 13px;
-  color: #777;
+  color: #3b3531;
   display: flex;
   align-items: center;
 }
