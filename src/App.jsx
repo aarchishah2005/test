@@ -51,7 +51,37 @@ import Coaching from "./pages/Coaching";
 
           <FinancialCards />
            <section id="contact">
-             <ContactForm />
+             <ContactForm
+          infoText={
+            <>
+              <span style={{ fontWeight: "bold" }}>Let's Connect</span>
+              <br />
+              <br />
+              Falguni Vahora is a fearless finance leader, investor, and
+              advocate for financial empowerment, especially for women.
+              <br />
+              <br />
+              A BE-EC graduate from NIT Surat, she has 27+ years of experience
+              spanning software development, teaching, finance, and stock market
+              trading. She co-founded BlissQuants Analytics, leads a trading
+              desk of 40+ professionals, and has trained 800+ individuals in
+              investment and trading. A SEBI-registered research analyst and
+              author of Mastering Options Delta Trading, she blends expertise in
+              data analytics, risk management, and coaching to transform
+              financial education.
+              <br />
+              <br />
+              Contact number : +91 92096 32020
+              <br />
+              <br />
+              Surat : D 422 ITC, Majura gate, Surat – 395002, Gujarat.
+              <br />
+              <br />
+              👉Join our WhatsApp community
+              https://chat.whatsapp.com/HrP2fRUkkI75Qj8pcCuTct
+            </>
+          }
+        />
            </section>
           <Footer />
       </div>
