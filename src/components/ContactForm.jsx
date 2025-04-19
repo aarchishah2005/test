@@ -1,15 +1,13 @@
 import React, { useState } from 'react';
 import './ContactForm.css';
 
-const ContactForm = () => {
+const ContactForm = ({ infoText }) => {
   const [formData, setFormData] = useState({
     name: '',
-    // address: '',
     email: '',
     phone: '',
-    // subject: '',
     program: "",
-    message: ''
+    message: '',
   });
 
   const [status, setStatus] = useState('');
@@ -42,12 +40,12 @@ const ContactForm = () => {
         },
         body: JSON.stringify({
           ...formData,
-          _template: "table",  // Use table template
-          _subject: "New Contact Form Submission from " + formData.name,  // Custom subject
-          _captcha: "false",  // Disable captcha
-          _autoresponse: "Thank you for contacting us! We have received your message and will get back to you soon.",  // Auto-response message
+          _template: "table",
+          _subject: "New Contact Form Submission from " + formData.name,
+          _captcha: "false",
+          _autoresponse: "Thank you for contacting us! We have received your message and will get back to you soon.",
         })
-      }); 
+      });
 
       if (response.ok) {
         setStatus('success');
@@ -55,6 +53,7 @@ const ContactForm = () => {
           name: '',
           email: '',
           phone: '',
+          program: "",
           message: ''
         });
       } else {
@@ -69,23 +68,12 @@ const ContactForm = () => {
     <div className="contact-container">
       <div className="contact-content">
         <div className="contact-info">
+          {/* Dynamically injected info text */}
           <h2 className="contact-title" style={{ textAlign: "justify" }}>
-          <span style={{ fontWeight: "bold" }}>Let's Connect</span>
-           <br />
-           <br />
-            Falguni Vahora is a fearless finance leader, investor, and advocate for financial empowerment, especially for women. <br />  <br />
-            A BE-EC graduate from NIT Surat, she has 27+ years of experience spanning software development, teaching, finance, and stock market trading. She co-founded BlissQuants Analytics, leads a trading desk of 40+ professionals, and has trained 800+ individuals in investment and trading. A SEBI-registered research analyst and author of Mastering Options Delta Trading, she blends expertise in data analytics, risk management, and coaching to transform financial education.  <br />
-            <br />
-            Contact number : +91 92096 32020<br />
-            <br />
-            Surat :	D 422 ITC, Majura gate, Surat – 395002, Gujarat.<br />
-            <br />
-            Pune :	A11, The Laburnums, Mitcon Road, Balewadi, Pune – 411045, Maharashtra<br />
-             <br />
-           👉Join our whatsapp community https://chat.whatsapp.com/HrP2fRUkkI75Qj8pcCuTct<br />
+            {infoText}
           </h2>
         </div>
-        
+
         <form className="contact-form" onSubmit={handleSubmit}>
           <input
             type="text"
@@ -95,14 +83,6 @@ const ContactForm = () => {
             onChange={handleChange}
             className="form-input"
           />
-          {/*  <input
-            type="text"
-            name="address"
-            placeholder="Address"
-            value={formData.address}
-            onChange={handleChange}
-            className="form-input" 
-          /> */}
           <div className="input-row">
             <input
               type="email"
@@ -121,14 +101,6 @@ const ContactForm = () => {
               className="form-input"
             />
           </div>
-          { /* <input
-            type="text"
-            name="subject"
-            placeholder="Subject"
-            value={formData.subject}
-            onChange={handleChange}
-            className="form-input"
-          />*/}
           <select
             name="program"
             value={formData.program}
@@ -150,9 +122,7 @@ const ContactForm = () => {
             className="form-textarea"
             rows="4"
           />
-          <button type="submit" className="submit-btn">
-            Submit
-          </button>
+          <button type="submit" className="submit-btn">Submit</button>
           {status === 'sending' && <p className="status-message">Sending message...</p>}
           {status === 'success' && <p className="status-message success">Submitted successfully!</p>}
           {status === 'error' && <p className="status-message error">Failed to send message. Please try again.</p>}
