@@ -8,6 +8,7 @@ const ContactForm = () => {
     email: '',
     phone: '',
     // subject: '',
+    program: "",
     message: ''
   });
 
@@ -20,6 +21,13 @@ const ContactForm = () => {
       [name]: value
     }));
   };
+
+  const programs = [
+    "Exclusive EFQ Session :: Enrich Your Financial Quotient",
+    "Fearless Financial Investment",
+    "Fearless Financial Trading",
+    "Fearless Options Mastery",
+  ];
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -121,6 +129,19 @@ const ContactForm = () => {
             onChange={handleChange}
             className="form-input"
           />*/}
+          <select
+            name="program"
+            value={formData.program}
+            onChange={handleChange}
+            className="form-input"
+          >
+            <option value="">Select a program</option>
+            {programs.map((program, index) => (
+              <option key={index} value={program}>
+                {program}
+              </option>
+            ))}
+          </select>
           <textarea
             name="message"
             placeholder="Type your message here..."
