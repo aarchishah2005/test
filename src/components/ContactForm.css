@@ -8,7 +8,7 @@
     padding: 4rem 2rem;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 95%;
     border-radius: 25px;
     font-family: 'Quicksand', sans-serif;
   }
@@ -64,12 +64,6 @@
   
   .form-input::placeholder {
     color: #84c225;
-  }
-
-  .error-text {
-    color: red;
-    font-size: 0.9rem;
-    margin: 0;
   }
   
   .input-row {
@@ -161,4 +155,28 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+.form-field {
+  position: relative;
+  width: 100%;
+}
+
+.error-message {
+  color: #f44336;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.form-input.error,
+.form-textarea.error {
+  border-color: #f44336;
+}
+
+.form-input.error:focus,
+.form-textarea.error:focus {
+  border-color: #f44336;
+  box-shadow: 0 0 0 1px #f44336;
 }
