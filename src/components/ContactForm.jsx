@@ -77,7 +77,7 @@ const ContactForm = ({ infoText }) => {
     setStatus('sending');
 
     try {
-      const response = await fetch('https://formsubmit.co/shahshubhamr@gmail.com', {
+      const response = await fetch('https://formsubmit.co/inquiry@blissquants.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
