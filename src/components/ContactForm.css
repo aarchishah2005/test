@@ -65,6 +65,12 @@
   .form-input::placeholder {
     color: #84c225;
   }
+
+  .error-text {
+    color: red;
+    font-size: 0.9rem;
+    margin: 0;
+  }
   
   .input-row {
     display: flex;
