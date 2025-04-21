@@ -22,6 +22,7 @@ function Coaching() {
 
         
         <FinancialPrograms/>
+        <Button text="Fear less, Learn More"  />
         {/* <FinanceCoursesPricing/> */}
         <EnhancedFinanceCourses/>
         <Footer />
