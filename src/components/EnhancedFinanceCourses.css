@@ -21,7 +21,7 @@
 .challenge-image {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+/*   object-fit: cover; */
 }
 
 .starts-in-badge {
@@ -120,6 +120,13 @@
   font-size: 14px;
   display: flex;
   align-items: center;
+   transition: all 0.5s ease;
+}
+
+.register-button:hover {
+  background-color: #3b3531;
+  transform: translateX(3px);
+  color: #84c225;
 }
 
 .price {
