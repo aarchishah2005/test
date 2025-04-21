@@ -212,7 +212,9 @@ useEffect(() => {
           style={{ paddingTop: '60px' }} 
         /> 
       <Heading
-          mainText="Our exclusive - EFQ session" 
+          mainText="Boost Your Financial Confidence with Our exclusive Program" 
+          {/* Our exclusive - EFQ session   */}
+          
           style={{ fontWeight: 700 }} 
         /> 
 
