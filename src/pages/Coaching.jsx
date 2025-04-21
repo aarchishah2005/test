@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 // import FinanceCoursesPricing from '../components/FinanceCoursesPricing';
 import EnhancedFinanceCourses from '../components/EnhancedFinanceCourses'
 // import React from "react";
+import Button from './components/button';
 
 function Coaching() {
 
