@@ -21,7 +21,7 @@ const EnhancedFinanceCourses = () => {
     },
     {
       id: 2,
-      title: "Take Charge of Your Trading Success!",
+      title: "Fearless Financial Trading 3-day online live course!",
       description:
         "The Fearless Financial Trading 3-day flagship course is designed to transform you into a confident and strategic trader. Whether you're a beginner or looking to refine your trading skills, this intensive program equips you with cutting-edge strategies, AI-driven insights, and proven trading systems to help you trade fearlessly. With hands-on training, expert guidance, and a structured approach, you'll gain the confidence to navigate the stock market like a pro. Join us and unlock your path to financial freedom today!",
       startDate: "16 May 2025",
@@ -33,9 +33,9 @@ const EnhancedFinanceCourses = () => {
     },
     {
       id: 3,
-      title: "Fearless Options Mastery – 3-Month Course Summary",
+      title: "Fearless Options Mastery – 3-Month online live Course",
       description:
-        "Unlock the secrets of successful options trading with our *Fearless Options Mastery course! In just 3 months, gain *deep expertise in derivatives, Greeks, delta-neutral strategies, and IV-based trading systems with real-time practice and expert mentorship. Get equipped with powerful tools, live trading setups, risk management systems, and *weekly community support. Plus, prepare for the NISM Equity Derivatives Certification and fast-track your trading journey with readymade strategies. Take control of your financial future and trade fearlessly!",
+        "Unlock the secrets of successful options trading with our *Fearless Options Mastery course! In just 3 months, gain deep expertise in derivatives, Greeks, delta-neutral strategies, and IV-based trading systems with real-time practice and expert mentorship. Get equipped with powerful tools, live trading setups, risk management systems, and *weekly community support. Plus, prepare for the NISM Equity Derivatives Certification and fast-track your trading journey with readymade strategies. Take control of your financial future and trade fearlessly!",
       startDate: "2 June 2025",
       duration: "3 Months",
       language: "Hindi & English",
