@@ -85,12 +85,12 @@ const EnhancedFinanceCourses = () => {
                 <span className="info-icon">⏱</span>
                 <span>{challenge.duration}</span>
               </div>
+               <div className="info-item">
+              <span className="price">{challenge.price}</span>
+              </div>
               <div className="info-item">
                 <span className="info-icon">🌐</span>
                 <span>{challenge.language}</span>
-              </div>
-              <div className="info-item">
-              <span className="price">{challenge.price}</span>
               </div>
             </div>
 
