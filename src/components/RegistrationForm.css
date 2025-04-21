@@ -42,7 +42,7 @@
   }
   
   .secrets-list li {
-    font-size: 18px;
+    font-size: 20px;
     display: flex;
     align-items: flex-start;
     margin-bottom: 1rem;
@@ -51,7 +51,7 @@
   .checkmark {
     color: #84c225;
     margin-right: 0.5rem;
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .secret-number {
