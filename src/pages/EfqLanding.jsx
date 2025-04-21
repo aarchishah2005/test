@@ -210,15 +210,18 @@ useEffect(() => {
       <Heading
           subText="Making Money Mistakes? Fed up with Investment?  Dreaming of a Career in Stocks?" 
 
-            {/* Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market   */}
+           
           style={{ paddingTop: '60px' }} 
+           {/* Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market   */}
         /> 
       <Heading
           mainText="Boost Your Financial Confidence with Our exclusive Program" 
-          {/* Our exclusive - EFQ session   */}
+        
           
           style={{ fontWeight: 700 }} 
+        {/* Our exclusive - EFQ session   */}
         /> 
+        
 
       <Heading
           mainText="Enrich Your Financial Quotient"
