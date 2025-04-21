@@ -208,7 +208,9 @@ useEffect(() => {
       <ImageSlider images={images1} />
 
       <Heading
-          subText="Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market" 
+          subText="Making Money Mistakes? Fed up with Investment?  Dreaming of a Career in Stocks?" 
+
+            {/* Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market   */}
           style={{ paddingTop: '60px' }} 
         /> 
       <Heading
