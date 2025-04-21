@@ -15,7 +15,7 @@ const EnhancedFinanceCourses = () => {
       price: "₹6999",
       // badge: "Signature Workshop",
       // badgeType: "signature",
-      image: "/assets/Fearless_Financial_Investment.png",
+      image: "/assets/Financial_Investment.png",
       // participants: "1672 have already joined",
       buttons: [{ text: "Register Now", link: "/EfqLanding" }],
     },
@@ -28,7 +28,7 @@ const EnhancedFinanceCourses = () => {
       duration: "3 Days",
       language: "Hindi & English",
       price: "₹14999",
-      image: "/assets/Fearless_Financial_Trading.png",
+      image: "/assets/Financial_Trading.jpeg",
       buttons: [{ text: "Register Now", link: "/EfqLanding" }],
     },
     {
@@ -40,7 +40,7 @@ const EnhancedFinanceCourses = () => {
       duration: "3 Months",
       language: "Hindi & English",
       price: "₹69999",
-      image: "/assets/Fearless_Options_Mastery.png",
+      image: "/assets/Mastering_Options.jpeg",
       buttons: [{ text: "Register Now", link: "/EfqLanding" }],
     },
   ];
