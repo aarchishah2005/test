@@ -208,12 +208,12 @@ useEffect(() => {
       <ImageSlider images={images1} />
 
       <Heading
-          subText="Making Money Mistakes? Fed up with Investment?  Dreaming of a Career in Stocks?" 
+          subText="Making Money Mistakes?  Fed up with Investment?   Dreaming of a Career in Stocks?" 
           style={{ paddingTop: '60px' }} 
         /> 
            {/* Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market   */}
       <Heading
-          mainText="Boost Your Financial Confidence with Our exclusive Program" 
+          mainText="Boost Your Financial Confidence with Our Program" 
           style={{ fontWeight: 700 }} 
          
         />
