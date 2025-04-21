@@ -15,7 +15,7 @@ const EnhancedFinanceCourses = () => {
       price: "₹6999",
       // badge: "Signature Workshop",
       // badgeType: "signature",
-      image: "/assets/Financial_Investment.png",
+      image: "/assets/Fearless_Financial_Investment.png",
       // participants: "1672 have already joined",
       buttons: [{ text: "Register Now", link: "/EfqLanding" }],
     },
@@ -95,6 +95,7 @@ const EnhancedFinanceCourses = () => {
               {challenge.buttons.map((button, index) => (
                 <Link key={index} to={button.link} className="register-button">
                   {button.text}
+                  <span className="price">{challenge.price}</span>
                 </Link>
               ))}
 
