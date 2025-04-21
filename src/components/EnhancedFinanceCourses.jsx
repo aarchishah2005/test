@@ -24,7 +24,7 @@ const EnhancedFinanceCourses = () => {
       title: "Fearless Financial Trading :: 3-day online live course",
       description:
         "The Fearless Financial Trading 3-day flagship course is designed to transform you into a confident and strategic trader. Whether you're a beginner or looking to refine your trading skills, this intensive program equips you with cutting-edge strategies, AI-driven insights, and proven trading systems to help you trade fearlessly. With hands-on training, expert guidance, and a structured approach, you'll gain the confidence to navigate the stock market like a pro. Join us and unlock your path to financial freedom today!",
-      startDate: "16 May 2025",
+      startDate: "16 June 2025",
       duration: "3 Days",
       language: "Hindi & English",
       price: "₹14999",
