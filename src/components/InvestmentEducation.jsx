@@ -13,7 +13,7 @@ const InvestmentEducation = () => {
    "Learn to manage your money with clarity and confidence",
    "Build the mindset needed to invest fearlessly",
    "Start your stock market journey — even part-time",
-   "Use simple strategies based on CAGR, risk & return",
+   "Use simple strategies based on risk & return",
    "No jargon. No confusion. Just practical tools that work"
   ];
 
