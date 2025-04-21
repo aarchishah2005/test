@@ -35,7 +35,7 @@ const EnhancedFinanceCourses = () => {
       id: 3,
       title: "Fearless Options Mastery – 3-Month online live Course",
       description:
-        "Unlock the secrets of successful options trading with our *Fearless Options Mastery course! In just 3 months, gain deep expertise in derivatives, Greeks, delta-neutral strategies, and IV-based trading systems with real-time practice and expert mentorship. Get equipped with powerful tools, live trading setups, risk management systems, and weekly community support. Plus, prepare for the NISM Equity Derivatives Certification and fast-track your trading journey with readymade strategies. Take control of your financial future and trade fearlessly!",
+        "Unlock the secrets of successful options trading with our Fearless Options Mastery course! In just 3 months, gain deep expertise in derivatives, Greeks, delta-neutral strategies, and IV-based trading systems with real-time practice and expert mentorship. Get equipped with powerful tools, live trading setups, risk management systems, and weekly community support. Plus, prepare for the NISM Equity Derivatives Certification and fast-track your trading journey with readymade strategies. Take control of your financial future and trade fearlessly!",
       startDate: "2 June 2025",
       duration: "3 Months",
       language: "Hindi & English",
