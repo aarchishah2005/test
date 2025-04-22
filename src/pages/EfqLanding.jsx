@@ -208,20 +208,20 @@ useEffect(() => {
       <ImageSlider images={images1} />
 
       <Heading
-          subText="Making Money Mistakes?  Fed up with Investment?   Dreaming of a Career in Stocks?" 
+          subText="Feeling Clueless, Confused, or unsure how to start investing? " 
           style={{ paddingTop: '60px' }} 
         /> 
-           {/* Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market   */}
+           {/* Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market.  Making Money Mistakes?  Fed up with Investment?   Dreaming of a Career in Stocks   */}
       <Heading
-          mainText="Boost Your Financial Confidence with Our Program" 
+          mainText="Over 1,500+ people have transformed their financial fears into confidence through our Fearless Financial System — a proven approach with no jargon, no complex math, and no overwhelm. " 
           style={{ fontWeight: 700 }} 
          
         />
-           {/* Our exclusive - EFQ session   */}
+           {/* Boost Your Financial Confidence with Our Program Our exclusive - EFQ session  Enrich Your Financial Quotient */}
         
 
       <Heading
-          mainText="Enrich Your Financial Quotient"
+          mainText="Whether your goal is ₹1L, ₹5L, or simply peace of mind — it’s not just about money, it’s about freedom, confidence, and the life you truly deserve.  Turn confusion into clarity, and knowledge into profit. Learn to invest smartly, build unshakable money confidence, and start your stock market journey — even if you're starting from scratch."
           style={{ color: "#84c225", paddingBottom: '50px', fontWeight: 700 }} 
       />
 
