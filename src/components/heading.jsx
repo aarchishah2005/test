@@ -6,9 +6,9 @@ function Heading({ mainText, subText , style }) {
     <div className="heading tcElKx">
       <div className="container">
         <p style={style}>{mainText}</p>
-        <p style={{ padding: 0, fontFamily: 'Quicksand', fontWeight: 0, fontSize: '1.8rem' }}>
+{/*         <p style={{ padding: 0, fontFamily: 'Quicksand', fontWeight: 0, fontSize: '1.8rem' }}>
           {subText}
-        </p>
+        </p> */}
       </div>
     </div>
   );
