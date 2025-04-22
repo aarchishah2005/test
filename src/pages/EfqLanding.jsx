@@ -208,21 +208,28 @@ useEffect(() => {
       <ImageSlider images={images1} />
 
       <Heading
-          subText="Feeling Clueless, Confused, or unsure how to start investing? " 
-          style={{ paddingTop: '60px' }} 
+           mainText="Feeling Clueless, Confused, or unsure how to start investing? " 
+          style={{ paddingTop: '20px', fontSize : '20px', fontWeight: 500}} 
         /> 
            {/* Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market.  Making Money Mistakes?  Fed up with Investment?   Dreaming of a Career in Stocks   */}
       <Heading
-          mainText="Over 1,500+ people have transformed their financial fears into confidence through our Fearless Financial System — a proven approach with no jargon, no complex math, and no overwhelm. " 
-          style={{ fontWeight: 700 }} 
-         
+         mainText={
+            <>
+            Over 1,500+ people have transformed their financial fears into confidence 
+            <br />
+            through our Fearless Financial System — a proven approach
+            <br />
+            with no jargon, no complex math, and no overwhelm.
+          </> 
+          }
+          style={{ marginTop:'20px', fontWeight: 900 , fontSize : '30px' , backgroundColor: '#84c225'}} 
         />
            {/* Boost Your Financial Confidence with Our Program Our exclusive - EFQ session  Enrich Your Financial Quotient */}
         
 
       <Heading
           mainText="Whether your goal is ₹1L, ₹5L, or simply peace of mind — it’s not just about money, it’s about freedom, confidence, and the life you truly deserve.  Turn confusion into clarity, and knowledge into profit. Learn to invest smartly, build unshakable money confidence, and start your stock market journey — even if you're starting from scratch."
-          style={{ color: "#84c225", paddingBottom: '50px', fontWeight: 700 }} 
+          style={{ color: "#84c225", paddingBottom: '20px', paddingTop: '20px', fontSize : '20px', fontWeight: 500}} 
       />
 
       <DateDay 
