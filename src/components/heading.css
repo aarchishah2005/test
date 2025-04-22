@@ -4,7 +4,7 @@
 .heading {
   font-weight: 0;
   text-transform: capitalize;
-  font-size: 1.5rem;
+/*   font-size: 1.5rem; */
   color: #ffffff;
   letter-spacing: 1px;
   text-align: center;
@@ -23,8 +23,6 @@
   align-items: center;
   padding: 0;
   gap: 0;
- 
-  
 }
 
 .heading h2 span {
