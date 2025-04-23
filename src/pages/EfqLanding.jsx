@@ -222,7 +222,7 @@ useEffect(() => {
               simple language, easy steps, and zero pressure.
           </> 
           }
-          style={{ marginTop:'20px', fontWeight: 900 , fontSize : '30px' , backgroundColor: '#84c225'}} 
+          style={{ marginTop:'20px', fontWeight: 1000 , fontSize : '30px' , backgroundColor: '#84c225'}} 
         />
            {/* Boost Your Financial Confidence with Our Program Our exclusive - EFQ session  Enrich Your Financial Quotient */}
         
