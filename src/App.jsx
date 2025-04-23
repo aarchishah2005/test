@@ -75,6 +75,7 @@ import Coaching from "./pages/Coaching";
               <br />
               <br />
               Surat : D 422 ITC, Majura gate, Surat – 395002, Gujarat.
+              <br />
               Pune : A11, The Laburnums, Mitcon Road, Balewadi, Pune – 411045, Maharashtra
               <br />
               <br />
