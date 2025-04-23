@@ -4,11 +4,11 @@ import DateDay from "./DateDay";
 import { useWebinarTimer } from "./useWebinarTimer";
 
 const WebinarTimer = () => {
-  const timeLeft = useWebinarTimer("2025-04-26T23:59:59");
+  const timeLeft = useWebinarTimer("2025-05-03T23:59:59");
   return (
     <div className="webinar-container">
       <DateDay
-        date="26 April 2025"
+        date="03 May 2025"
         day="Saturday"
         startTime="2 : 00 PM"
         endTime="4 : 00 PM"
