@@ -222,14 +222,14 @@ useEffect(() => {
               simple language, easy steps, and zero pressure.
           </> 
           }
-          style={{ marginTop:'20px', fontWeight: 700 , fontSize : '30px' , backgroundColor: '#84c225'}} 
+          style={{ marginTop:'20px', fontWeight: 1200 , fontSize : '30px' , backgroundColor: '#84c225'}} 
         />
            {/* Boost Your Financial Confidence with Our Program Our exclusive - EFQ session  Enrich Your Financial Quotient */}
         
 
       <Heading
           mainText="Whether your goal is ₹1L, ₹5L, or simply peace of mind — it’s not just about money, it’s about freedom, confidence, and the life you truly deserve.  Turn confusion into clarity, and knowledge into profit. Learn to invest smartly, build unshakable money confidence, and start your investing journey — even if you're starting from scratch."
-          style={{ color: "#84c225", paddingBottom: '20px', paddingTop: '20px', fontSize : '20px', fontWeight: 500}} 
+          style={{ color: "#84c225", paddingBottom: '20px', paddingTop: '20px', fontSize : '25px', fontWeight: 500}} 
       />
 
       <DateDay 
