@@ -1,5 +1,5 @@
 import React from 'react';
-import { TrendingUp, Monitor, DollarSign } from 'lucide-react';
+import { TrendingUp, Monitor, Users  } from 'lucide-react';
 import './FeatureCards.css';
 
 const FeatureCard = ({ icon: Icon, title, points }) => {
@@ -38,7 +38,7 @@ const FeatureCards = ({
       ]
     },
     {
-      icon: DollarSign,
+      icon: Users,
       title: "Who Can Attend:",
       points: [
         "Fresher / Beginner",
