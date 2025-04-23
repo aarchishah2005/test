@@ -12,7 +12,7 @@ const EnhancedFinanceCourses = () => {
       startDate: "24 May 2025",
       duration: "1 Day",
       language: "Hindi & English",
-    //  price: "₹9999",
+      //  price: "₹9999",
       // badge: "Signature Workshop",
       // badgeType: "signature",
       image: "/assets/Fearless_Financial_Investment.png",
@@ -27,7 +27,7 @@ const EnhancedFinanceCourses = () => {
       startDate: "16 June 2025",
       duration: "3 Days",
       language: "Hindi & English",
-   //   price: "₹19999",
+      //   price: "₹19999",
       image: "/assets/Financial_Trading.jpeg",
       buttons: [{ text: "Register Now", link: "/EfqLanding" }],
     },
@@ -39,7 +39,7 @@ const EnhancedFinanceCourses = () => {
       startDate: "2 June 2025",
       duration: "3 Months",
       language: "Hindi & English",
- //     price: "₹69999",
+      //     price: "₹69999",
       image: "/assets/Mastering_Options.jpeg",
       buttons: [{ text: "Register Now", link: "/EfqLanding" }],
     },
@@ -85,8 +85,8 @@ const EnhancedFinanceCourses = () => {
                 <span className="info-icon">⏱</span>
                 <span>{challenge.duration}</span>
               </div>
-               <div className="info-item">
-              <span className="price">{challenge.price}</span>
+              <div className="info-item">
+                <span className="price">{challenge.price}</span>
               </div>
               <div className="info-item">
                 <span className="info-icon">🌐</span>
@@ -98,7 +98,7 @@ const EnhancedFinanceCourses = () => {
               {challenge.buttons.map((button, index) => (
                 <Link key={index} to={button.link} className="register-button">
                   {button.text}
-{/*                   <span className="price">{challenge.price}</span> */}
+                  {/*<span className="price">{challenge.price}</span> */}
                 </Link>
               ))}
 

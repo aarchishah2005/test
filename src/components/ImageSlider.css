@@ -1,50 +1,87 @@
 .continuous-slider-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    margin: 1px 0;
-    white-space: nowrap;
-    /* background: transparent; */
-    background-image: 'url(/assets/bliss_back.jpg)';
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin: 1px 0;
+  white-space: nowrap;
+  /* background: transparent; */
+  background-image: 'url(/assets/bliss_back.jpg)';
 }
 
 .continuous-slider-track {
-    display: flex;
-    width: max-content;
-    animation: scroll 950s linear infinite;
+  display: flex;
+  width: max-content;
+  animation: scroll 950s linear infinite;
 }
 
 @keyframes scroll {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-50%);
-    }
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .continuous-slider-container:hover .continuous-slider-track {
-    animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .continuous-slide {
-    flex: 0 0 auto;
-    padding: 0 5px;
-    width: 300px;
-    height: 200px;
+  flex: 0 0 auto;
+  padding: 0 5px;
+  width: 300px;
+  height: 200px;
 }
 
 .continuous-slide img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
-    .continuous-slide {
-        width: 250px;
-        height: 150px;
-    }
+  .continuous-slide {
+    width: 250px;
+    height: 150px;
+  }
+}
+
+.slider-wrapper {
+  overflow: hidden;
+  width: 100%;
+  background: #f9f9f9;
+}
+
+.slider-track {
+  display: flex;
+  animation: scroll 60s linear infinite;
+  /* slower scroll */
+  width: fit-content;
+}
+
+.slider-wrapper:hover .slider-track {
+  animation-play-state: paused;
+  /* pause on hover */
+}
+
+.slider-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
 }
