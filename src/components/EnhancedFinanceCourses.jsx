@@ -45,6 +45,7 @@ const EnhancedFinanceCourses = () => {
     },
   ];
 
+  
   return (
     <div className="challenges-container">
       {challenges.map((challenge) => (
@@ -98,7 +99,7 @@ const EnhancedFinanceCourses = () => {
               {challenge.buttons.map((button, index) => (
                 <Link key={index} to={button.link} className="register-button">
                   {button.text}
-{/*                   <span className="price">{challenge.price}</span> */}
+                  {/*<span className="price">{challenge.price}</span> */}
                 </Link>
               ))}
 
