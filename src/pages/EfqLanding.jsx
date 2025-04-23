@@ -50,23 +50,34 @@ function EfqLanding() {
         {/* Boost Your Financial Confidence with Our Program Our exclusive - EFQ session  Enrich Your Financial Quotient  #3B3531  background: linear-gradient(to right, #0d0c40, #4b0b64) */}
 
         <Heading
-          mainText="Whether your goal is ₹1L, ₹5L, or simply peace of mind — it’s not just about money, it’s about freedom, confidence, and the life you truly deserve. Turn confusion into clarity, start your investing journey and build unshakable money confidence — even if you're starting from scratch."
+          mainText=
+          {
+            <>
+              Whether your goal is ₹1L, ₹5L, or simply peace of mind — 
+              <br />
+              it’s not just about money, it’s about freedom, confidence, and
+              <br />
+              the life you truly deserve. Turn confusion into clarity, 
+              <br/>
+              start your investing journey and build unshakable money confidence - 
+              <br/>
+             even if you're starting from scratch."              
+            </>
+          }
           style={{
             color: "#84c225",
             paddingBottom: "20px",
             paddingTop: "20px",
-            fontSize: "30px",
-            fontWeight: 500,
+            fontSize: "25px",
+            fontWeight: 800,
           }}
         />
         <RegistrationForm onSubmit={handleFormSubmit} />
-
         <FeatureCards />
         <ImageSlider />
         <TestimonialCarousel />
         <InvestmentEducation />
         <LogoScroller />
-
         <Footer />
       </div>
     </div>
