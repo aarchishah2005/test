@@ -25,7 +25,7 @@ function EfqLanding() {
       <div className="background">
         <Heading
           mainText="Feeling Clueless, Confused, or unsure how to start investing? "
-          style={{ paddingTop: "20px", fontSize: "20px", fontWeight: 700 }}
+          style={{ color: "#84c225",paddingTop: "20px", paddingBottom: "30px", fontSize: "20px", fontWeight: 700 }}
         />
         {/* Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market.  Making Money Mistakes?  Fed up with Investment?   Dreaming of a Career in Stocks   */}
         <Heading
@@ -33,7 +33,7 @@ function EfqLanding() {
             <>
               Over 1,500+ people transformed financial fears into confidence
               <br />
-              with our Fearless Financial System — using
+              with our Financial System — using
               <br />
               simple language, easy steps, and zero pressure.
             </>
@@ -42,6 +42,8 @@ function EfqLanding() {
             fontWeight: 999,
             fontSize: "35px",
             backgroundColor: "#84c225",
+            paddingRight: "20px",
+            paddingLeft: "20px"
           }}
         />
         {/* Boost Your Financial Confidence with Our Program Our exclusive - EFQ session  Enrich Your Financial Quotient  #3B3531  background: linear-gradient(to right, #0d0c40, #4b0b64) */}
