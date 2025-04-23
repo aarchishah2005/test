@@ -42,9 +42,9 @@
 .menu-button {
   background: none;
   border: none;
-  color: #3B3531;
+  color: #ffffff;
   font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
   padding: 8px;
   transition: color 0.3s ease;
