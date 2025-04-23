@@ -30,11 +30,11 @@ function EfqLanding() {
         <Heading
           mainText={
             <>
-              Over 1,500+ people transformed financial fears into confidence
+              Over 1,500+ people transformed financial fears 
               <br />
-              with our Financial System — using
+             into confidence with our Financial System - 
               <br />
-              simple language, easy steps, and zero pressure.
+               using easy steps, and zero pressure.
             </>
           }
           style={{
@@ -53,7 +53,7 @@ function EfqLanding() {
           mainText=
           {
             <>
-              Whether your goal is ₹1L, ₹5L, or simply peace of mind — 
+              Whether your goal is ₹1L, ₹5L, or simply peace of mind -
               <br />
               it’s not just about money, it’s about freedom, confidence, and
               <br />
@@ -61,7 +61,7 @@ function EfqLanding() {
               <br/>
               start your investing journey and build unshakable money confidence - 
               <br/>
-             even if you're starting from scratch."              
+             even if you're starting from scratch.              
             </>
           }
           style={{
