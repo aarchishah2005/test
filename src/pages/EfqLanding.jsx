@@ -7,6 +7,7 @@ import RegistrationForm from "../components/RegistrationForm";
 import FeatureCards from "../components/FeatureCards";
 import LogoScroller from "../components/LogoScroller";
 import InvestmentEducation from "../components/InvestmentEducation";
+import ContactForm from "../components/ContactForm";
 import TestimonialCarousel from "../components/TestimonialCarousel";
 
 function EfqLanding() {
@@ -78,6 +79,27 @@ function EfqLanding() {
         <TestimonialCarousel />
         <InvestmentEducation />
         <LogoScroller />
+         <ContactForm
+        infoText={
+          <div style={{ fontSize: "18px", lineHeight: "1.7" }}>
+            <span style={{ fontWeight: "bold" }}>Let's Connect</span>
+            <br />
+            <br />
+            Falguni Vahora is a fearless finance leader, investor, and
+            advocate for financial empowerment, especially for women.
+            <br />
+            <br />
+            A BE-EC graduate from NIT Surat, she has 27+ years of experience
+            spanning software development, teaching, finance, and stock market
+            trading. She co-founded BlissQuants Analytics, leads a trading
+            desk of 40+ professionals, and has trained 800+ individuals in
+            investment and trading. A SEBI-registered research analyst and
+            author of Mastering Options Delta Trading, she blends expertise in
+            data analytics, risk management, and coaching to transform
+            financial education.
+          </div>
+        }
+      />
         <Footer />
       </div>
     </div>
