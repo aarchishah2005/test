@@ -14,11 +14,11 @@
 }
 
 .feature-item {
-  padding: 1.5rem 2rem;
+  padding: 1.1rem 2rem;
   border: 2px solid #84c225;
   border-radius: 8px;
   color: #84c225;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 500;
   background-color: transparent;
   transition: all 0.3s ease;
