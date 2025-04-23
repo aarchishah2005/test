@@ -5,13 +5,13 @@
   margin: 1px 0;
   white-space: nowrap;
   /* background: transparent; */
-  background-image: 'url(/assets/bliss_back.jpg)';
+  background-image: url(/assets/bliss_back.jpg);
 }
 
 .continuous-slider-track {
   display: flex;
   width: max-content;
-  animation: scroll 950s linear infinite;
+  animation: scroll 60s linear infinite;
 }
 
 @keyframes scroll {
@@ -59,8 +59,7 @@
 .slider-track {
   display: flex;
   animation: scroll 60s linear infinite;
-  /* slower scroll */
-  width: fit-content;
+  min-width: 200%; /* Important for looping with duplicated slides */
 }
 
 .slider-wrapper:hover .slider-track {
@@ -80,8 +79,7 @@
   0% {
     transform: translateX(0);
   }
-
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
