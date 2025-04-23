@@ -34,7 +34,7 @@ function EfqLanding() {
               <br />
              into confidence with our Financial System - 
               <br />
-               using easy steps, and zero pressure.
+               using easy steps and zero pressure.
             </>
           }
           style={{
@@ -55,7 +55,7 @@ function EfqLanding() {
             <>
               Whether your goal is ₹1L, ₹5L, or simply peace of mind -
               <br />
-              it’s not just about money, it’s about freedom, confidence, and
+              it’s not just about money, it’s about freedom, confidence and
               <br />
               the life you truly deserve. Turn confusion into clarity, 
               <br/>
