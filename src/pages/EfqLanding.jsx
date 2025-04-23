@@ -222,9 +222,10 @@ useEffect(() => {
               simple language, easy steps, and zero pressure.
           </> 
           }
-          style={{ marginTop:'20px', fontWeight: 999 , fontSize : '35px' , backgroundColor: '#84c225'}} 
+          style={{ marginTop:'20px', fontWeight: 999 , fontSize : '35px' ,background: linear-gradient(to right, #0d0c40, #4b0b64) }} 
+          
         />
-           {/* Boost Your Financial Confidence with Our Program Our exclusive - EFQ session  Enrich Your Financial Quotient  #3B3531 */}
+           {/* Boost Your Financial Confidence with Our Program Our exclusive - EFQ session  Enrich Your Financial Quotient  #3B3531 backgroundColor: '#84c225' */}
         
 
       <Heading
