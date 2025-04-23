@@ -28,12 +28,9 @@ const ImageSlider = () => {
     <div className="slider-wrapper">
       <div className="slider-track">
         {images.concat(images).map((img, index) => (
-          <img
-            src={img.src}
-            alt={`Slide ${index}`}
-            className="slider-image"
-            key={index}
-          />
+          <div className="continuous-slide" key={index}>
+            <img src={img.src} alt={`Slide ${index}`} />
+          </div>
         ))}
       </div>
     </div>
