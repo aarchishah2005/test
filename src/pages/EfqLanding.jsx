@@ -3,7 +3,6 @@ import "./EfqLanding.css";
 import Footer from "../components/Footer";
 import ImageSlider from "../components/ImageSlider";
 import Heading from "../components/heading";
-import DateDay from "../components/DateDay";
 import RegistrationForm from "../components/RegistrationForm";
 import FeatureCards from "../components/FeatureCards";
 import LogoScroller from "../components/LogoScroller";
@@ -41,9 +40,11 @@ function EfqLanding() {
           style={{
             fontWeight: 999,
             fontSize: "35px",
-            backgroundColor: "#84c225",
+            backgroundColor: "#ffff",
             paddingRight: "20px",
-            paddingLeft: "20px"
+            paddingLeft: "20px",
+            color:"#3B3531",
+            borderRadius: "9px"
           }}
         />
         {/* Boost Your Financial Confidence with Our Program Our exclusive - EFQ session  Enrich Your Financial Quotient  #3B3531  background: linear-gradient(to right, #0d0c40, #4b0b64) */}
