@@ -217,9 +217,9 @@ useEffect(() => {
             <>
             Over 1,500+ people have transformed their financial fears into confidence 
             <br />
-            through our Fearless Financial System — a proven approach
+            through our Fearless Financial System — using
             <br />
-            with no jargon, no complex math, and no overwhelm.
+              simple language, easy-to-follow steps, and stress-free methods.
           </> 
           }
           style={{ marginTop:'20px', fontWeight: 900 , fontSize : '30px' , backgroundColor: '#84c225'}} 
