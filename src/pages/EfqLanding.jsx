@@ -215,11 +215,11 @@ useEffect(() => {
       <Heading
          mainText={
             <>
-            Over 1,500+ people have transformed their financial fears into confidence 
+             Over 1,500+ people transformed their financial fears into confidence
             <br />
             through our Fearless Financial System — using
             <br />
-              simple language, easy-to-follow steps, and stress-free methods.
+              using simple language, easy steps, and zero pressure.
           </> 
           }
           style={{ marginTop:'20px', fontWeight: 900 , fontSize : '30px' , backgroundColor: '#84c225'}} 
