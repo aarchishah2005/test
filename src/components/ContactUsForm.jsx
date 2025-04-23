@@ -44,7 +44,7 @@ const ContactForm = () => {
             A BE-EC graduate from NIT Surat, she has 27+ years of experience
             spanning software development, teaching, finance, and stock market
             trading. She co-founded BlissQuants Analytics, leads a trading desk
-            of 40+ professionals, and has trained 800+ individuals in investment
+            of 40+ professionals, and has trained 1500+ individuals in investment
             and trading. A SEBI-registered research analyst and author of
             Mastering Options Delta Trading, she blends expertise in data
             analytics, risk management, and coaching to transform financial
