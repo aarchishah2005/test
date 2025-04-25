@@ -102,6 +102,7 @@ function EfqLanding() {
         <ImageSlider />
         <TestimonialCarousel />
         <InvestmentEducation />
+         {/* Staand-alone Register here button */}
         <div
           style={{
             alignItems: "center",
