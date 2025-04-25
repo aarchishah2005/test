@@ -10,10 +10,10 @@
   
   /* Card styling */
   .registration-card {
-    background: linear-gradient(134deg, #3b3531, #26214f); 
+    background: linear-gradient(125deg, #3b3531, #26214f); 
     max-width: 700px;
     width: 100%;
-    box-shadow: 0 0 10px #6f73d2, 0 0 20px #6f73d2;
+    box-shadow: 0 0 5px #6f73d2, 0 0  15px #6f73d2;
     border-radius: 8px;
     border: 1px solid #84c225;
     align-items: center;
