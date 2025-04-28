@@ -4,7 +4,7 @@ import WebinarTimer from "./WebinarTimer";
 import { useWebinarTimer } from "./useWebinarTimer";
 
 const RegistrationForm = () => {
-  const timeLeft = useWebinarTimer("2025-04-26T23:59:59");
+  const timeLeft = useWebinarTimer("2025-05-03T23:59:59");
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handlePayment = () => {
