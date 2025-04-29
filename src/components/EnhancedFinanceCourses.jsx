@@ -8,7 +8,7 @@ const EnhancedFinanceCourses = () => {
       id: 1,
       title: "Fearless Financial Investment :: 1-Day Workshop",
       description:
-        "Break free from financial fear and take charge of your investments with confidence! This power-packed workshop will equip you with essential finance concepts, expert stock market strategies, AI-driven stock selection, and risk management techniques. With hands-on tools, personalized guidance, and a strong investment community, you’ll gain the skills to invest smartly and fearlessly. Join us and start building your financial freedom today!",
+        "Break free from financial fear and take charge of your investments with confidence! This power-packed workshop will equip you with essential finance concepts, expert stock market strategies, multibagger stock selection, and risk management techniques. With hands-on tools, personalized guidance, and a strong investment community, you’ll gain the skills to invest smartly and fearlessly. Join us and start building your financial freedom today!",
       startDate: "24 May 2025",
       duration: "1 Day",
       language: "Hindi & English",
@@ -23,7 +23,7 @@ const EnhancedFinanceCourses = () => {
       id: 2,
       title: "Fearless Financial Trading :: 3-day online live course",
       description:
-        "The Fearless Financial Trading 3-day flagship course is designed to transform you into a confident and strategic trader. Whether you're a beginner or looking to refine your trading skills, this intensive program equips you with cutting-edge strategies, AI-driven insights, and proven trading systems to help you trade fearlessly. With hands-on training, expert guidance, and a structured approach, you'll gain the confidence to navigate the stock market like a pro. Join us and unlock your path to financial freedom today!",
+        "The Fearless Financial Trading 3-day flagship course is designed to transform you into a confident and strategic trader. Whether you're a beginner or looking to refine your trading skills, this intensive program equips you with cutting-edge strategies and proven trading systems to help you trade fearlessly. With hands-on training, expert guidance, and a structured approach, you'll gain the confidence to navigate the stock market like a pro. Join us and unlock your path to financial freedom today!",
       startDate: "16 June 2025",
       duration: "3 Days",
       language: "Hindi & English",
