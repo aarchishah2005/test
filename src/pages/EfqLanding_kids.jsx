@@ -42,7 +42,7 @@ function EfqLanding_kids() {
     <div className="EfqLanding">
       <div className="background">
         <Heading
-          mainText="Feeling Clueless, Confused, or unsure how to start investing? "
+          mainText="Wish money didn’t feel so complicated or boring?"
           style={{
             color: "#84c225",
             paddingTop: "20px",
@@ -55,11 +55,11 @@ function EfqLanding_kids() {
         <Heading
           mainText={
             <>
-              Over 1,500+ people transformed financial fears
+          Many teens have already turned confusion into clarity  
               <br />
-              into confidence with our Financial System -
+              with our Teen Financial System—using real-life lessons -
               <br />
-              using easy steps and zero pressure.
+              Don’t let your child miss the chance to build lifelong financial confidence.
             </>
           }
           style={{
