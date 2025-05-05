@@ -38,6 +38,21 @@ function EfqLanding() {
     setIsSubmitted(false);
   };
 
+    const secretsWebinar1 = [
+    { number: "Secret 1", text: "The Simple Way to Build a Strong Financial Base" },
+    { number: "Secret 2", text: "Use a Proven Investment Strategy That Works" },
+    { number: "Secret 3", text: "How to Start Earning from the Stock Market Part-Time" },
+  ];
+
+   const myFeatures = [
+    "Take Control of Your Finances — No Experience Needed!",
+    "Learn to manage your money with clarity and confidence",
+    "Build the mindset needed to invest fearlessly",
+    "Start your stock market journey — even part-time",
+    "Use simple strategies based on risk & return",
+    "No jargon. No confusion. Just practical tools that work",
+  ];
+
   return (
     <div className="EfqLanding">
       <div className="background">
@@ -97,11 +112,11 @@ function EfqLanding() {
             fontWeight: 800,
           }}
         />
-        <RegistrationForm onSubmit={handleFormSubmit} />
+        <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar1}/>
         <FeatureCards />
         <ImageSlider />
         <TestimonialCarousel />
-        <InvestmentEducation />
+        <InvestmentEducation features={myFeatures}/>
          {/* Staand-alone Register here button */}
         <div
           style={{
