@@ -79,13 +79,13 @@ function EfqLanding_kids() {
             <>
                This isn’t just another boring lecture—
               <br />
-               this program simplifies finance and empowers teens with tools to 
+               this program simplifies finance and empowers teens  
               <br />
-              manage, save, and invest confidently. Start now, not “someday,”
+             with tools to manage, save, and invest confidently. 
               <br />
-              and build one of the most important life skills for a fearless financial future.
+              Start now, not “someday,” and 
               <br />
-                           
+                build one of the most important life skills for a fearless financial future.         
             </>
           }
           style={{
