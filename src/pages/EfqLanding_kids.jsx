@@ -11,7 +11,7 @@ import ContactForm from "../components/ContactForm";
 import TestimonialCarousel from "../components/TestimonialCarousel";
 import { useWebinarTimer } from "../components/useWebinarTimer";
 
-function EfqLanding_kid() {
+function EfqLanding_kids() {
   useEffect(() => {
     console.log("Scrolling to top...");
     window.scrollTo(0, 0); // Scrolls to the top when component mounts
@@ -168,4 +168,4 @@ function EfqLanding_kid() {
   );
 }
 
-export default EfqLanding_kid;
+export default EfqLanding_kids;
