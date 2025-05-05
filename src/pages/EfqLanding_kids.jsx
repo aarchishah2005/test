@@ -77,16 +77,15 @@ function EfqLanding_kids() {
         <Heading
           mainText={
             <>
-              Whether your goal is ₹1L, ₹5L, or simply peace of mind -
+               This isn’t just another boring lecture—
               <br />
-              it’s not just about money, it’s about freedom, confidence and
+               this program simplifies finance and empowers teens with tools to 
               <br />
-              the life you truly deserve. Turn confusion into clarity,
+              manage, save, and invest confidently. Start now, not “someday,”
               <br />
-              start your investing journey and build unshakable money confidence
-              -
+              and build one of the most important life skills for a fearless financial future.
               <br />
-              even if you're starting from scratch.
+                           
             </>
           }
           style={{
