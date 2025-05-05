@@ -57,7 +57,7 @@ function EfqLanding_kids() {
             <>
           Many teens have already turned confusion into clarity  
               <br />
-              with our Teen Financial System—using real-life lessons -
+              with our Teen Financial System using real-life lessons.
               <br />
               Don’t let your child miss the chance to build lifelong financial confidence.
             </>
