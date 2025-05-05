@@ -12,7 +12,7 @@ import ContactForm from './components/ContactForm.jsx';
 import Footer from './components/Footer';
 // import About from "./pages/About";
 import EfqLanding from "./pages/EfqLanding";
-import EfqLanding from "./pages/EfqLanding_kid";
+import EfqLanding_kid from "./pages/EfqLanding_kid";
 import Contact from "./pages/Contact";
 import Profile from "./components/profile";
 import Policies from "./components/Policies" ;
