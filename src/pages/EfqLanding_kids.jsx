@@ -77,13 +77,13 @@ function EfqLanding_kids() {
         <Heading
           mainText={
             <>
-               This isn’t just another boring lecture—
+               This isn’t just another boring lecture —
               <br />
                this program simplifies finance and empowers teens  
               <br />
              with tools to manage, save, and invest confidently. 
               <br />
-              Start now, not “someday,” and 
+              Start now, not “someday.”  
               <br />
                 build one of the most important life skills for a fearless financial future.         
             </>
