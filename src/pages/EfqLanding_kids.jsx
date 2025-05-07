@@ -39,9 +39,11 @@ function EfqLanding_kids() {
   };
 
    const secretsWebinar2 = [
-    { number: "Secret 1", text: "The Simple Way to Build a Strong Financial Base" },
-    { number: "Secret 2", text: "Use a Proven Investment Strategy That Works" },
-    { number: "Secret 3", text: "How to Start Earning from the Stock Market Part-Time" },
+    { number: "Secret 1", text: "Saving is Cool. Growing it is Smarter." },
+    { number: "Secret 2", text: "Money Doesn’t Grow on Trees, It Can Grow with You. " },
+    { number: "Secret 3", text: "Financial Freedom Is a Skill, Not a Secret." },
+
+
   ];
 
 
