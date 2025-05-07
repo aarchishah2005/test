@@ -75,7 +75,7 @@ function EfqLanding_kids() {
         <Heading
           mainText={
             <>
-          Many teens have already turned confusion into clarity  
+            Many teens have already turned money struggles into strength
               <br />
               with our Teen Financial System using real-life lessons.
               <br />
