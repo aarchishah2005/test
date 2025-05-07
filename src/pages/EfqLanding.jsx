@@ -10,6 +10,7 @@ import InvestmentEducation from "../components/InvestmentEducation";
 import ContactForm from "../components/ContactForm";
 import TestimonialCarousel from "../components/TestimonialCarousel";
 import { useWebinarTimer } from "../components/useWebinarTimer";
+import { TrendingUp, Monitor, Users } from 'lucide-react';
 
 function EfqLanding() {
   useEffect(() => {
@@ -51,6 +52,34 @@ function EfqLanding() {
     "Start your stock market journey — even part-time",
     "Use simple strategies based on risk & return",
     "No jargon. No confusion. Just practical tools that work",
+  ];
+
+   const FeatureCard_kid = [
+    {
+      icon: TrendingUp,
+      title: "One Day Session",
+      points: [
+        "2 Hours of Intensive Learning",
+        "Live On Zoom"
+      ]
+    },
+    {
+      icon: Monitor,
+      title: "Language",
+      points: [
+        "English + Hindi Mix",
+        "Easy To Understand For Everyone"
+      ]
+    },
+    {
+      icon: Users,
+      title: "Who Can Attend",
+      points: [
+        "Fresher / Beginner",
+        "Investor / Trader",
+        "Finance Enthusiast"
+      ]
+    }
   ];
 
   return (
@@ -113,7 +142,7 @@ function EfqLanding() {
           }}
         />
         <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar1}/>
-        <FeatureCards />
+        <FeatureCards cards={FeatureCard_kid} />
         <ImageSlider />
         <TestimonialCarousel />
         <InvestmentEducation features={myFeatures}/>
