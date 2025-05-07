@@ -49,7 +49,7 @@ function EfqLanding_kids() {
 
   const myFeatures2 = [
    
-    "Master the One Skill Schools Don’t Teach: Fearless Finance*,
+    "Master the One Skill Schools Don’t Teach: Fearless Finance",
     "Make Smart Money Moves—Even Before Your First Job",
     "Start Investing Early and Watch Your Money Grow",
     "Interest: Know When It's a Friend or a Foe",
