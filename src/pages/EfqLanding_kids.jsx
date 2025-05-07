@@ -10,6 +10,7 @@ import InvestmentEducation from "../components/InvestmentEducation";
 import ContactForm from "../components/ContactForm";
 import TestimonialCarousel from "../components/TestimonialCarousel";
 import { useWebinarTimer } from "../components/useWebinarTimer";
+import { TrendingUp, Monitor, Users } from 'lucide-react';
 
 function EfqLanding_kids() {
   useEffect(() => {
@@ -56,6 +57,34 @@ function EfqLanding_kids() {
     "Discover the Secret Formula Behind Rich vs. Broke Mindsets",
     "Decode the World of Wealth Creation—The Easy and Fun Way",
 
+  ];
+
+  const FeatureCard_kid = [
+    {
+      icon: TrendingUp,
+      title: "One Day Session",
+      points: [
+        "2 Hours of Intensive Learning",
+        "Live On Zoom"
+      ]
+    },
+    {
+      icon: Monitor,
+      title: "Language",
+      points: [
+        "English + Hindi Mix",
+        "Easy To Understand For Everyone"
+      ]
+    },
+    {
+      icon: Users,
+      title: "Who Can Attend",
+      points: [
+        "Fresher / Beginner",
+        "Investor / Trader",
+        "Finance Enthusiast"
+      ]
+    }
   ];
 
   return (
@@ -117,7 +146,7 @@ function EfqLanding_kids() {
           }}
         />
         <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar2}/>
-        <FeatureCards />
+        <FeatureCards cards={FeatureCard_kid} />
         <ImageSlider />
         <TestimonialCarousel />
         <InvestmentEducation features={myFeatures2}/>
