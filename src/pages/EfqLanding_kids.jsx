@@ -48,12 +48,14 @@ function EfqLanding_kids() {
 
 
   const myFeatures2 = [
-    "Take Control of Your Finances — No Experience Needed!",
-    "Learn to manage your money with clarity and confidence",
-    "Build the mindset needed to invest fearlessly",
-    "Start your stock market journey — even part-time",
-    "Use simple strategies based on risk & return",
-    "No jargon. No confusion. Just practical tools that work",
+   
+    "Master the One Skill Schools Don’t Teach: Fearless Finance*,
+    "Make Smart Money Moves—Even Before Your First Job",
+    "Start Investing Early and Watch Your Money Grow",
+    "Interest: Know When It's a Friend or a Foe",
+    "Discover the Secret Formula Behind Rich vs. Broke Mindsets",
+    "Decode the World of Wealth Creation—The Easy and Fun Way",
+
   ];
 
   return (
