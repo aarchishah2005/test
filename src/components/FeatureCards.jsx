@@ -18,36 +18,7 @@ const FeatureCard = ({ icon: Icon, title, points }) => {
   );
 };
 
-const FeatureCards = ({
-  cards = [
-    {
-      icon: TrendingUp,
-      title: "One Day Session",
-      points: [
-        "2 Hours of Intensive Learning",
-        "Live On Zoom"
-      ]
-    },
-    {
-      icon: Monitor,
-      title: "Language",
-      points: [
-        "English + Hindi Mix",
-        "Easy To Understand For",
-        "Everyone"
-      ]
-    },
-    {
-      icon: Users,
-      title: "Who Can Attend:",
-      points: [
-        "Fresher / Beginner",
-        "Investor / Trader",
-        "Finance Enthusiast"
-      ]
-    }
-  ]
-}) => {
+const FeatureCards = ({ cards }) => {
   return (
     <div className="feature-cards-container">
       {cards.map((card, index) => (
