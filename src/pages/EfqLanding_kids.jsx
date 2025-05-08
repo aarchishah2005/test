@@ -150,7 +150,7 @@ function EfqLanding_kids() {
 {/*         <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar2}/> */}
         <RegistrationForm
           title="What you will learn in 120 minutes"
-          secrets={secretsWebinar1}
+          secrets={secretsWebinar2}
           deadline="2025-05-11T23:59:59"
           paymentUrl="https://rzp.io/rzp/YRgBvUM"
           price={199}
