@@ -18,7 +18,7 @@ function EfqLanding_kids() {
     window.scrollTo(0, 0); // Scrolls to the top when component mounts
   }, []);
 
-  const timeLeft = useWebinarTimer("2025-05-11T23:59:59");
+  const timeLeft = useWebinarTimer("2025-05-23T23:59:59");
 
   const handleFormSubmit = (data) => {
     console.log("Form submitted with data:", data);
@@ -149,7 +149,7 @@ function EfqLanding_kids() {
         />
 {/*         <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar2}/> */}
         <RegistrationForm
-          title="ENRICH YOUR (TEENS) FINANCIAL QUAOTIENT 3 DAYS PROGRAM"
+          title="ENRICH YOUR FINANCIAL QUAOTIENT - TEENS PROGRAM"
           secrets={secretsWebinar2}
           deadline="2025-05-23T23:59:59"
           paymentUrl="https://rzp.io/rzp/exZRV8Zm"
