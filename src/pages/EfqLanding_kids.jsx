@@ -84,7 +84,7 @@ function EfqLanding_kids() {
       points: [
         "13+ years",
         "Fresher / Beginner",
-        "Investor / Trader"
+        "Investor"
       ]
     }
   ];
