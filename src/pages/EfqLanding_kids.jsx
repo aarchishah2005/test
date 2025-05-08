@@ -73,7 +73,7 @@ function EfqLanding_kids() {
       icon: Monitor,
       title: "Language",
       points: [
-        "English + Hindi Mix",
+        "English + Hindi",
         "Easy To Understand",
         "Simple and Fun"
       ]
