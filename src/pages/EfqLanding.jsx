@@ -141,7 +141,18 @@ function EfqLanding() {
             fontWeight: 800,
           }}
         />
-        <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar1}/>
+{/*         <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar1}/> */}
+        <RegistrationForm
+            title="What you will learn in 120 minutes"
+            secrets={secretsWebinar1}
+            deadline="2025-05-11T23:59:59"
+            paymentUrl="https://rzp.io/rzp/YRgBvUM"
+            price={199}
+            discountText="(Save 40% Today!)"
+            thankYouMessage="Thank You for Registering!"
+            subMessage="You'll receive the webinar details shortly."
+        />
+
         <FeatureCards cards={FeatureCard_kid} />
         <ImageSlider />
         <TestimonialCarousel />
