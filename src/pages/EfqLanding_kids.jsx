@@ -62,9 +62,10 @@ function EfqLanding_kids() {
   const FeatureCard_kid = [
     {
       icon: TrendingUp,
-      title: "One Day Session",
+      title: "Three-Day Session",
       points: [
-        "2 Hours of Intensive Learning",
+        "2 Hours of Learning each day",
+        "Three days course",
         "Live On Zoom"
       ]
     },
@@ -73,16 +74,17 @@ function EfqLanding_kids() {
       title: "Language",
       points: [
         "English + Hindi Mix",
-        "Easy To Understand For Everyone"
+        "Easy To Understand",
+        "Simple and Fun"
       ]
     },
     {
       icon: Users,
       title: "Who Can Attend",
       points: [
+        "13+ years",
         "Fresher / Beginner",
-        "Investor / Trader",
-        "Finance Enthusiast"
+        "Investor / Trader"
       ]
     }
   ];
