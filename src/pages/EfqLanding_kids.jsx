@@ -27,7 +27,7 @@ function EfqLanding_kids() {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handlePayment = () => {
-    window.open("https://rzp.io/rzp/YRgBvUM", "_blank"); // Replace with your actual Razorpay Payment Page URL
+    window.open("https://rzp.io/rzp/exZRV8Zm", "_blank"); // Replace with your actual Razorpay Payment Page URL
   };
 
   const handleSubmit = (e) => {
@@ -152,7 +152,7 @@ function EfqLanding_kids() {
           title="What you will learn in 120 minutes"
           secrets={secretsWebinar2}
           deadline="2025-05-11T23:59:59"
-          paymentUrl="https://rzp.io/rzp/YRgBvUM"
+          paymentUrl="https://rzp.io/rzp/exZRV8Zm"
           price={199}
           discountText="(Save 40% Today!)"
           thankYouMessage="Thank You for Registering!"
