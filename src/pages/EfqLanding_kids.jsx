@@ -8,7 +8,7 @@ import FeatureCards from "../components/FeatureCards";
 import LogoScroller from "../components/LogoScroller";
 import InvestmentEducation from "../components/InvestmentEducation";
 import ContactForm from "../components/ContactForm";
-import RegistrationForm_old from "../components/RegistrationForm_old_2";
+
 import TestimonialCarousel from "../components/TestimonialCarousel";
 import { useWebinarTimer } from "../components/useWebinarTimer";
 import { TrendingUp, Monitor, Users } from 'lucide-react';
@@ -160,14 +160,14 @@ function EfqLanding_kids() {
           thankYouMessage="Thank You for Registering!"
           subMessage="You'll receive the webinar details shortly."
           webinarDetails={{
-              date: "11 May 2025",
-              day: "Sunday",
-              startTime: "2 : 00 PM",
-              endTime: "4 : 00 PM",
-              endDateTime: "2025-05-11T23:59:59"
+              date: "23, 24, 25  May 2025",
+              day: "Friday Saturday Sunday",
+              startTime: "10 : 00 AM",
+              endTime: "12 : 00 PM",
+              endDateTime: "2025-05-23T09:59:59"
           }}
         />
-          <RegistrationForm_old_2/>
+       
 
         <FeatureCards cards={FeatureCard_kid} />
         <ImageSlider />
