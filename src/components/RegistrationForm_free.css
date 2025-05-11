@@ -1,0 +1,149 @@
+/* Main container */
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* min-height: 100vh; */
+    /* background-color: #1a1a1a; */
+    /* padding: 1rem; */
+  }
+  
+  /* Card styling */
+  .registration-card {
+    background: linear-gradient(125deg, #3b3531, #26214f); 
+    max-width: 700px;
+    width: 100%;
+    box-shadow: 0 0 10px #6f73d2, 0 0  10px #6f73d2;
+    border-radius: 8px;
+    border: 1px solid #84c225;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* padding: 0.8rem; */
+  }
+  
+  /* Header section */
+  .form-header {
+    text-align: center;
+    margin-bottom: 0.4rem;
+  }
+  
+  .form-header h2 {
+    font-size: 1.rem;
+    font-weight: bold;
+    align-items: center;
+    margin-bottom: 0.4rem;
+  }
+  
+  /* Secrets list styling */
+  .secrets-list {
+    text-align: left;
+    margin-bottom: 1.2rem;
+    list-style-type: none;
+    padding: 0 0 0 10px;
+  }
+  
+  .secrets-list li {
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 0.8rem;
+  }
+  
+  .checkmark {
+    color: #84c225;
+    margin-right: 0.5rem;
+    font-size: 18px;
+  }
+  
+  .secret-number {
+    font-size: 18px;
+    color: #84c225;
+    font-weight: 600;
+  }
+  
+  /* Button styling */
+  .submit-button {
+    width: 50%;
+    font-weight: 500;
+    border: 1px solid #84c225;
+    border-radius: 20px;
+    color: #84c225;
+    justify-content: center;
+    background: transparent;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    border: 1px solid #3b3531;
+    background-color: #84c225;
+    color: #ffffff;
+  }
+  
+  /* Success message styling */
+  .success-message {
+    text-align: center;
+  }
+  
+  .success-icon {
+    color: #84c225;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .success-message h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .success-message p {
+    margin-bottom: 1rem;
+  }
+  
+  .back-button {
+    padding: 0.5rem 1rem;
+    background-color: #84c225;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #84c225;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 640px) {
+    .registration-card {
+      padding: 1rem;
+    }
+    
+    .form-header h2 {
+      font-size: 1.25rem;
+    }
+    
+    .submit-button {
+      padding: 0.5rem;
+    }
+  }
+
+
+.webinar-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.webinar-form input {
+  width: 80%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
