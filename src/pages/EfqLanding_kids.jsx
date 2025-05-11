@@ -150,8 +150,7 @@ function EfqLanding_kids() {
           }}
         />
 {/*         <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar2}/> */}
-         {/*   price={ <span style={{ color: 'orange', fontWeight: 'bold', fontSize: '18px' }}> 999 <s style={{ color: '#888' }}>₹4999</s>       </span> }*/}
-         {/* title="ENRICH YOUR FINANCIAL QUAOTIENT - 3 days TEENS PROGRAM"            title={  <span style={{ color: 'orange' }}>     Enrich your FINANCIAL skill with this  3 days live workshop!   </span> }*/}
+        
         <RegistrationForm
         
           title={<span style={{ color: 'orange',fontWeight: 'bold',fontSize: '22px' }}>Enrich your TEENS' FINANCIAL skill with 3 days live workshop! </span>}
@@ -159,7 +158,6 @@ function EfqLanding_kids() {
           deadline="2025-05-23T23:59:59"
           paymentUrl="https://rzp.io/rzp/exZRV8Zm"
           price={<span style={{ color: 'orange',fontWeight: 'bold',fontSize: '22px' }}><>999 <s> ₹4999</s></></span>} 
-       
           discountText="  (Save 80% Today!)"
           thankYouMessage="Thank You for Registering!"
           subMessage="You'll receive the webinar details shortly."
