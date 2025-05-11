@@ -145,18 +145,18 @@ function EfqLanding() {
         <RegistrationForm
             title="What you will learn in 120 minutes"
             secrets={secretsWebinar1}
-            deadline="2025-05-11T23:59:59"
+            deadline="2025-05-25T23:59:59"
             paymentUrl="https://rzp.io/rzp/YRgBvUM"
             price={199}
             discountText="(Save 40% Today!)"
             thankYouMessage="Thank You for Registering!"
             subMessage="You'll receive the webinar details shortly."
             webinarDetails={{
-              date: "11 May 2025",
+              date: "25 May 2025",
               day: "Sunday",
               startTime: "2 : 00 PM",
               endTime: "4 : 00 PM",
-              endDateTime: "2025-05-11T23:59:59"
+              endDateTime: "2025-05-25T23:59:59"
             }}
         />
 
