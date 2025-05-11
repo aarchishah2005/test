@@ -151,7 +151,7 @@ function EfqLanding_kids() {
         />
 {/*         <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar2}/> */}
         <RegistrationForm
-          title="ENRICH YOUR FINANCIAL QUAOTIENT - TEENS PROGRAM"
+          title="ENRICH YOUR FINANCIAL QUAOTIENT - 3 days TEENS PROGRAM"
           secrets={secretsWebinar2}
           deadline="2025-05-23T23:59:59"
           paymentUrl="https://rzp.io/rzp/exZRV8Zm"
