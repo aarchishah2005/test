@@ -122,7 +122,7 @@ const RegistrationForm_free = ({
               required
             />
             <button type="submit" className="cta-button">
-              Register Here
+              Join Webinar for FREE!
             </button>
           </form>
         ) : (
