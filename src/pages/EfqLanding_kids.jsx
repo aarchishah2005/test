@@ -158,7 +158,7 @@ function EfqLanding_kids() {
           secrets={secretsWebinar2}
           deadline="2025-05-23T23:59:59"
           paymentUrl="https://rzp.io/rzp/exZRV8Zm"
-        price={<>999 <s> ₹4999</s></>} 
+          price={<span style={{ color: 'orange',fontWeight: 'bold',fontSize: '22px' }}><>999 <s> ₹4999</s></></span>} 
        
           discountText="  (Save 80% Today!)"
           thankYouMessage="Thank You for Registering!"
