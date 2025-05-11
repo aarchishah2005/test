@@ -151,11 +151,14 @@ function EfqLanding_kids() {
         />
 {/*         <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar2}/> */}
         <RegistrationForm
-          title="ENRICH YOUR FINANCIAL QUAOTIENT - 3 days TEENS PROGRAM"
+         {/* title="ENRICH YOUR FINANCIAL QUAOTIENT - 3 days TEENS PROGRAM" */}
+          title={  <span style={{ color: 'orange' }}>     Enrich your FINANCIAL skill with this  3 days live workshop!   </span> }
           secrets={secretsWebinar2}
           deadline="2025-05-23T23:59:59"
           paymentUrl="https://rzp.io/rzp/exZRV8Zm"
-          price={<>999 <s> ₹4999</s></>}
+        {/*  price={<>999 <s> ₹4999</s></>} */}
+        price={   <span style={{ color: 'orange', fontWeight: 'bold', fontSize: '18px' }}>
+        999 <s style={{ color: '#888' }}>₹4999</s>       </span> }
           discountText="  (Save 80% Today!)"
           thankYouMessage="Thank You for Registering!"
           subMessage="You'll receive the webinar details shortly."
