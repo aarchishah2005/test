@@ -155,8 +155,8 @@ function EfqLanding_kids() {
           secrets={secretsWebinar2}
           deadline="2025-05-23T23:59:59"
           paymentUrl="https://rzp.io/rzp/exZRV8Zm"
-          price={999} 
-          discountText="<S>4999</S> (Save 40% Today!)"
+          price={<>₹999 <s>₹4999</s></>}
+          discountText="  (Save 40% Today!)"
           thankYouMessage="Thank You for Registering!"
           subMessage="You'll receive the webinar details shortly."
           webinarDetails={{
