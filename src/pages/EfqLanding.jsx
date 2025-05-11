@@ -143,7 +143,7 @@ function EfqLanding() {
         />
 {/*         <RegistrationForm onSubmit={handleFormSubmit} secrets={secretsWebinar1}/> */}
         <RegistrationForm
-            title="What you will learn in 120 minutes"
+             title={<span style={{ color: 'orange',fontWeight: 'bold',fontSize: '22px' }}>Enrich your FINANCIAL skill with live webinar! </span>}
             secrets={secretsWebinar1}
             deadline="2025-05-25T13:59:59"
             paymentUrl="https://rzp.io/rzp/YRgBvUM"
