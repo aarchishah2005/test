@@ -13,6 +13,7 @@ import Footer from './components/Footer';
 // import About from "./pages/About";
 import EfqLanding from "./pages/EfqLanding";
 import EfqLanding_kids from "./pages/EfqLanding_kids";
+import EFQLanding_Free_webinar from "./pages/EFQLanding_Free_webinar";
 import Contact from "./pages/Contact";
 import Profile from "./components/profile";
 import Policies from "./components/Policies" ;
@@ -119,6 +120,7 @@ import Coaching from "./pages/Coaching";
             <Route path="/Coaching" element={<Coaching />} />
             <Route path="/EfqLanding" element={<EfqLanding />} />
             <Route path="/EfqLanding_kids" element={<EfqLanding_kids />} />
+            <Route path="/EFQLanding_Free_webinar" element={<EFQLanding_Free_webinar />} />
             <Route path="/ContactForm" element={<ContactForm />} />
               <Route path="/Contact" element={<Contact />} />
             {/*<Route path="/ContactForm" element={<ContactForm />} />*/}
