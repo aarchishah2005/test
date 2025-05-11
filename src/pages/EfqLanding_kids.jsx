@@ -165,7 +165,7 @@ function EfqLanding_kids() {
           subMessage="You'll receive the webinar details shortly."
           webinarDetails={{
               date: "23, 24, 25  May 2025",
-              day: "Friday Saturday Sunday",
+              day: " ",
               startTime: "08 : 00 AM",
               endTime: "10 : 00 AM",
               endDateTime: "2025-05-23T07:59:59"
