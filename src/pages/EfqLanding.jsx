@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./EfqLanding.css";
 import Footer from "../components/Footer";
 import ImageSlider from "../components/ImageSlider";
-
+import Heading from "../components/heading";
 import RegistrationForm from "../components/RegistrationForm";
 import FeatureCards from "../components/FeatureCards";
 import LogoScroller from "../components/LogoScroller";
