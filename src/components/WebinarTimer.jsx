@@ -1,17 +1,18 @@
-import React, { useEffect, useState } from "react";
-import "./WebinarTimer.css"; // Ensure this file handles responsiveness
+import React from "react";
+import "./WebinarTimer.css";
 import DateDay from "./DateDay";
 import { useWebinarTimer } from "./useWebinarTimer";
 
-const WebinarTimer = () => {
-  const timeLeft = useWebinarTimer("2025-05-11T23:59:59");
+const WebinarTimer = ({ date, day, startTime, endTime, endDateTime }) => {
+  const timeLeft = useWebinarTimer(endDateTime);
+
   return (
     <div className="webinar-container">
       <DateDay
-        date="11 May 2025"
-        day="Sunday"
-        startTime="2 : 00 PM"
-        endTime="4 : 00 PM"
+        date={date}
+        day={day}
+        startTime={startTime}
+        endTime={endTime}
       />
 
       <div className="countdown">
