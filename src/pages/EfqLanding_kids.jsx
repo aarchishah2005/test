@@ -162,9 +162,9 @@ function EfqLanding_kids() {
           webinarDetails={{
               date: "23, 24, 25  May 2025",
               day: "Friday Saturday Sunday",
-              startTime: "10 : 00 AM",
-              endTime: "12 : 00 PM",
-              endDateTime: "2025-05-23T09:59:59"
+              startTime: "08 : 00 AM",
+              endTime: "10 : 00 AM",
+              endDateTime: "2025-05-23T07:59:59"
           }}
         />
        
