@@ -157,6 +157,13 @@ function EfqLanding_kids() {
           discountText="(Save 40% Today!)"
           thankYouMessage="Thank You for Registering!"
           subMessage="You'll receive the webinar details shortly."
+          webinarDetails={{
+              date: "11 May 2025",
+              day: "Sunday",
+              startTime: "2 : 00 PM",
+              endTime: "4 : 00 PM",
+              endDateTime: "2025-05-11T23:59:59"
+          }}
         />
 
         <FeatureCards cards={FeatureCard_kid} />
