@@ -11,7 +11,8 @@ const RegistrationForm = ({
   price,
   discountText,
   thankYouMessage,
-  subMessage
+  subMessage,
+  webinarDetails
 }) => {
   const timeLeft = useWebinarTimer(deadline);
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -48,7 +49,12 @@ const RegistrationForm = ({
         </div>
 
         <div>
-          <WebinarTimer deadline={deadline} />
+          <WebinarTimer 
+            date={webinarDetails.date}
+            day={webinarDetails.day}
+            startTime={webinarDetails.startTime}
+            endTime={webinarDetails.endTime}
+            endDateTime={webinarDetails.endDateTime}  />
         </div>
 
         {!timeLeft.expired && !isSubmitted ? (
