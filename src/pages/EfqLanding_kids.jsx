@@ -8,9 +8,11 @@ import FeatureCards from "../components/FeatureCards";
 import LogoScroller from "../components/LogoScroller";
 import InvestmentEducation from "../components/InvestmentEducation";
 import ContactForm from "../components/ContactForm";
+import RegistrationForm_old from "../components/RegistrationForm_old";
 import TestimonialCarousel from "../components/TestimonialCarousel";
 import { useWebinarTimer } from "../components/useWebinarTimer";
 import { TrendingUp, Monitor, Users } from 'lucide-react';
+
 
 function EfqLanding_kids() {
   useEffect(() => {
@@ -165,6 +167,7 @@ function EfqLanding_kids() {
               endDateTime: "2025-05-11T23:59:59"
           }}
         />
+          <RegistrationForm_old/>
 
         <FeatureCards cards={FeatureCard_kid} />
         <ImageSlider />
