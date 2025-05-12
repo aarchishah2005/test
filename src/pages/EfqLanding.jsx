@@ -148,7 +148,9 @@ function EfqLanding() {
             deadline="2025-05-25T13:59:59"
             paymentUrl="https://rzp.io/rzp/YRgBvUM"
             price={199}
-            discountText="(Save 40% Today!)"
+           price={<span style={{ color: 'orange',fontWeight: 'bold',fontSize: '22px' }}><>199 <s> ₹999</s></></span>} 
+           discountText="  (Save 80% Today!)"
+            
             thankYouMessage="Thank You for Registering!"
             subMessage="You'll receive the webinar details shortly."
             webinarDetails={{
