@@ -147,8 +147,10 @@ function EFQLanding_Free_webinar() {
             secrets={secretsWebinar1}
             deadline="2025-05-25T13:59:59"
             // paymentUrl="https://rzp.io/rzp/YRgBvUM"
-            price={199}
-            discountText="(Save 40% Today!)"
+   
+           price={<span style={{ color: 'orange',fontWeight: 'bold',fontSize: '22px' }}><>0 <s> ₹199</s></></span>} 
+      
+            discountText="(Save 100% Today!)"
             thankYouMessage="Thank You for Registering!"
             subMessage="You'll receive the webinar details shortly."
             webinarDetails={{
