@@ -145,7 +145,7 @@ function EFQLanding_Free_webinar() {
         <RegistrationForm_free
             title="What you will learn in 120 minutes"
             secrets={secretsWebinar1}
-            deadline="2025-05-25T23:59:59"
+            deadline="2025-05-25T13:59:59"
             // paymentUrl="https://rzp.io/rzp/YRgBvUM"
             price={199}
             discountText="(Save 40% Today!)"
@@ -156,7 +156,7 @@ function EFQLanding_Free_webinar() {
               day: "Sunday",
               startTime: "2 : 00 PM",
               endTime: "4 : 00 PM",
-              endDateTime: "2025-05-25T23:59:59"
+              endDateTime: "2025-05-25T13:59:59"
             }}
         />
 
