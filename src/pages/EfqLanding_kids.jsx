@@ -100,8 +100,8 @@ function EfqLanding_kids() {
             color: "#84c225",
             paddingTop: "20px",
             paddingBottom: "30px",
-            fontSize: "20px",
-            fontWeight: 700,
+            fontSize: "28px",
+            fontWeight: 900,
           }}
         />
         {/* Master Your Finances. Explore the World of Investment. Launch Your Career in the Stock Market.  Making Money Mistakes?  Fed up with Investment?   Dreaming of a Career in Stocks   */}
