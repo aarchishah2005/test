@@ -16,6 +16,7 @@ const RegistrationForm_free = ({
 }) => {
   const timeLeft = useWebinarTimer(deadline);
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -42,8 +43,8 @@ const RegistrationForm_free = ({
       alert("Please fill in all the fields.");
       return;
     }
+    setIsSubmitting(true);
 
-    // Add timestamp to the form data
     const dataToSend = {
       ...formData,
       timestamp: new Date().toISOString(),
@@ -57,22 +58,24 @@ const RegistrationForm_free = ({
           "Content-Type": "application/json",
         },
         body: JSON.stringify(dataToSend),
-        mode: "no-cors", // Add this to handle CORS issues
+        mode: "no-cors",
       }
     )
       .then(() => {
-        // Assume success if no error thrown
         setIsSubmitted(true);
+        setIsSubmitting(false);
       })
       .catch((err) => {
         console.error("Error submitting form:", err);
         alert("Failed to submit form. Please try again later.");
+        setIsSubmitting(false);
       });
   };
 
   const resetForm = () => {
     setIsSubmitted(false);
     setFormData({ name: "", email: "", phone: "" });
+    setIsSubmitting(false);
   };
 
   return (
@@ -127,8 +130,8 @@ const RegistrationForm_free = ({
               onChange={handleChange}
               required
             />
-            <button type="submit" className="cta-button">
-              Join Webinar for FREE!
+            <button type="submit" className="cta-button" disabled={isSubmitting}>
+              {isSubmitting ? "Submitting..." : "Join Webinar for FREE!"}
             </button>
           </form>
         ) : (
