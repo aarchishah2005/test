@@ -60,14 +60,8 @@ const RegistrationForm_free = ({
         mode: "no-cors", // Add this to handle CORS issues
       }
     )
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        return response.text();
-      })
-      .then((data) => {
-        console.log("Form submitted successfully:", data);
+      .then(() => {
+        // Assume success if no error thrown
         setIsSubmitted(true);
       })
       .catch((err) => {
