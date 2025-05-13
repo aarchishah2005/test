@@ -65,7 +65,7 @@ const RegistrationForm_free = ({
     console.log("Sending data:", dataToSend);
 
     fetch(
-      "https://script.google.com/macros/s/AKfycbzSG6tJn2kWK-wnJcnUM5zkzCBJZo5cfm5xIwKq13_bNtpYnhpBhhAnvuQs62QSeDTl_Q/exec",
+      "https://script.google.com/macros/s/AKfycbw5GITbxU7G6KfyM9_dRTbTduZIVajReG-j7wrCvN9_3D5MtbvUQxOJiAS5IF5oz5h7/exec",
       {
         method: "POST",
         headers: {
