@@ -175,11 +175,16 @@ function EFQLanding_Free_webinar() {
           }}
         >
           {!timeLeft.expired && !isSubmitted ? (
-            <form onSubmit={handleSubmit}>
-              <button type="submit" className="cta-button">
-                Join Webinar for FREE!
+            // <form onSubmit={handleSubmit}>
+            //   <button type="submit" className="cta-button">
+            //     Join Webinar for FREE!
+            //   </button>
+            // </form>
+          <a href="/EfqLanding_kids">
+             <button type="submit" className="cta-button">
+                Enroll Your Teen
               </button>
-            </form>
+          </a>
           ) : (
             <div className="success-message">
               <div className="success-icon">✓</div>
