@@ -5,7 +5,7 @@ import './button.css';
 const Button = ({ text }) => {
   return (
     <div className="button-container">
-      <Link to="/EfqLanding" className="explore-button">
+      <Link to="/EfqLanding_free_webinar" className="explore-button">
         {text}
       </Link>
     </div>
