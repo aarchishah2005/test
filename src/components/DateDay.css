@@ -34,15 +34,17 @@
 /* Responsive styles */
 @media (max-width: 768px) {
   .DateDay {
-    padding: 15px 25px;
-    max-width: 90%;
+    padding: 12px 16px;
+    max-width: 95%;
+    margin: 10px auto;
   }
-  
+
   .Date {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
-  
+
   .Time {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
+
