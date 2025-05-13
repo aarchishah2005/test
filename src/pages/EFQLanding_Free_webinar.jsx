@@ -177,7 +177,7 @@ function EFQLanding_Free_webinar() {
           {!timeLeft.expired && !isSubmitted ? (
             <form onSubmit={handleSubmit}>
               <button type="submit" className="cta-button">
-                Register Here
+                Join Webinar for FREE!
               </button>
             </form>
           ) : (
