@@ -47,7 +47,19 @@ const RegistrationForm_free = ({
 
     const dataToSend = {
       ...formData,
-      timestamp: new Date().toLocaleString("en-US", { timeZone: "Asia/Kolkata" }),
+      date: new Date().toLocaleDateString("en-GB", { 
+        timeZone: "Asia/Kolkata",
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit'
+      }),
+      time: new Date().toLocaleTimeString("en-US", { 
+        timeZone: "Asia/Kolkata",
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: true
+      })
     };
 
     fetch(
