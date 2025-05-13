@@ -63,7 +63,7 @@ const RegistrationForm_free = ({
     };
 
     fetch(
-      "https://script.google.com/macros/s/AKfycby_MTOGCpxCmAf82TWpCy88hTuc1CA9WCeOx4lXOL9YWGK8iUnw1lvs2gx8j6jceybHTQ/exec",
+      "https://script.google.com/macros/s/AKfycbzSG6tJn2kWK-wnJcnUM5zkzCBJZo5cfm5xIwKq13_bNtpYnhpBhhAnvuQs62QSeDTl_Q/exec",
       {
         method: "POST",
         headers: {
