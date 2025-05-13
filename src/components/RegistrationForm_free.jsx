@@ -62,8 +62,10 @@ const RegistrationForm_free = ({
       })
     };
 
+    console.log("Sending data:", dataToSend);
+
     fetch(
-      "https://script.google.com/macros/s/AKfycbxANfiqtQgVdA-97UiNm223rTU4eG4i3J6l1T7PieYJsnZAZhSFqi3ZgEkJTQieTCCJ/exec",
+      "https://script.google.com/macros/s/AKfycbzSG6tJn2kWK-wnJcnUM5zkzCBJZo5cfm5xIwKq13_bNtpYnhpBhhAnvuQs62QSeDTl_Q/exec",
       {
         method: "POST",
         headers: {
@@ -74,6 +76,7 @@ const RegistrationForm_free = ({
       }
     )
       .then(() => {
+        console.log("Request sent successfully");
         setIsSubmitted(true);
         setIsSubmitting(false);
       })
