@@ -18,7 +18,7 @@ function EFQLanding_Free_webinar() {
     window.scrollTo(0, 0); // Scrolls to the top when component mounts
   }, []);
 
-  const timeLeft = useWebinarTimer("2025-05-11T23:59:59");
+  const timeLeft = useWebinarTimer("2025-05-31T13:59:59");
 
   const handleFormSubmit = (data) => {
     console.log("Form submitted with data:", data);
