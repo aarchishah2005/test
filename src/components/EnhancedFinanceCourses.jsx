@@ -7,8 +7,20 @@ const EnhancedFinanceCourses = () => {
     {
       id: 1,
       title: "Fearless Financial Investment :: 1-Day Workshop",
-      description:
-        "Break free from financial fear and take charge of your investments with confidence! This power-packed workshop will equip you with essential finance concepts, expert stock market strategies, multibagger stock selection, and risk management techniques. With hands-on tools, personalized guidance, and a strong investment community, you’ll gain the skills to invest smartly and fearlessly. Join us and start building your financial freedom today!",
+      description:(
+        <>
+        This power-packed course gives you practical tools, solid strategies, and the mindset to grow wealth confidently.<br />
+        Course Highlights:<br />
+          •	<strong>Finance Basics:</strong> ROI, net worth, interest, risk, ROI, CAGR<br />
+          •	<strong>Stock Market:</strong> Equity, index, IPO, SEBI, market movers<br />
+          •	<strong>Stock Fundamentals:</strong> Net Profit, charts, valuation, dividends, Market Capitalization<br />
+          •	<strong>Economy Analysis:</strong> GDP, VIX, Fed policy, global impact, FII/DII trends<br />
+          •	<strong>Investment System:</strong> Entry/exit, Risk /Reward calculations, Portfolio Diversification<br />
+          •	<strong>Build Conviction:</strong> News, price action, journaling, Investing Phycology<br />
+          •	<strong>Lifetime Weekly Live Doubt-Solving Calls</strong><br />
+          •	Exclusive Lifetime Community Access with <strong>Daily Stock Recommendations</strong><br />
+        </>
+      ),
       startDate: "14 June 2025",
       duration: "1 Day",
       language: "Hindi & English",
