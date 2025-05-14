@@ -29,8 +29,8 @@ const EnhancedFinanceCourses = () => {
       // badgeType: "signature",
       image: "/assets/Fearless_Financial_Investment.png",
       // participants: "1672 have already joined",
-      // buttons: [{ text: "Coming Soon", link: "/EfqLanding" }],
-      buttons: [{ text: "Join the Waitlist", disabled: true  }],
+      buttons: [{ text: "Join the Waitlist", link: "/Contact" }],
+      // buttons: [{ text: "Join the Waitlist", disabled: true  }],
     },
     {
       id: 2,
@@ -53,8 +53,8 @@ const EnhancedFinanceCourses = () => {
       language: "Hindi & English",
       //   price: "₹19999",
       image: "/assets/Financial_Trading.jpeg",
-      // buttons: [{ text: "Register Now", link: "/EfqLanding" }],
-      buttons: [{ text: "Join the Waitlist", disabled: true  }],
+      buttons: [{ text: "Join the Waitlist", link: "/Contact" }],
+      // buttons: [{ text: "Join the Waitlist", disabled: true  }],
     },
     {
       id: 3,
@@ -83,8 +83,8 @@ const EnhancedFinanceCourses = () => {
       language: "Hindi & English",
       //     price: "₹69999",
       image: "/assets/Mastering_Options.jpeg",
-      // buttons: [{ text: "Register Now", link: "/EfqLanding" }],
-      buttons: [{ text: "Talk to Expert", disabled: true  }]
+       buttons: [{ text: "Talk to Expert", link: "/Contact" }],
+      // buttons: [{ text: "Talk to Expert", disabled: true  }]
     },
   ];
 
