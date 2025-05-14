@@ -63,14 +63,14 @@ const EnhancedFinanceCourses = () => {
         <>
        This expert-led course equips you with powerful tools, proven strategies, and real-time experience to master options Delta trading with confidence.<br />
         span style={{ color: 'blue', fontWeight: 'bold' }}>Course Highlights:</span><br />
-          •	<strong>Market & Derivatives Basics</strong> Equity, Index, Futures, Options, SEBI, RBI, Strike, Moneyness, Expiry<br />
-          •	<strong>Options Pricing & Greeks</strong> Black-Scholes Model, Delta, Theta, Vega, Gamma, Implied Volatility<br />
-          •	<strong>Core Strategies</strong> Delta-Neutral, Long/Short Gamma, Vega Trades, IV-Based Entries & Exits<br />
-          •	<strong>Live Trading Tools</strong> BlissCalc (Options & Hedging), BlissQuants (IV Analytics) Software<br />
-          •	<strong>Advanced Systems</strong> 8 Readymade IV-Based Strategies, Gap Protection, Expiry Setups<br />
-          •	<strong>Market Impact Analysis</strong> Global Data, Fed, VIX, Crude, Currency, FII/DII, Results Impact<br />
-          •	<strong>Risk & Portfolio Management</strong>Position Sizing, Margin, Interest, Diversification<br />
-          •	<strong>Certification Prep</strong> NISM-Series-VIII: Equity Derivatives<br />
+          •	<strong>Market & Derivatives Basics : </strong> Equity, Index, Futures, Options, SEBI, RBI, Strike, Moneyness, Expiry<br />
+          •	<strong>Options Pricing & Greeks : </strong> Black-Scholes Model, Delta, Theta, Vega, Gamma, Implied Volatility<br />
+          •	<strong>Core Strategies : </strong> Delta-Neutral, Long/Short Gamma, Vega Trades, IV-Based Entries & Exits<br />
+          •	<strong>Live Trading Tools : </strong> BlissCalc (Options & Hedging), BlissQuants (IV Analytics) Software<br />
+          •	<strong>Advanced Systems : </strong> 8 Readymade IV-Based Strategies, Gap Protection, Expiry Setups<br />
+          •	<strong>Market Impact Analysis : </strong> Global Data, Fed, VIX, Crude, Currency, FII/DII, Results Impact<br />
+          •	<strong>Risk Management : </strong>Position Sizing, Margin, Interest, Diversification<br />
+          •	<strong>Certification Prep : </strong> NISM-Series-VIII: Equity Derivatives<br />
           span style={{ color: 'blue', fontWeight: 'bold' }}>Included Bonuses:</span><br />
             • Lifetime Weekly Live Doubt-Solving Calls<br />
             • Lifetime Community Access + <strong>Daily Stock Recommendations</strong><br />
