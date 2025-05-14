@@ -25,8 +25,8 @@ const EnhancedFinanceCourses = () => {
       title: "Fearless Financial Trading :: 3-day online live course",
       description: (
         <>
-        Learn  trading with confidence in just 3 days! This live, intensive course is perfect for beginners and aspiring traders ready to trade fearlessly.<br />
-        Course Highlights:<br />
+        This live, intensive course is perfect for beginners and aspiring traders ready to trade fearlessly.<br />
+        <span style={{ color: 'blue', fontWeight: 'bold' }}>Course Highlights:</span><br />
         	•	<strong>Trading Basics:</strong> Charts, OHLC, candlestick patterns, <strong>Technical Analysis</strong> <br />
         	•	<strong>Key Indicators:</strong> MA, EMA, RSI, VWAP, Support & Resistance<br />
         	•	<strong>Trading Psychology:</strong> Mindset, <strong>risk management </strong><br />
