@@ -71,7 +71,7 @@ const EnhancedFinanceCourses = () => {
           •	<strong>Market Impact Analysis : </strong> Global Data, Fed, VIX, Crude, Currency, FII/DII, Results Impact<br />
           •	<strong>Risk Management : </strong>Position Sizing, Margin, Interest, Diversification<br />
           •	<strong>Certification Prep : </strong> NISM-Series-VIII: Equity Derivatives<br />
-          span style={{ color: 'blue', fontWeight: 'bold' }}>Included Bonuses:</span><br />
+          <span style={{ color: 'blue', fontWeight: 'bold' }}>Included Bonuses:</span><br />
             • Lifetime Weekly Live Doubt-Solving Calls<br />
             • Lifetime Community Access + <strong>Daily Stock Recommendations</strong><br />
             • 6-Month <strong>Post-Training Handholding</strong> (on request)<br />
