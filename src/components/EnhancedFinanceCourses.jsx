@@ -6,7 +6,7 @@ const EnhancedFinanceCourses = () => {
   const challenges = [
     {
       id: 1,
-      title: "Fearless Financial Investment :: 1-Day Workshop",
+      title: "Fearless Financial Investment :: Live 3-Day Online Workshop",
       description:(
         <>
         This power-packed course gives you practical tools, solid strategies, and the mindset to grow wealth confidently.<br />
@@ -21,8 +21,8 @@ const EnhancedFinanceCourses = () => {
           •	Exclusive Lifetime Community Access with <strong>Daily Stock Recommendations</strong><br />
         </>
       ),
-      startDate: "14 June 2025",
-      duration: "1 Day",
+      startDate: "13, 14, 15 June 2025",
+      duration: "3 Day",
       language: "Hindi & English",
       //  price: "₹9999",
       // badge: "Signature Workshop",
