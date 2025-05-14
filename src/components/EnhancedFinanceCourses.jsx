@@ -27,22 +27,13 @@ const EnhancedFinanceCourses = () => {
         <>
         This live, intensive course is perfect for beginners and aspiring traders ready to trade fearlessly.<br />
         <span style={{ color: 'blue', fontWeight: 'bold' }}>Course Highlights:</span><br />
-{/*         	•	<strong>Trading Basics:</strong> Charts, OHLC, candlestick patterns, <strong>Technical Analysis</strong> <br />
+          •	<strong>Trading Basics:</strong> Charts, OHLC, candlestick patterns, <strong>Technical Analysis</strong> <br />
         	•	<strong>Key Indicators:</strong> MA, EMA, RSI, VWAP, Support & Resistance<br />
         	•	<strong>Trading Psychology:</strong> Mindset, <strong>risk management </strong><br />
         	•	<strong>Systems & Strategy:</strong> Entry/Exit, Targets, Stop Loss/Trailing Stop Loss<br />
         	•	<strong>Money Management:</strong> Position sizing, risk/reward, trade journaling<br />
         	•	<strong>Conviction Building:</strong> News, global data, price action, backtesting<br />
-        	•	<strong>Lifetime Support:</strong> Weekly live <strong>face-to-face doubt-solving sessions</strong><br /> */}
-          <ul style={{ paddingLeft: '20px' }}>
-            <li><strong>Trading Basics:</strong> Charts, OHLC, candlestick patterns, <strong>Technical Analysis</strong></li>
-            <li><strong>Key Indicators:</strong> MA, EMA, RSI, VWAP, Support & Resistance</li>
-            <li><strong>Trading Psychology:</strong> Mindset, <strong>risk management</strong></li>
-            <li><strong>Systems & Strategy:</strong> Entry/Exit, Targets, Stop Loss/Trailing Stop Loss</li>
-            <li><strong>Money Management:</strong> Position sizing, risk/reward, trade journaling</li>
-            <li><strong>Conviction Building:</strong> News, global data, price action, backtesting</li>
-            <li><strong>Lifetime Support:</strong> Weekly live <strong>face-to-face doubt-solving sessions</strong></li>
-          </ul>
+        	•	<strong>Lifetime Support:</strong> Weekly live <strong>face-to-face doubt-solving sessions</strong><br /> 
         </>
       ),
       startDate: "20, 21, 22 June 2025",
