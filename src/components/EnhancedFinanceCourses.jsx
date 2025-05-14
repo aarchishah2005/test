@@ -59,8 +59,25 @@ const EnhancedFinanceCourses = () => {
     {
       id: 3,
       title: "Fearless Options Mastery :: 3-Month online live Course",
-      description:
-        "Unlock the secrets of successful options trading with our Fearless Options Mastery course! In just 3 months, gain deep expertise in derivatives, Greeks, delta-neutral strategies, and IV-based trading systems with real-time practice and expert mentorship. Get equipped with powerful tools, live trading setups, risk management systems, and weekly community support. Plus, prepare for the NISM Equity Derivatives Certification and fast-track your trading journey with readymade strategies. Take control of your financial future and trade fearlessly!",
+      description:(
+        <>
+        This power-packed course gives you practical tools, solid strategies, and the mindset to grow wealth confidently  Master Options Trading with Real-Time Strategies & Tools<br />
+        Course Highlights:<br />
+          •	<strong>Market & Derivatives Basics</strong> Equity, Index, Futures, Options, SEBI, RBI, Strike, Moneyness, Expiry<br />
+          •	<strong>Options Pricing & Greeks</strong> Black-Scholes Model, Delta, Theta, Vega, Gamma, Implied Volatility<br />
+          •	<strong>Core Strategies</strong> Delta-Neutral, Long/Short Gamma, Vega Trades, IV-Based Entries & Exits<br />
+          •	<strong>Live Trading Tools</strong> BlissCalc (Options & Hedging), BlissQuants (IV Analytics) Software<br />
+          •	<strong>Advanced Systems</strong> 8 Readymade IV-Based Strategies, Gap Protection, Expiry Setups<br />
+          •	<strong>Market Impact Analysis</strong> Global Data, Fed, VIX, Crude, Currency, FII/DII, Results Impact<br />
+          •	<strong>Risk & Portfolio Management</strong>Position Sizing, Margin, Interest, Diversification<br />
+          •	<strong>Certification Prep</strong> NISM-Series-VIII: Equity Derivatives<br />
+          🎁 Included Bonuses:<br />
+            • Lifetime Weekly Live Doubt-Solving Calls<br />
+            • Lifetime Community Access + Daily Stock Recommendations<br />
+            • 6-Month Post-Training Handholding (on request)<br />
+            • Free Access to BlissCalc & BlissQuants Tools<br />
+        </>
+        ),
       startDate: "28 June 2025",
       duration: "3 Months",
       language: "Hindi & English",
