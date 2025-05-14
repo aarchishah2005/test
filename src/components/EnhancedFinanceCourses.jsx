@@ -8,7 +8,7 @@ const EnhancedFinanceCourses = () => {
       id: 1,
       title: "Fearless Financial Investment :: 1-Day Workshop",
       description:
-        "Break free from financial fear and take charge of your investments with confidence! This power-packed workshop will equip you with essential finance concepts, expert stock market strategies, multibagger stock selection, and risk management techniques. With hands-on tools, personalized guidance, and a strong investment community, you’ll gain the skills to invest smartly and fearlessly. Join us and start building your financial freedom today!",
+        "Break free from financial fear and take charge of your investments with confidence! This power-packed workshop will equip you with essential finance concepts, expert stock <strong> market strategies</strong>, multibagger stock selection, and risk management techniques. With hands-on tools, personalized guidance, and a strong investment community, you’ll gain the skills to invest smartly and fearlessly. Join us and start building your financial freedom today!",
       startDate: "14 June 2025",
       duration: "1 Day",
       language: "Hindi & English",
