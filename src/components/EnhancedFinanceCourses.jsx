@@ -24,15 +24,7 @@ const EnhancedFinanceCourses = () => {
       id: 2,
       title: "Fearless Financial Trading :: 3-day online live course",
       description:
-        "Learn  trading with confidence in just 3 days! This live, intensive course is perfect for beginners and aspiring traders ready to trade fearlessly.
-          Course Highlights:
-          •	Trading Basics: Charts, OHLC, candlestick patterns, Technical Analysis
-          •	Key Indicators: MA, EMA, RSI, VWAP, Support & Resistance
-          •	Trading Psychology: Mindset, risk management 
-          •	Systems & Strategy: Entry/Exit, Targets, Stop Loss/Trailing Stop Loss
-          •	Money Management: Position sizing, risk/reward, trade journaling
-          •	Conviction Building: News, global data, price action, backtesting
-          •	Lifetime Support: Weekly live face-to-face doubt-solving sessions ",
+          "Learn  trading with confidence in just 3 days! This live, intensive course is perfect for beginners and aspiring traders ready to trade fearlessly.Course Highlights:•	Trading Basics: Charts, OHLC, candlestick patterns, Technical Analysis •	Key Indicators: MA, EMA, RSI, VWAP, Support & Resistance•	Trading Psychology: Mindset, risk management •	Systems & Strategy: Entry/Exit, Targets, Stop Loss/Trailing Stop Loss•	Money Management: Position sizing, risk/reward, trade journaling•	Conviction Building: News, global data, price action, backtesting•	Lifetime Support: Weekly live face-to-face doubt-solving sessions ",
             
       startDate: "20, 21, 22 June 2025",
       duration: "3 Days",
