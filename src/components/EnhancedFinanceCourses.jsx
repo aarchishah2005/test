@@ -10,7 +10,7 @@ const EnhancedFinanceCourses = () => {
       description:(
         <>
         This power-packed course gives you practical tools, solid strategies, and the mindset to grow wealth confidently.<br />
-        Course Highlights:<br />
+        <span style={{ color: 'blue', fontWeight: 'bold' }}>Course Highlights:</span><br />
           •	<strong>Finance Basics:</strong> ROI, net worth, interest, risk, ROI, CAGR<br />
           •	<strong>Stock Market:</strong> Equity, index, IPO, SEBI, market movers<br />
           •	<strong>Stock Fundamentals:</strong> Net Profit, charts, valuation, dividends, Market Capitalization<br />
@@ -22,7 +22,7 @@ const EnhancedFinanceCourses = () => {
         </>
       ),
       startDate: "13, 14, 15 June 2025",
-      duration: "3 Day",
+      duration: "3 Days",
       language: "Hindi & English",
       //  price: "₹9999",
       // badge: "Signature Workshop",
