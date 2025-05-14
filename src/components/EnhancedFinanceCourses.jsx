@@ -62,7 +62,7 @@ const EnhancedFinanceCourses = () => {
       description:(
         <>
        This expert-led course equips you with powerful tools, proven strategies, and real-time experience to master options Delta trading with confidence.<br />
-        span style={{ color: 'blue', fontWeight: 'bold' }}>Course Highlights:</span><br />
+        <span style={{ color: 'blue', fontWeight: 'bold' }}>Course Highlights:</span><br />
           •	<strong>Market & Derivatives Basics : </strong> Equity, Index, Futures, Options, SEBI, RBI, Strike, Moneyness, Expiry<br />
           •	<strong>Options Pricing & Greeks : </strong> Black-Scholes Model, Delta, Theta, Vega, Gamma, Implied Volatility<br />
           •	<strong>Core Strategies : </strong> Delta-Neutral, Long/Short Gamma, Vega Trades, IV-Based Entries & Exits<br />
