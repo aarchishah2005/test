@@ -162,10 +162,10 @@ function EfqLanding_kids() {
           thankYouMessage="Thank You for Registering!"
           subMessage="You'll receive the webinar details shortly."
           webinarDetails={{
-              date: "23, 24, 25  May 2025",
+              date: "Coming Soon",
               day: " ",
-              startTime: "08 : 00 AM",
-              endTime: "10 : 00 AM",
+              startTime: " ",
+              endTime: " ",
               endDateTime: "2025-05-23T07:59:59"
           }}
         />
