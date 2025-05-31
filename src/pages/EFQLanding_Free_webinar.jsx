@@ -145,7 +145,7 @@ function EFQLanding_Free_webinar() {
         <RegistrationForm_free
            title={<span style={{ color: 'orange',fontWeight: 'bold',fontSize: '22px' }}>Enrich your FINANCIAL skill with live webinar! </span>}
             secrets={secretsWebinar1}
-            deadline="2025-05-31T13:59:59"
+            deadline="2025-06-04T12:59:59"
             // paymentUrl="https://rzp.io/rzp/YRgBvUM"
    
            price={<span style={{ color: 'orange',fontWeight: 'bold',fontSize: '22px' }}><>0 <s> ₹199</s></></span>} 
@@ -154,11 +154,11 @@ function EFQLanding_Free_webinar() {
             thankYouMessage="Thank You for Registering!"
             subMessage="You'll receive the webinar details shortly."
             webinarDetails={{
-              date: "31 May 2025",
-              day: "Saturday",
-              startTime: "2 : 00 PM",
-              endTime: "4 : 00 PM",
-              endDateTime: "2025-05-31T13:59:59"
+              date: "04 June  2025",
+              day: "Wednesday",
+              startTime: "1 : 00 PM",
+              endTime: "3 : 00 PM",
+              endDateTime: "2025-04-04T12:59:59"
             }}
         />
 
