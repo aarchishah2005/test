@@ -20,7 +20,7 @@ function EfqLanding_kids() {
     window.scrollTo(0, 0); // Scrolls to the top when component mounts
   }, []);
 
-  const timeLeft = useWebinarTimer("2025-05-23T23:59:59");
+  const timeLeft = useWebinarTimer("2025-06-27T18:59:59");
 
   const handleFormSubmit = (data) => {
     console.log("Form submitted with data:", data);
@@ -66,7 +66,7 @@ function EfqLanding_kids() {
       icon: TrendingUp,
       title: "Three-Day Session",
       points: [
-        "2 Hours of Learning each day",
+        "1.5 Hours of Learning each day",
         "Three days course",
         "Live On Zoom"
       ]
@@ -155,18 +155,18 @@ function EfqLanding_kids() {
         
           title={<span style={{ color: 'orange',fontWeight: 'bold',fontSize: '22px' }}>Enrich your TEENS' FINANCIAL skill with 3 days live workshop! </span>}
           secrets={secretsWebinar2}
-          deadline="2025-05-23T23:59:59"
+          deadline="2025-06-27T18:59:59"
           paymentUrl="https://rzp.io/rzp/exZRV8Zm"
           price={<span style={{ color: 'orange',fontWeight: 'bold',fontSize: '22px' }}><>999 <s> ₹4999</s></></span>} 
           discountText="  (Save 80% Today!)"
           thankYouMessage="Thank You for Registering!"
           subMessage="You'll receive the webinar details shortly."
           webinarDetails={{
-              date: "Coming Soon",
-              day: " ",
-              startTime: " ",
-              endTime: " ",
-              endDateTime: "2025-05-23T07:59:59"
+              date: "27, 28, 29 June 2025",
+              day: "Friday, Saturday, Sunday ",
+              startTime: "07:30 PM ",
+              endTime: "09:00 PM",
+              endDateTime: "2025-06-27T18:59:59"
           }}
         />
        
