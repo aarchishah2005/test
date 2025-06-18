@@ -95,12 +95,12 @@ function EfqLanding_kids() {
     <div className="EfqLanding">
       <div className="background">
         <Heading
-          mainText="Join the Most Practical Finance Workshop for Teens!"
+          mainText="Join the Most Practical Teen Finance Workshop – Trusted by Thousands!"
           style={{
             color: "#84c225",
             paddingTop: "20px",
             paddingBottom: "30px",
-            fontSize: "28px",
+            fontSize: "30px",
             fontWeight: 900,
           }}
         />
@@ -119,7 +119,7 @@ function EfqLanding_kids() {
           }
           style={{
             fontWeight: 999,
-            fontSize: "45px",
+            fontSize: "50px",
             backgroundColor: "#ffff",
             paddingRight: "20px",
             paddingLeft: "20px",
