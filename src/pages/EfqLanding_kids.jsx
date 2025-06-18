@@ -131,11 +131,14 @@ function EfqLanding_kids() {
         <Heading
           mainText={
             <>
-             Whether your goal is to make your first investment or build lifelong wealth — learn to manage, save, and invest 
+             Whether your goal is to make your first investment or build lifelong wealth - 
               <br />
-              with real-world money skills, teen-friendly tools, and smart strategies.
+             learn to manage, save, and invest  with real-world money skills, teen-friendly tools, 
               <br />
-             It’s not just about money — it’s about confidence, freedom, and becoming financially fearless for life.
+
+              and smart strategies. It’s not just about money — 
+                <br />
+              it’s about confidence, freedom, and becoming financially fearless for life.
 
  
 
