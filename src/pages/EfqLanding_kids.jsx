@@ -118,8 +118,8 @@ function EfqLanding_kids() {
                 </>
           }
           style={{
-            fontWeight: 1999,
-            fontSize: "50px",
+            fontWeight: 999,
+            fontSize: "55px",
             backgroundColor: "#ffff",
             paddingRight: "20px",
             paddingLeft: "20px",
