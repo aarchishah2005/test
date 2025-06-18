@@ -110,9 +110,9 @@ function EfqLanding_kids() {
             <>
            Thousands of Teens Transformed Their Money Mindset -
               <br />
-              Now It’s Your Turn! Enrich Your Teen’s Financial Quotient.
+              Now It’s Your Turn!  Don’t let your teen miss
               <br />
-              Don’t let your child miss the chance to build lifelong financial confidence.
+              the chance to build lifelong financial confidence.
 
                 </>
           }
@@ -131,11 +131,11 @@ function EfqLanding_kids() {
         <Heading
           mainText={
             <>
-                     It’s not just about money —
+                     It’s not just about money -
               <br />
                It’s about freedom, confidence, and the skills schools don’t teach.
               <br />
-             From First Penny to Your First Investment —
+             From First Penny to Your First Investment -
               <br />
               Learn What Truly Builds Wealth.
               <br />
