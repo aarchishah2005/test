@@ -131,17 +131,13 @@ function EfqLanding_kids() {
         <Heading
           mainText={
             <>
-                     It’s not just about money -
+                     Whether your goal is to make your first investment or build lifelong wealth — learn to manage, save, and invest 
               <br />
-               It’s about freedom, confidence, and the skills schools don’t teach.
+              with real-world money skills, teen-friendly tools, and smart strategies that last a lifetime.
               <br />
-             From First Penny to Your First Investment -
-              <br />
-              Learn What Truly Builds Wealth.
-              <br />
-                Design a Fearless Financial Future.       
-       
+             It’s not just about money — it’s about confidence, freedom, and becoming financially fearless for life.
 
+ 
 
             </>
           }
