@@ -95,7 +95,7 @@ function EfqLanding_kids() {
     <div className="EfqLanding">
       <div className="background">
         <Heading
-          mainText="Wish money didn’t feel so complicated or boring?"
+          mainText="Join the Most Practical Finance Workshop for Teens!"
           style={{
             color: "#84c225",
             paddingTop: "20px",
@@ -108,12 +108,13 @@ function EfqLanding_kids() {
         <Heading
           mainText={
             <>
-            Many teens have already turned money struggles into strength
+           Thousands of Teens Transformed Their Money Mindset -
               <br />
-              with our Teen Financial System using real-life lessons.
+              Now It’s Your Turn! Enrich Your Teen’s Financial Quotient.
               <br />
               Don’t let your child miss the chance to build lifelong financial confidence.
-            </>
+
+                </>
           }
           style={{
             fontWeight: 999,
@@ -130,15 +131,18 @@ function EfqLanding_kids() {
         <Heading
           mainText={
             <>
-               This isn’t just another boring lecture —
+                     It’s not just about money —
               <br />
-               this program simplifies finance and empowers teens  
+               It’s about freedom, confidence, and the skills schools don’t teach.
               <br />
-             with tools to manage, save, and invest confidently. 
+             From First Penny to Your First Investment —
               <br />
-              Start now, not “someday.”  
+              Learn What Truly Builds Wealth.
               <br />
-                build one of the most important life skills for a fearless financial future.         
+                Design a Fearless Financial Future.       
+       
+
+
             </>
           }
           style={{
