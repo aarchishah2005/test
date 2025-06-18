@@ -119,7 +119,7 @@ function EfqLanding_kids() {
           }
           style={{
             fontWeight: 999,
-            fontSize: "55px",
+            fontSize: "60px",
             backgroundColor: "#ffff",
             paddingRight: "20px",
             paddingLeft: "20px",
@@ -134,14 +134,11 @@ function EfqLanding_kids() {
             <>
              Whether your goal is to make your first investment or build lifelong wealth - 
               <br />
-             learn to manage, save, and invest  with real-world money skills, teen-friendly tools, 
+             learn to manage and invest with real-world money skills, teen-friendly tools, and smart strategies.
               <br />
 
-              and smart strategies. It’s not just about money — 
-                <br />
-              it’s about confidence, freedom, and becoming financially fearless for life.
-
- 
+              It’s not just about money — it’s about becoming financially fearless for life.
+              
 
             </>
           }
