@@ -108,17 +108,18 @@ function EfqLanding_kids() {
         <Heading
           mainText={
             <>
-           Thousands of Teens Transformed Their Money Mindset -
+              Transform Your Teen’s Money Mindset Into 
+              
               <br />
-              Now It’s Your Turn!  Don’t let your teen miss
-              <br />
-              the chance to build lifelong financial confidence.
+              Lifelong Financial Confidence — In Just 3 Days!
+              
+              
 
                 </>
           }
           style={{
             fontWeight: 999,
-            fontSize: "35px",
+            fontSize: "45px",
             backgroundColor: "#ffff",
             paddingRight: "20px",
             paddingLeft: "20px",
