@@ -7,6 +7,9 @@
   gap: 30px;
   padding: 0px;
   position: relative;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .testimonial-img {
