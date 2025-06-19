@@ -68,9 +68,9 @@ const Header = () => {
 
         <NavLink to="/" text="Home" onClick={toggleMenu} />
 {/*         <NavLink to="/about" text="About" onClick={toggleMenu} /> */}
-     {/*   <NavLink to="/Coaching" text="Coaching" onClick={toggleMenu} /> */}
-         <NavLink to="/EfqLanding_free_webinar" text="Free Webinar" onClick={toggleMenu} />
+{/*         <NavLink to="/EfqLanding_free_webinar" text="Free Webinar" onClick={toggleMenu} /> */}
         <NavLink to="/EfqLanding_kids" text="Teens Workshop" onClick={toggleMenu} />
+        <NavLink to="/Coaching" text="Coaching" onClick={toggleMenu} />
         <NavLink to="https://www.amazon.in/dp/B09NWH5S7R" text="Book" onClick={toggleMenu} />
         <NavLink to="/Contact" text="Contact" onClick={scrollToContact} />
         
