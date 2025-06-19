@@ -10,8 +10,10 @@
 }
 
 .testimonial-img {
-  flex: 0 0 48%;
-  /* width: 100%; */
+/*   flex: 0 0 48%; */
+/*   width: 100%; */
+  flex: 0 0 calc(50% - 30px);
+  max-width: calc(35% - 40px);
   max-width: 500px;
   height: auto;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
