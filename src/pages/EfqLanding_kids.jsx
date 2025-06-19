@@ -8,8 +8,8 @@ import FeatureCards from "../components/FeatureCards";
 import LogoScroller from "../components/LogoScroller";
 import InvestmentEducation from "../components/InvestmentEducation";
 import ContactForm from "../components/ContactForm";
-
 import TestimonialCarousel from "../components/TestimonialCarousel";
+import NewTestimonial from "../components/NewTestimonial";
 import { useWebinarTimer } from "../components/useWebinarTimer";
 import { TrendingUp, Monitor, Users } from 'lucide-react';
 
@@ -175,6 +175,7 @@ function EfqLanding_kids() {
         <FeatureCards cards={FeatureCard_kid} />
         <ImageSlider />
         <TestimonialCarousel />
+        <NewTestimonial />
         <InvestmentEducation features={myFeatures2}/>
          {/* Staand-alone Register here button */}
         <div
