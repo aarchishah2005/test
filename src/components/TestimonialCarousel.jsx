@@ -70,6 +70,7 @@ const TestimonialCarousel = () => {
               className={`carousel-item ${
                 index === activeIndex ? (transitioning ? "exiting" : "active") : ""
               }`}
+              style={{ position: index === activeIndex ? 'relative' : 'absolute' }}
             >
               <blockquote>
                 <p className="testimonial-text">{testimonial.text}</p>
