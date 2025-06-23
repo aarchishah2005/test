@@ -11,7 +11,7 @@ const FinancialCards = () => {
   const cards = [
     {
       title: "Fearless Financial Investment",
-      subTitle: "One-Day Course",
+      subTitle: "Three-Day Course",
       image: "/assets/Financial_Investment.png",
       mainTitle: "Fearless Financial Investment",
       buttons: [
