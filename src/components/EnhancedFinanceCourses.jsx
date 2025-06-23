@@ -21,7 +21,7 @@ const EnhancedFinanceCourses = () => {
           •	Exclusive Lifetime Community Access with <strong>Daily Stock Recommendations</strong><br />
         </>
       ),
-      startDate: "13, 14, 15 June 2025",
+      startDate: "25,26,27 July 2025",
       duration: "3 Days",
       language: "Hindi & English",
       //  price: "₹9999",
@@ -48,7 +48,7 @@ const EnhancedFinanceCourses = () => {
         	•	<strong>Lifetime Support:</strong> Weekly live <strong>face-to-face doubt-solving sessions</strong><br /> 
         </>
       ),
-      startDate: "20, 21, 22 June 2025",
+      startDate: "18,19,20 July 2025",
       duration: "3 Days",
       language: "Hindi & English",
       //   price: "₹19999",
