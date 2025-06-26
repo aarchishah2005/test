@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";  
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";  
 import './App.css';
 import Header from './components/header';
 import Heading from './components/heading';
@@ -13,6 +13,7 @@ import Footer from './components/Footer';
 // import About from "./pages/About";
 import EfqLanding from "./pages/EfqLanding";
 import EfqLanding_kids from "./pages/EfqLanding_kids";
+import EfqLanding_Teens from "./pages/EFQLanding_Teens";
 import EFQLanding_Free_webinar from "./pages/EFQLanding_Free_webinar";
 import Contact from "./pages/Contact";
 import Profile from "./components/profile";
@@ -92,45 +93,75 @@ import Coaching from "./pages/Coaching";
     </div>
   );
 
-  function App() {
+//   function App() {
     
-    // useEffect(() => {
-    //   const observer = new IntersectionObserver(
-    //     (entries) => {
-    //       entries.forEach((entry) => {
-    //         if (entry.isIntersecting) {
-    //           entry.target.classList.add('zoom-in-visible');
-    //         }
-    //       });
-    //     },
-    //     { threshold: 0.1 }
-    //   );
-    //   const elements = document.querySelectorAll('.zoom-in-element');
-    //   elements.forEach((el) => observer.observe(el));
+//     // useEffect(() => {
+//     //   const observer = new IntersectionObserver(
+//     //     (entries) => {
+//     //       entries.forEach((entry) => {
+//     //         if (entry.isIntersecting) {
+//     //           entry.target.classList.add('zoom-in-visible');
+//     //         }
+//     //       });
+//     //     },
+//     //     { threshold: 0.1 }
+//     //   );
+//     //   const elements = document.querySelectorAll('.zoom-in-element');
+//     //   elements.forEach((el) => observer.observe(el));
       
-    //   return () => observer.disconnect();
-    // }, []);
+//     //   return () => observer.disconnect();
+//     // }, []);
   
-    return (
-      <Router>
-        <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-{/*             <Route path="/About" element={<About />} /> */}
-            <Route path="/Coaching" element={<Coaching />} />
-            <Route path="/EfqLanding" element={<EfqLanding />} />
-            <Route path="/EfqLanding_kids" element={<EfqLanding_kids />} />
-            <Route path="/EFQLanding_Free_webinar" element={<EFQLanding_Free_webinar />} />
-            <Route path="/ContactForm" element={<ContactForm />} />
-              <Route path="/Contact" element={<Contact />} />
-            {/*<Route path="/ContactForm" element={<ContactForm />} />*/}
-            <Route path="/Policies" element={<Policies />} />
-             <Route path="/FinanceCoursesPricing" element={<FinanceCoursesPricing />} />
-          </Routes>
-      </Router>
-    );
-  }
+//     return (
+//       <Router>
+//         <Header />
+//           <Routes>
+//             <Route path="/" element={<Home />} />
+// {/*             <Route path="/About" element={<About />} /> */}
+//             <Route path="/Coaching" element={<Coaching />} />
+//             <Route path="/EfqLanding" element={<EfqLanding />} />
+//             <Route path="/EfqLanding_kids" element={<EfqLanding_kids />} />
+//             <Route path="/EFQLanding_Free_webinar" element={<EFQLanding_Free_webinar />} />
+//             <Route path="/ContactForm" element={<ContactForm />} />
+//               <Route path="/Contact" element={<Contact />} />
+//             {/*<Route path="/ContactForm" element={<ContactForm />} />*/}
+//             <Route path="/Policies" element={<Policies />} />
+//              <Route path="/FinanceCoursesPricing" element={<FinanceCoursesPricing />} />
+//           </Routes>
+//       </Router>
+//     );
+//   }
 
+function AppWrapper() {
+  const location = useLocation();
+  const hideHeaderOn = ['/EfqLanding_Teens'];
+
+  return (
+    <>
+      {!hideHeaderOn.includes(location.pathname) && <Header />}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Coaching" element={<Coaching />} />
+        <Route path="/EfqLanding" element={<EfqLanding />} />
+        <Route path="/EfqLanding_kids" element={<EfqLanding_kids />} />
+        <Route path="/EfqLanding_Teens" element={<EfqLanding_Teens />} />
+        <Route path="/EFQLanding_Free_webinar" element={<EFQLanding_Free_webinar />} />
+        <Route path="/ContactForm" element={<ContactForm />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Policies" element={<Policies />} />
+        {/* Add any additional routes here */}
+      </Routes>
+    </>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <AppWrapper />
+    </Router>
+  );
+}
 
 export default App;
 
