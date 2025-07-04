@@ -78,7 +78,7 @@ const EnhancedFinanceCourses = () => {
             • <strong>Free Access</strong> to BlissCalc & BlissQuants Tools<br />
         </>
         ),
-      startDate: "28 June 2025",
+      startDate: "28 July 2025",
       duration: "3 Months",
       language: "Hindi & English",
       //     price: "₹69999",
