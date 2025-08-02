@@ -19,6 +19,7 @@ import Contact from "./pages/Contact";
 import Profile from "./components/profile";
 import Policies from "./components/Policies" ;
 import Coaching from "./pages/Coaching";
+import Coaching_for_Student from "./pages/Coaching_for_Student.jsx";
 
 
   const Home = () => (
@@ -142,6 +143,7 @@ function AppWrapper() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Coaching" element={<Coaching />} />
+        <Route path="/Coaching_for_Student" element={<Coaching_for_Student />} />
         <Route path="/EfqLanding" element={<EfqLanding />} />
         <Route path="/EfqLanding_kids" element={<EfqLanding_kids />} />
         <Route path="/EfqLanding_Teens" element={<EfqLanding_Teens />} />
@@ -164,4 +166,5 @@ function App() {
 }
 
 export default App;
+
 
