@@ -71,6 +71,7 @@ const Header = () => {
 {/*         <NavLink to="/EfqLanding_free_webinar" text="Free Webinar" onClick={toggleMenu} /> */}
         <NavLink to="/EfqLanding_kids" text="Teens Workshop" onClick={toggleMenu} />
         <NavLink to="/Coaching" text="Courses" onClick={toggleMenu} />
+        <NavLink to="/Coaching_for_Student" text="Courses for Student" onClick={toggleMenu} />
         <NavLink to="https://www.amazon.in/dp/B09NWH5S7R" text="Book" onClick={toggleMenu} />
         <NavLink to="/Contact" text="Contact" onClick={scrollToContact} />
         
@@ -111,3 +112,4 @@ const NavLink = ({ to, text, onClick }) => {
 };
 
 export default Header;
+
