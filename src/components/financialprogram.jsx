@@ -1,26 +1,15 @@
 import React from 'react';
 import './financialprograms.css';
 
-
-const FinancialPrograms = () => {
-    return (
-      <div className="financial-container">
-        <div className="financial-content">
-          <h1 className="financial-title">Financial Educative Programs</h1>
-
-
-          {/* <h2 style={{ fontSize: "1.4rem", fontWeight: 500 }}>By Falguni Vahora SEBI Certified Research Analyst
-          <br/> Registration number  INH000007100  
-          <br/> Join Our Exclusive EFQ Session ::  Enrich Your Financial Quotient
-          </h2> */}
-          
-          <p className="financial-text">
-                By Falguni Vahora SEBI Certified Research Analyst :: Registration number  INH000007100  
-      
-          </p>
-        </div>
+const FinancialPrograms = ({ heading, subheading }) => {
+  return (
+    <div className="financial-container">
+      <div className="financial-content">
+        <h1 className="financial-title">{heading}</h1>
+        <p className="financial-text">{subheading}</p>
       </div>
-    );
-  };
-  
-  export default FinancialPrograms;
+    </div>
+  );
+};
+
+export default FinancialPrograms;
