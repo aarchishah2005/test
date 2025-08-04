@@ -8,7 +8,7 @@ import EnhancedFinanceCourses from '../components/EnhancedFinanceCourses'
 // import React from "react";
 import Button from '../components/button';
 
-function Coaching() {
+function Coaching_for_Student() {
 
   useEffect(() => {
     console.log("Scrolling to top...");
@@ -32,8 +32,8 @@ const CoachingForStudentData = [
           • Employability Skills: Communication, ICT, Entrepreneurship & Green Skills <br />
         </>
       ),
-      startDate: "22,23,24 August 2025",
-      duration: "3 Days",
+      startDate: "15 August 2025",
+      duration: "3 Months",
       language: "Hindi & English",
       //  price: "₹9999",
       // badge: "Signature Workshop",
@@ -59,12 +59,35 @@ const CoachingForStudentData = [
           Employability Skills: Communication, Entrepreneurship, ICT & Green Economy
         </>
       ),
-      startDate: "1,2,3 August 2025",
-      duration: "3 Days",
+      startDate: "15 August 2025",
+      duration: "3 Months",
       language: "Hindi & English",
       //   price: "₹19999",
       image: "/assets/ClassXII_Financial_Markets_Management.png",
       buttons: [{ text: "Join the Waitlist", link: "/Contact" }],
+      // buttons: [{ text: "Join the Waitlist", disabled: true  }],
+    },
+   {
+      id: 3,
+      title: "Teens' Financial Awareness Program",
+      description: (
+        <>
+        Transform Your Teen’s Money Mindset Into Lifelong Financial Confidence <br />
+        <span style={{ color: 'blue', fontWeight: 'bold' }}>Course Highlights:</span><br />
+          Master the One Skill Schools Don’t Teach: Fearless Finance <br />
+          Make Smart Money Moves—Even Before Your First Job <br />
+          Start Investing Early and Watch Your Money Grow <br />
+          Interest: Know When It's a Friend or a Foe <br />
+          Discover the Secret Formula Behind Rich vs. Broke Mindsets <br />
+          Decode the World of Wealth Creation—The Easy and Fun Way
+        </>
+      ),
+      startDate: "22,23,24 August 2025",
+      duration: "3 Days",
+      language: "Hindi & English",
+      //   price: "₹19999",
+      image: "/assets/Teens'_Financial_Awareness_Program.png",
+      buttons: [{ text: "Enroll Now", link: "/EfqLanding_kids" }],
       // buttons: [{ text: "Join the Waitlist", disabled: true  }],
     },
 ];
@@ -88,4 +111,5 @@ const CoachingForStudentData = [
   );
 }
 
-export default Coaching;
+export default Coaching_for_Student;
+
