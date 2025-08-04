@@ -35,6 +35,33 @@ const FinancialCards = () => {
       buttons: [
         { text: "Learn More", link: "/Coaching" }
       ]
+    },
+    {
+      title: "Teens' Financial Awareness Program",
+      subTitle: "Three-Day Course",
+      image: "/assets/Teens'_Financial_Awareness_Program.png",
+      mainTitle: "Teens' Financial Awareness Program",
+      buttons: [
+        { text: "Learn More", link: "/EfqLanding_kids" }
+      ]
+    },
+    {
+      title: "Class XI : Financial Markets Management",
+      subTitle: "Three-month Course",
+      image: "/assets/ClassXI_Financial_Markets_Management.png",
+      mainTitle: "Class XI : Financial Markets Management",
+      buttons: [
+        { text: "Learn More", link: "/Coaching_for_student" }
+      ]
+    },
+    {
+      title: "Class XII : Financial Markets Management",
+      subTitle: "Three-month Course",
+      image: "/assets/ClassXII_Financial_Markets_Management.png",
+      mainTitle: "Class XII : Financial Markets Management",
+      buttons: [
+        { text: "Learn More", link: "/Coaching_for_student" }
+      ]
     }
   ];
 
@@ -66,3 +93,4 @@ const FinancialCards = () => {
 };
 
 export default FinancialCards;
+
