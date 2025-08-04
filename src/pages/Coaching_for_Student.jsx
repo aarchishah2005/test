@@ -21,14 +21,14 @@ const CoachingForStudentData = [
       title: "Class XI – Financial Markets Management",
       description:(
         <>
-        Build a strong foundation in investment, financial instruments, and mutual funds to step into the world of finance.<br />
+        Learn the basics of investing, financial tools, and mutual funds to enter the world of finance.<br />
         <span style={{ color: 'blue', fontWeight: 'bold' }}>Course Highlights:</span><br />
           • Introduction to Markets and Financial Instruments <br />
           • Detailed understanding of Primary & Secondary Markets <br />
           • Basics of Mutual Funds, ETFs, and Debt Funds <br />
           • Learn Taxation & Financial Regulations <br />
           • Hands-on training with NSMART software <br />
-          • Project Work, Viva, File Work & 60 Hours of Lab Activities <br />
+          • Project Work, Viva, File Work <br />
           • Employability Skills: Communication, ICT, Entrepreneurship & Green Skills <br />
         </>
       ),
@@ -48,7 +48,7 @@ const CoachingForStudentData = [
       title: "Class XII – Financial Markets Management",
       description: (
         <>
-        Advance your skills with practical insights into securities trading, derivatives, and financial analysis. <br />
+        Master trading, decode derivatives, and sharpen financial skills.<br />
         <span style={{ color: 'blue', fontWeight: 'bold' }}>Course Highlights:</span><br />
           Deeper insights into the Indian Securities Market <br />
           Learn Trading Systems, Clearing & Settlement <br />
@@ -112,5 +112,6 @@ const CoachingForStudentData = [
 }
 
 export default Coaching_for_Student;
+
 
 
