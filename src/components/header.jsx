@@ -67,9 +67,9 @@ const Header = () => {
       <div ref={menuRef} className={`dropdown-menu ${menuOpen ? 'open' : ''}`}>
 
         <NavLink to="/" text="Home" onClick={toggleMenu} />
-{/*         <NavLink to="/about" text="About" onClick={toggleMenu} /> */}
-{/*         <NavLink to="/EfqLanding_free_webinar" text="Free Webinar" onClick={toggleMenu} /> */}
-        <NavLink to="/EfqLanding_kids" text="Teens Course" onClick={toggleMenu} />
+{/*      <NavLink to="/about" text="About" onClick={toggleMenu} /> */}
+{/*      <NavLink to="/EfqLanding_free_webinar" text="Free Webinar" onClick={toggleMenu} /> */}
+{/*      <NavLink to="/EfqLanding_kids" text="Teens Course" onClick={toggleMenu} /> */}
         <NavLink to="/Coaching" text="Career Courses" onClick={toggleMenu} />
         <NavLink to="/Coaching_for_Student" text="CBSE Courses" onClick={toggleMenu} />
         <NavLink to="https://www.amazon.in/dp/B09NWH5S7R" text="Book" onClick={toggleMenu} />
@@ -112,5 +112,6 @@ const NavLink = ({ to, text, onClick }) => {
 };
 
 export default Header;
+
 
 
