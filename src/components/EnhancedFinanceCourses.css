@@ -1,5 +1,6 @@
 .challenges-container {
-  max-width: 70%;
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
   font-family: 'Quicksand', sans-serif;
   margin-top: 20px;
@@ -12,17 +13,19 @@
   overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   margin-bottom: 20px;
+  flex-direction: row;
 }
 
 .challenge-left {
   position: relative;
   flex: 0 0 40%;
+  height: auto;
 }
 
 .challenge-image {
   width: 100%;
   height: 100%;
-/*   object-fit: cover; */
+  /* object-fit: cover; */
 }
 
 .starts-in-badge {
@@ -56,7 +59,7 @@
 
 .challenge-title {
   margin: 0;
-  font-size: 22px;
+  font-size: clamp(18px, 2.5vw, 24px);
   color: #3b3531;
   font-weight: 600;
 }
@@ -81,13 +84,14 @@
 
 .challenge-description {
   color: #3b3531;
-  font-size: 14px;
+  font-size: clamp(13px, 2vw, 16px);
   margin-bottom: 18px;
   line-height: 1.4;
 }
 
 .challenge-info {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 24px;
 }
 
@@ -95,8 +99,9 @@
   display: flex;
   align-items: center;
   margin-right: 24px;
-  font-size: 14px;
+  font-size: clamp(13px, 2vw, 16px);
   color: #3b3531;
+  margin-bottom: 8px;
 }
 
 .info-icon {
@@ -111,35 +116,28 @@
 }
 
 .register-button {
-/*   background-color: #84c225; */
   background-color: #f05a3d;
   color: white;
   border: none;
-/*   border-radius: 8px; */
   border-radius: 20px;
-/*   padding: 10px 16px; */
-  padding: 15px 40px;
-/*   font-weight: 600; */
+  padding: clamp(10px, 2vw, 15px) clamp(20px, 5vw, 40px);
   font-weight: 900;
   cursor: pointer;
-/*   font-size: 14px; */
-  font-size: 21px;
+  font-size: clamp(16px, 2vw, 21px);
   display: flex;
   align-items: center;
   transition: all 0.5s ease;
 }
 
 .register-button:hover {
-/*   background-color: #3b3531; */
   background-color: #45db54;
   transform: translateX(3px);
-/*   color: #84c225; */
   color: black;
 }
 
 .price {
   margin-left: 8px;
-/*   font-weight: 700; */
+  font-weight: 700;
 }
 
 .participants {
@@ -153,20 +151,45 @@
   margin-right: 6px;
 }
 
+/* Tablet Layout */
 @media (max-width: 768px) {
   .challenge-card {
     flex-direction: column;
   }
 
   .challenge-left {
-    flex: 0 0 200px;
+    flex: 0 0 auto;
+    height: 250px;
+  }
+
+  .register-button {
+    justify-content: center;
+  }
+}
+
+/* Mobile Layout */
+@media (max-width: 480px) {
+  .challenge-title {
+    font-size: 18px;
+  }
+
+  .register-button {
+    width: 100%;
+    justify-content: center;
+    font-size: 16px;
   }
 
   .challenge-info {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .info-item {
-    margin-bottom: 8px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .challenge-left {
+    height: 200px;
   }
 }
