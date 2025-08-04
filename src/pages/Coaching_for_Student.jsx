@@ -32,7 +32,7 @@ const CoachingForStudentData = [
           • Employability Skills: Communication, ICT, Entrepreneurship & Green Skills <br />
         </>
       ),
-      startDate: "15 August 2025",
+      startDate: "1 September 2025",
       duration: "3 Months",
       language: "Hindi & English",
       //  price: "₹9999",
@@ -59,7 +59,7 @@ const CoachingForStudentData = [
           Employability Skills: Communication, Entrepreneurship, ICT & Green Economy
         </>
       ),
-      startDate: "15 August 2025",
+      startDate: "1 September 2025",
       duration: "3 Months",
       language: "Hindi & English",
       //   price: "₹19999",
@@ -82,7 +82,7 @@ const CoachingForStudentData = [
           Decode the World of Wealth Creation—The Easy and Fun Way
         </>
       ),
-      startDate: "22,23,24 August 2025",
+      startDate: "5, 6, 7 September 2025",
       duration: "3 Days",
       language: "Hindi & English",
       //   price: "₹19999",
@@ -112,4 +112,5 @@ const CoachingForStudentData = [
 }
 
 export default Coaching_for_Student;
+
 
