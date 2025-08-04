@@ -21,7 +21,7 @@ const CoachingForStudentData = [
       title: "Class XI – Financial Markets Management",
       description:(
         <>
-        Learn the basics of investing, financial tools, and mutual funds to enter the world of finance.<br />
+        Learn what regular academics don’t teach—real-world finance skills.<br />
         <span style={{ color: 'blue', fontWeight: 'bold' }}>Course Highlights:</span><br />
           • Introduction to Markets and Financial Instruments <br />
           • Detailed understanding of Primary & Secondary Markets <br />
@@ -112,6 +112,7 @@ const CoachingForStudentData = [
 }
 
 export default Coaching_for_Student;
+
 
 
 
